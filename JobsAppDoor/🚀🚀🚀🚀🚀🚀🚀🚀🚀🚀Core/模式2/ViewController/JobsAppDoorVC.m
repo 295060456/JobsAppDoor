@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
 
 @interface JobsAppDoorVC ()
 
-@property(nonatomic,strong)UBLLogoContentView *logoContentView;
+@property(nonatomic,strong)JobsAppDoorLogoContentView *logoContentView;
 @property(nonatomic,strong)JobsAppDoorContentView *jobsAppDoorContentView;
 @property(nonatomic,strong)UIButton *customerServiceBtn;
 @property(nonatomic,strong)UIImageView *bgImgV;
@@ -112,18 +112,18 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
     };
     
     NSInteger index = 0;
-    for (DoorInputViewBaseStyle_4 *inputView in currentPageDataMutArr(self.currentPage)) {
+    for (JobsAppDoorInputViewBaseStyle_4 *inputView in currentPageDataMutArr(self.currentPage)) {
         Ivar ivar = nil;
         if (index == 0) {
-            ivar = class_getInstanceVariable([DoorInputViewBaseStyle_3 class], "_tf");//必须是下划线接属性
+            ivar = class_getInstanceVariable([JobsAppDoorInputViewBaseStyle_3 class], "_tf");//必须是下划线接属性
         }else if (index == 1){
-            ivar = class_getInstanceVariable([DoorInputViewBaseStyle_3 class], "_tf");//必须是下划线接属性
+            ivar = class_getInstanceVariable([JobsAppDoorInputViewBaseStyle_3 class], "_tf");//必须是下划线接属性
         }else if (index == 2){
-            ivar = class_getInstanceVariable([DoorInputViewBaseStyle_3 class], "_tf");//必须是下划线接属性
+            ivar = class_getInstanceVariable([JobsAppDoorInputViewBaseStyle_3 class], "_tf");//必须是下划线接属性
         }else if (index == 3){
-            ivar = class_getInstanceVariable([DoorInputViewBaseStyle_1 class], "_tf");//必须是下划线接属性
+            ivar = class_getInstanceVariable([JobsAppDoorInputViewBaseStyle_1 class], "_tf");//必须是下划线接属性
         }else if (index == 4){
-            ivar = class_getInstanceVariable([DoorInputViewBaseStyle_4 class], "_tf");//必须是下划线接属性
+            ivar = class_getInstanceVariable([JobsAppDoorInputViewBaseStyle_4 class], "_tf");//必须是下划线接属性
         }else{}
         
         if (ivar) {
@@ -155,9 +155,9 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
     self.loginDoorInputEditing = NO;//置空状态
 }
 #pragma mark —— lazyLoad
--(UBLLogoContentView *)logoContentView{
+-(JobsAppDoorLogoContentView *)logoContentView{
     if (!_logoContentView) {
-        _logoContentView = UBLLogoContentView.new;
+        _logoContentView = JobsAppDoorLogoContentView.new;
         [self.view addSubview:_logoContentView];
         [_logoContentView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(150, 50));

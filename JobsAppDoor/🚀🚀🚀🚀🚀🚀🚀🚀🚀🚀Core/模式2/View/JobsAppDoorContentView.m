@@ -20,8 +20,8 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
 @property(nonatomic,strong)UIButton *toRegisterBtn;//去注册
 @property(nonatomic,strong)UIButton *sendBtn;//登录 & 注册按钮 （本页面请求可以不用jobsAppDoorContentViewBlock回调）
 
-@property(nonatomic,strong)NSMutableArray <DoorInputViewBaseStyleModel *>*loginDoorInputViewBaseStyleModelMutArr;
-@property(nonatomic,strong)NSMutableArray <DoorInputViewBaseStyleModel *>*registerDoorInputViewBaseStyleModelMutArr;
+@property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyleModel *>*loginDoorInputViewBaseStyleModelMutArr;
+@property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyleModel *>*registerDoorInputViewBaseStyleModelMutArr;
 
 @property(nonatomic,assign)BOOL isOK;
 @property(nonatomic,strong)JobsAppDoorContentViewModel *appDoorContentViewModel;
@@ -56,7 +56,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
 //Core
 -(void)makeInputView{
     for (int i = 0; i < self.loginDoorInputViewBaseStyleModelMutArr.count; i++) {
-        DoorInputViewBaseStyle_3 *inputView = DoorInputViewBaseStyle_3.new;
+        JobsAppDoorInputViewBaseStyle_3 *inputView = JobsAppDoorInputViewBaseStyle_3.new;
         [self.loginDoorInputViewBaseStyleMutArr addObject:inputView];
         [inputView richElementsInViewWithModel:self.loginDoorInputViewBaseStyleModelMutArr[i]];
         @weakify(self)
@@ -72,7 +72,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
         if (i == 0) {
             inputView.top = self.titleLab.bottom + 20;//20是偏移量
         }else if(i == 1){
-            DoorInputViewBaseStyle_3 *lastObj = (DoorInputViewBaseStyle_3 *)self.loginDoorInputViewBaseStyleMutArr[i - 1];
+            JobsAppDoorInputViewBaseStyle_3 *lastObj = (JobsAppDoorInputViewBaseStyle_3 *)self.loginDoorInputViewBaseStyleMutArr[i - 1];
             inputView.top = lastObj.bottom + InputViewOffset;
         }else{}
         inputView.layer.cornerRadius = ThingsHeight / 2;
@@ -121,7 +121,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
             for (int i = 0;
                  i < self.loginDoorInputViewBaseStyleMutArr.count;
                  i++) {
-                DoorInputViewBaseStyle_3 *inputView = (DoorInputViewBaseStyle_3 *)self.loginDoorInputViewBaseStyleMutArr[i];
+                JobsAppDoorInputViewBaseStyle_3 *inputView = (JobsAppDoorInputViewBaseStyle_3 *)self.loginDoorInputViewBaseStyleMutArr[i];
                 inputView.x += RegisterBtnWidth;
             }
             
@@ -129,7 +129,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
                 for (long i = self.loginDoorInputViewBaseStyleMutArr.count;
                      i < self.registerDoorInputViewBaseStyleModelMutArr.count;
                      i++) {
-                    DoorInputViewBaseStyle *inputView = (DoorInputViewBaseStyle *)self.registerDoorInputViewBaseStyleMutArr[i];
+                    JobsAppDoorInputViewBaseStyle *inputView = (JobsAppDoorInputViewBaseStyle *)self.registerDoorInputViewBaseStyleMutArr[i];
                     inputView.alpha = 1;
                 }
             }else{//第一次
@@ -138,10 +138,10 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
                      i < self.registerDoorInputViewBaseStyleModelMutArr.count;
                      i++) {
 
-                    DoorInputViewBaseStyle *doorInputViewBaseStyle = nil;
+                    JobsAppDoorInputViewBaseStyle *doorInputViewBaseStyle = nil;
                     if (i == self.loginDoorInputViewBaseStyleMutArr.count) {// 确认密码
-                        DoorInputViewBaseStyle_3 *inputView = DoorInputViewBaseStyle_3.new;
-                        doorInputViewBaseStyle = (DoorInputViewBaseStyle *)inputView;
+                        JobsAppDoorInputViewBaseStyle_3 *inputView = JobsAppDoorInputViewBaseStyle_3.new;
+                        doorInputViewBaseStyle = (JobsAppDoorInputViewBaseStyle *)inputView;
                         [self addSubview:inputView];
                         [self.registerDoorInputViewBaseStyleMutArr addObject:inputView];
                         [inputView richElementsInViewWithModel:self.registerDoorInputViewBaseStyleModelMutArr[i]];
@@ -151,8 +151,8 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
                             @strongify(self)
                         }];
                     }else if (i == self.loginDoorInputViewBaseStyleMutArr.count + 1){// 手机验证码
-                        DoorInputViewBaseStyle_1 *inputView = DoorInputViewBaseStyle_1.new;
-                        doorInputViewBaseStyle = (DoorInputViewBaseStyle *)inputView;
+                        JobsAppDoorInputViewBaseStyle_1 *inputView = JobsAppDoorInputViewBaseStyle_1.new;
+                        doorInputViewBaseStyle = (JobsAppDoorInputViewBaseStyle *)inputView;
                         [self addSubview:inputView];
                         [self.registerDoorInputViewBaseStyleMutArr addObject:inputView];
                         [inputView richElementsInViewWithModel:self.registerDoorInputViewBaseStyleModelMutArr[i]];
@@ -162,8 +162,8 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
                             @strongify(self)
                         }];
                     }else if (i == self.loginDoorInputViewBaseStyleMutArr.count + 2){// 图形验证码
-                        DoorInputViewBaseStyle_4 *inputView = DoorInputViewBaseStyle_4.new;
-                        doorInputViewBaseStyle = (DoorInputViewBaseStyle *)inputView;
+                        JobsAppDoorInputViewBaseStyle_4 *inputView = JobsAppDoorInputViewBaseStyle_4.new;
+                        doorInputViewBaseStyle = (JobsAppDoorInputViewBaseStyle *)inputView;
                         [self addSubview:inputView];
                         [self.registerDoorInputViewBaseStyleMutArr addObject:inputView];
                         [inputView richElementsInViewWithModel:self.registerDoorInputViewBaseStyleModelMutArr[i]];
@@ -174,7 +174,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
                         }];
                     }else{}
                     
-                    DoorInputViewBaseStyle *lastObj = (DoorInputViewBaseStyle *)self.registerDoorInputViewBaseStyleMutArr[i - 1];
+                    JobsAppDoorInputViewBaseStyle *lastObj = (JobsAppDoorInputViewBaseStyle *)self.registerDoorInputViewBaseStyleMutArr[i - 1];
                     doorInputViewBaseStyle.top = lastObj.bottom + InputViewOffset;
                     doorInputViewBaseStyle.size = CGSizeMake(self.width - self.toRegisterBtn.width - 40, ThingsHeight);
                     doorInputViewBaseStyle.x = 20 + RegisterBtnWidth;
@@ -198,14 +198,14 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
             [self.toRegisterBtn setImage:KIMG(@"用户名称")
                                 forState:UIControlStateNormal];
             for (int i = 0; i < self.loginDoorInputViewBaseStyleMutArr.count; i++) {
-                DoorInputViewBaseStyle_4 *inputView = (DoorInputViewBaseStyle_4 *)self.loginDoorInputViewBaseStyleMutArr[i];
+                JobsAppDoorInputViewBaseStyle_4 *inputView = (JobsAppDoorInputViewBaseStyle_4 *)self.loginDoorInputViewBaseStyleMutArr[i];
                 inputView.x = 20;
             }
             
             for (long i = self.loginDoorInputViewBaseStyleMutArr.count;
                  i < self.registerDoorInputViewBaseStyleModelMutArr.count;
                  i++) {
-                DoorInputViewBaseStyle_4 *inputView = (DoorInputViewBaseStyle_4 *)self.registerDoorInputViewBaseStyleMutArr[i];
+                JobsAppDoorInputViewBaseStyle_4 *inputView = (JobsAppDoorInputViewBaseStyle_4 *)self.registerDoorInputViewBaseStyleMutArr[i];
                 inputView.alpha = 0;
             }
         }
@@ -312,11 +312,11 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
     }return _sendBtn;
 }
 
--(NSMutableArray<DoorInputViewBaseStyleModel *> *)loginDoorInputViewBaseStyleModelMutArr{
+-(NSMutableArray<JobsAppDoorInputViewBaseStyleModel *> *)loginDoorInputViewBaseStyleModelMutArr{
     if (!_loginDoorInputViewBaseStyleModelMutArr) {
         _loginDoorInputViewBaseStyleModelMutArr = NSMutableArray.array;
         
-        DoorInputViewBaseStyleModel *用户名 = DoorInputViewBaseStyleModel.new;
+        JobsAppDoorInputViewBaseStyleModel *用户名 = JobsAppDoorInputViewBaseStyleModel.new;
         用户名.leftViewIMG = KIMG(@"用户名称");
         用户名.placeHolderStr = @"用户名";
         用户名.isShowDelBtn = YES;
@@ -326,7 +326,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
         用户名.leftViewMode = UITextFieldViewModeAlways;
         [_loginDoorInputViewBaseStyleModelMutArr addObject:用户名];
         
-        DoorInputViewBaseStyleModel *密码 = DoorInputViewBaseStyleModel.new;
+        JobsAppDoorInputViewBaseStyleModel *密码 = JobsAppDoorInputViewBaseStyleModel.new;
         密码.leftViewIMG = KIMG(@"Lock");
         密码.placeHolderStr = @"密码";
         密码.isShowDelBtn = YES;
@@ -341,11 +341,11 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
     }return _loginDoorInputViewBaseStyleModelMutArr;
 }
 
--(NSMutableArray<DoorInputViewBaseStyleModel *> *)registerDoorInputViewBaseStyleModelMutArr{
+-(NSMutableArray<JobsAppDoorInputViewBaseStyleModel *> *)registerDoorInputViewBaseStyleModelMutArr{
     if (!_registerDoorInputViewBaseStyleModelMutArr) {
         _registerDoorInputViewBaseStyleModelMutArr = NSMutableArray.array;
         
-        DoorInputViewBaseStyleModel *用户名 = DoorInputViewBaseStyleModel.new;
+        JobsAppDoorInputViewBaseStyleModel *用户名 = JobsAppDoorInputViewBaseStyleModel.new;
         用户名.leftViewIMG = KIMG(@"用户名称");
         用户名.placeHolderStr = @"用户名";
         用户名.isShowDelBtn = YES;
@@ -355,7 +355,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
         用户名.leftViewMode = UITextFieldViewModeAlways;
         [_registerDoorInputViewBaseStyleModelMutArr addObject:用户名];
         
-        DoorInputViewBaseStyleModel *密码 = DoorInputViewBaseStyleModel.new;
+        JobsAppDoorInputViewBaseStyleModel *密码 = JobsAppDoorInputViewBaseStyleModel.new;
         密码.leftViewIMG = KIMG(@"Lock");
         密码.placeHolderStr = @"密码";
         密码.isShowDelBtn = YES;
@@ -367,7 +367,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
         密码.leftViewMode = UITextFieldViewModeAlways;
         [_registerDoorInputViewBaseStyleModelMutArr addObject:密码];
         
-        DoorInputViewBaseStyleModel *确认密码 = DoorInputViewBaseStyleModel.new;
+        JobsAppDoorInputViewBaseStyleModel *确认密码 = JobsAppDoorInputViewBaseStyleModel.new;
         确认密码.leftViewIMG = KIMG(@"Lock");
         确认密码.placeHolderStr = @"确认密码";
         确认密码.isShowDelBtn = YES;
@@ -379,7 +379,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
         确认密码.leftViewMode = UITextFieldViewModeAlways;
         [_registerDoorInputViewBaseStyleModelMutArr addObject:确认密码];
         
-        DoorInputViewBaseStyleModel *推广码 = DoorInputViewBaseStyleModel.new;
+        JobsAppDoorInputViewBaseStyleModel *推广码 = JobsAppDoorInputViewBaseStyleModel.new;
         推广码.leftViewIMG = KIMG(@"手机验证码");
         推广码.placeHolderStr = @"手机验证码";
         推广码.isShowDelBtn = YES;
@@ -389,7 +389,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
         推广码.leftViewMode = UITextFieldViewModeAlways;
         [_registerDoorInputViewBaseStyleModelMutArr addObject:推广码];
         
-        DoorInputViewBaseStyleModel *图形验证码 = DoorInputViewBaseStyleModel.new;
+        JobsAppDoorInputViewBaseStyleModel *图形验证码 = JobsAppDoorInputViewBaseStyleModel.new;
         图形验证码.leftViewIMG = KIMG(@"验证ICON");
         图形验证码.placeHolderStr = @"图形验证码";
         图形验证码.isShowDelBtn = YES;
@@ -402,13 +402,13 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
     }return _registerDoorInputViewBaseStyleModelMutArr;
 }
 
--(NSMutableArray<DoorInputViewBaseStyle *> *)loginDoorInputViewBaseStyleMutArr{
+-(NSMutableArray<JobsAppDoorInputViewBaseStyle *> *)loginDoorInputViewBaseStyleMutArr{
     if (!_loginDoorInputViewBaseStyleMutArr) {
         _loginDoorInputViewBaseStyleMutArr = NSMutableArray.array;
     }return _loginDoorInputViewBaseStyleMutArr;
 }
 
--(NSMutableArray<DoorInputViewBaseStyle *> *)registerDoorInputViewBaseStyleMutArr{
+-(NSMutableArray<JobsAppDoorInputViewBaseStyle *> *)registerDoorInputViewBaseStyleMutArr{
     if (!_registerDoorInputViewBaseStyleMutArr) {
         _registerDoorInputViewBaseStyleMutArr = NSMutableArray.array;
     }return _registerDoorInputViewBaseStyleMutArr;

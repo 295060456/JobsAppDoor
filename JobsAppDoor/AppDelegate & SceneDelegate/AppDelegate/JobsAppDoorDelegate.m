@@ -1,23 +1,23 @@
 //
-//  AppDelegate.m
+//  JobsAppDoorDelegate.m
 //  JobsAppDoor
 //
 //  Created by Jobs on 2020/12/7.
 //
 
-#import "AppDelegate.h"
+#import "JobsAppDoorDelegate.h"
 
-@interface AppDelegate ()
+@interface JobsAppDoorDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation JobsAppDoorDelegate
 
-static AppDelegate *static_appDelegate = nil;
+static JobsAppDoorDelegate *static_appDelegate = nil;
 +(instancetype)sharedInstance{
     @synchronized(self){
         if (!static_appDelegate) {
-            static_appDelegate = AppDelegate.new;
+            static_appDelegate = JobsAppDoorDelegate.new;
         }
     }return static_appDelegate;
 }

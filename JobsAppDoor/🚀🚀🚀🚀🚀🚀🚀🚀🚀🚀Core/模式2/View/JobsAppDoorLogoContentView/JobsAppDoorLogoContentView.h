@@ -1,8 +1,8 @@
 //
-//  DoorInputViewBaseStyle.h
-//  My_BaseProj
+//  LogoContentView.h
+//  Shooting
 //
-//  Created by Jobs on 2020/12/4.
+//  Created by Jobs on 2020/9/3.
 //  Copyright © 2020 Jobs. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DoorInputViewBaseStyle : UIView
+@interface JobsAppDoorLogoContentView : UIView
 
 @end
 

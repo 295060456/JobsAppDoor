@@ -1,14 +1,14 @@
 //
-//  DoorInputViewBaseStyle_1.m
+//  JobsAppDoorInputViewBaseStyle_1.m
 //  My_BaseProj
 //
 //  Created by Jobs on 2020/12/4.
 //  Copyright © 2020 Jobs. All rights reserved.
 //
 
-#import "DoorInputViewBaseStyle_1.h"
+#import "JobsAppDoorInputViewBaseStyle_1.h"
 
-@interface DoorInputViewBaseStyle_1 ()
+@interface JobsAppDoorInputViewBaseStyle_1 ()
 <
 UITextFieldDelegate
 >
@@ -18,14 +18,14 @@ UITextFieldDelegate
 //Data
 @property(nonatomic,strong)NSString *titleStr_1;
 @property(nonatomic,strong)NSString *titleStr_2;
-@property(nonatomic,strong)DoorInputViewBaseStyleModel *doorInputViewBaseStyleModel;
+@property(nonatomic,strong)JobsAppDoorInputViewBaseStyleModel *doorInputViewBaseStyleModel;
 @property(nonatomic,strong)NSMutableArray <RichLabelDataStringsModel *>*richLabelDataStringsMutArr;
 @property(nonatomic,assign)BOOL isOK;
 @property(nonatomic,copy)MKDataBlock doorInputViewStyle_1Block;
 
 @end
 
-@implementation DoorInputViewBaseStyle_1
+@implementation JobsAppDoorInputViewBaseStyle_1
 
 - (instancetype)init{
     if (self = [super init]) {
@@ -117,7 +117,7 @@ replacementString:(NSString *)string{
     }
 }
 
--(void)richElementsInViewWithModel:(DoorInputViewBaseStyleModel *_Nullable)doorInputViewBaseStyleModel{
+-(void)richElementsInViewWithModel:(JobsAppDoorInputViewBaseStyleModel *_Nullable)doorInputViewBaseStyleModel{
     self.doorInputViewBaseStyleModel = doorInputViewBaseStyleModel;
     self.countDownBtn.alpha = 1;
     self.tf.alpha = 1;

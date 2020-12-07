@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DoorInputViewBaseStyleModel.h"
-#import "DoorInputView.h"
+#import "JobsAppDoorInputViewBaseStyleModel.h"
+#import "JobsAppDoorInputView.h"
 
 #define Cor1 [kBlackColor colorWithAlphaComponent:0.6f]
 #define Cor2 [kWhiteColor colorWithAlphaComponent:0.7f]
@@ -23,8 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JobsAppDoorContentView : UIView
 
-@property(nonatomic,strong)NSMutableArray <DoorInputViewBaseStyle *>*loginDoorInputViewBaseStyleMutArr;
-@property(nonatomic,strong)NSMutableArray <DoorInputViewBaseStyle *>*registerDoorInputViewBaseStyleMutArr;
+@property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyle *>*loginDoorInputViewBaseStyleMutArr;
+@property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyle *>*registerDoorInputViewBaseStyleMutArr;
 
 -(void)richElementsInViewWithModel:(JobsAppDoorContentViewModel *_Nullable)appDoorContentViewModel;//外层数据渲染
 -(void)actionBlockJobsAppDoorContentView:(MKDataBlock)jobsAppDoorContentViewBlock;//监测输入字符回调 和 激活的textField 和 toRegisterBtn/abandonLoginBtn点击事件

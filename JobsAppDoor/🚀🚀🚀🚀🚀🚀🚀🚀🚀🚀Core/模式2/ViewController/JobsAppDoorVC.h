@@ -9,7 +9,7 @@
 #import "BaseViewController.h"
 #import "JobsAppDoorContentView.h"
 #import "CustomZFPlayerControlView.h"
-#import "UBLLogoContentView.h"
+#import "JobsAppDoorLogoContentView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

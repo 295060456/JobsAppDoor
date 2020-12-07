@@ -6,16 +6,16 @@
 //  Copyright © 2020 Jobs. All rights reserved.
 //
 
-#import "UBLLogoContentView.h"
+#import "JobsAppDoorLogoContentView.h"
 
-@interface UBLLogoContentView ()
+@interface JobsAppDoorLogoContentView ()
 
 @property(nonatomic,strong)UIImageView *mainImgV;
 @property(nonatomic,assign)BOOL isOK;
 
 @end
 
-@implementation UBLLogoContentView
+@implementation JobsAppDoorLogoContentView
 
 - (void)dealloc {
 //    NSLog(@"Running self.class = %@;NSStringFromSelector(_cmd) = '%@';__FUNCTION__ = %s", self.class, NSStringFromSelector(_cmd),__FUNCTION__);

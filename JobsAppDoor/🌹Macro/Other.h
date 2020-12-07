@@ -14,7 +14,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-#import "AppDelegate.h"
-#import "SceneDelegate.h"
+#import "JobsAppDoorDelegate.h"
+#import "JobsAppDoorSceneDelegate.h"
 
 #endif /* Other_h */

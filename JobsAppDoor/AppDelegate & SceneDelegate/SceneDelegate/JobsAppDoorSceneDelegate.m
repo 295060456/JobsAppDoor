@@ -1,24 +1,24 @@
 //
-//  SceneDelegate.m
+//  JobsAppDoorSceneDelegate.m
 //  JobsAppDoor
 //
 //  Created by Jobs on 2020/12/7.
 //
 
-#import "SceneDelegate.h"
-#import "AppDelegate.h"
+#import "JobsAppDoorSceneDelegate.h"
+#import "JobsAppDoorDelegate.h"
 
-@interface SceneDelegate ()
+@interface JobsAppDoorSceneDelegate ()
 
 @end
 
-@implementation SceneDelegate
+@implementation JobsAppDoorSceneDelegate
 
-static SceneDelegate *static_sceneDelegate = nil;
+static JobsAppDoorSceneDelegate *static_sceneDelegate = nil;
 +(instancetype)sharedInstance{
     @synchronized(self){
         if (!static_sceneDelegate) {
-            static_sceneDelegate = SceneDelegate.new;
+            static_sceneDelegate = JobsAppDoorSceneDelegate.new;
         }
     }return static_sceneDelegate;
 }
@@ -65,7 +65,7 @@ willConnectToSession:(UISceneSession *)session
     // to restore the scene back to its current state.
 
     // Save changes in the application's managed object context when the application transitions to the background.
-    [(AppDelegate *)UIApplication.sharedApplication.delegate saveContext];
+    [(JobsAppDoorDelegate *)UIApplication.sharedApplication.delegate saveContext];
 }
 #pragma mark —— lazyLoad
 -(UIWindow *)window{

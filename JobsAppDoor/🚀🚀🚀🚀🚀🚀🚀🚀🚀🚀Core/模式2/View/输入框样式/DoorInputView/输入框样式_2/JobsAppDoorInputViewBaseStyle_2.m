@@ -1,28 +1,28 @@
 //
-//  DoorInputViewBaseStyle_4.m
+//  JobsAppDoorInputViewBaseStyle_2.m
 //  My_BaseProj
 //
 //  Created by Jobs on 2020/12/4.
 //  Copyright © 2020 Jobs. All rights reserved.
 //
 
-#import "DoorInputViewBaseStyle_4.h"
+#import "JobsAppDoorInputViewBaseStyle_2.h"
 
-@interface DoorInputViewBaseStyle_4 ()
+@interface JobsAppDoorInputViewBaseStyle_2 ()
 <
 UITextFieldDelegate
 >
 //UI
-@property(nonatomic,strong)ImageCodeView *imageCodeView;
 @property(nonatomic,strong)JobsMagicTextField *tf;
+@property(nonatomic,strong)ImageCodeView *imageCodeView;
 //Data
-@property(nonatomic,strong)DoorInputViewBaseStyleModel *doorInputViewBaseStyleModel;
+@property(nonatomic,strong)JobsAppDoorInputViewBaseStyleModel *doorInputViewBaseStyleModel;
 @property(nonatomic,assign)BOOL isOK;
-@property(nonatomic,copy)MKDataBlock doorInputViewStyle_4Block;
+@property(nonatomic,copy)MKDataBlock doorInputViewStyle_2Block;
 
 @end
 
-@implementation DoorInputViewBaseStyle_4
+@implementation JobsAppDoorInputViewBaseStyle_2
 
 - (instancetype)init{
     if (self = [super init]) {
@@ -43,8 +43,8 @@ UITextFieldDelegate
 #pragma mark —— UITextFieldDelegate
 //询问委托人是否应该在指定的文本字段中开始编辑
 - (BOOL)textFieldShouldBeginEditing:(JobsMagicTextField *)textField{
-    if (self.doorInputViewStyle_4Block) {
-        self.doorInputViewStyle_4Block(textField);
+    if (self.doorInputViewStyle_2Block) {
+        self.doorInputViewStyle_2Block(textField);
     }return YES;
 }
 //告诉委托人在指定的文本字段中开始编辑
@@ -60,7 +60,7 @@ UITextFieldDelegate
     [self.tf isEmptyText];
 }
 //告诉委托人对指定的文本字段停止编辑
-//- (void)textFieldDidEndEditing:(JobsMagicTextField *)textField
+//- (void)textFieldDidEndEditing:(UITextField *)textField
 //reason:(UITextFieldDidEndEditingReason)reason{}
 //询问委托人是否应该更改指定的文本
 - (BOOL)textField:(JobsMagicTextField *)textField
@@ -93,8 +93,8 @@ replacementString:(NSString *)string{
 
     NSLog(@"SSSresString = %@",resString);
     
-    if (self.doorInputViewStyle_4Block) {
-        self.doorInputViewStyle_4Block(resString);
+    if (self.doorInputViewStyle_2Block) {
+        self.doorInputViewStyle_2Block(resString);
     }return YES;
 }
 //询问委托人是否应删除文本字段的当前内容
@@ -112,14 +112,14 @@ replacementString:(NSString *)string{
     }
 }
 
--(void)richElementsInViewWithModel:(DoorInputViewBaseStyleModel *_Nullable)doorInputViewBaseStyleModel{
+-(void)richElementsInViewWithModel:(JobsAppDoorInputViewBaseStyleModel *_Nullable)doorInputViewBaseStyleModel{
     self.doorInputViewBaseStyleModel = doorInputViewBaseStyleModel;
     self.imageCodeView.alpha = 1;
     self.tf.alpha = 1;
 }
 
--(void)actionBlockDoorInputViewStyle_4:(MKDataBlock)doorInputViewStyle_4Block{
-    self.doorInputViewStyle_4Block = doorInputViewStyle_4Block;
+-(void)actionBlockDoorInputViewStyle_2:(MKDataBlock)doorInputViewStyle_2Block{
+    self.doorInputViewStyle_2Block = doorInputViewStyle_2Block;
 }
 #pragma mark —— lazyLoad
 -(ImageCodeView *)imageCodeView{
@@ -130,14 +130,10 @@ replacementString:(NSString *)string{
         _imageCodeView.bgColor = kWhiteColor;
         [self addSubview:_imageCodeView];
         [_imageCodeView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self).offset(5);
-            make.bottom.equalTo(self).offset(-5);
-            make.right.equalTo(self).offset(-10);
+            make.top.bottom.equalTo(self);
+            make.right.equalTo(self);
             make.width.mas_equalTo(80);
         }];
-        [self layoutIfNeeded];
-        [UIView cornerCutToCircleWithView:_imageCodeView
-                          AndCornerRadius:20];
     }return _imageCodeView;
 }
 
@@ -152,9 +148,9 @@ replacementString:(NSString *)string{
         _tf.keyboardAppearance = self.doorInputViewBaseStyleModel.keyboardAppearance;
 
         _tf.animationColor = kWhiteColor;
-        _tf.moveDistance = 35;
         _tf.placeHolderAlignment = PlaceHolderAlignmentLeft;
         _tf.placeHolderOffset = 20;
+        _tf.moveDistance = 40;
         
         [self addSubview:_tf];
         [_tf mas_makeConstraints:^(MASConstraintMaker *make) {

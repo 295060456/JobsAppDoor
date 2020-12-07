@@ -1,5 +1,5 @@
 //
-//  DoorInputViewBaseStyleModel.h
+//  JobsAppDoorInputViewBaseStyleModel.h
 //  My_BaseProj
 //
 //  Created by Jobs on 2020/12/4.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DoorInputViewBaseStyleModel : NSObject
+@interface JobsAppDoorInputViewBaseStyleModel : NSObject
 
 @property(nonatomic,strong)UIImage *leftViewIMG;//
 @property(nonatomic,strong)UIImage *selectedSecurityBtnIMG;

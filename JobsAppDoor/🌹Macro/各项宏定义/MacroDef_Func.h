@@ -9,12 +9,12 @@
 #define MacroDef_Func_h
 
 #import "MacroDef_Sys.h"
-#import "SceneDelegate.h"
+#import "JobsAppDoorSceneDelegate.h"
 
 static inline UIWindow * getMainWindow(){
     UIWindow *window = nil;
     if (@available(iOS 13.0, *)) {
-        window = [SceneDelegate sharedInstance].window;
+        window = [JobsAppDoorSceneDelegate sharedInstance].window;
         //以下方法有时候会拿不到window
         {
 //            for (UIWindowScene* windowScene in [UIApplication sharedApplication].connectedScenes){

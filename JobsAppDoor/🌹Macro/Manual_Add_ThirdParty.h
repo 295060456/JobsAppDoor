@@ -65,7 +65,7 @@
 //UIImage
 #import "LoadingImage.h"
 
-#import "AppDelegate.h"
-#import "SceneDelegate.h"
+#import "JobsAppDoorDelegate.h"
+#import "JobsAppDoorSceneDelegate.h"
 
 #endif /* Manual_Add_ThirdParty_h */
