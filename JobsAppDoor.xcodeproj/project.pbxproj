@@ -1,0 +1,1424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546EEF83E03B6EAA77A461D2 /* Pods_JobsAppDoorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E05F149063A0123E0C051E /* Pods_JobsAppDoorTests.framework */; };
+		77EBD71BBD9B305F86E8D1F2 /* Pods_JobsAppDoorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C30F05F3543242B652821C /* Pods_JobsAppDoorUITests.framework */; };
+		BD1F07F0F0BE881C4B5AD3EF /* Pods_JobsAppDoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9886A7D03FC6BBC0E47DC0 /* Pods_JobsAppDoor.framework */; };
+		C537CB0E257E164A00ECA9FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB0D257E164A00ECA9FB /* AppDelegate.m */; };
+		C537CB11257E164A00ECA9FB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB10257E164A00ECA9FB /* SceneDelegate.m */; };
+		C537CB17257E164A00ECA9FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C537CB15257E164A00ECA9FB /* Main.storyboard */; };
+		C537CB1A257E164A00ECA9FB /* JobsAppDoor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C537CB18257E164A00ECA9FB /* JobsAppDoor.xcdatamodeld */; };
+		C537CB1C257E164A00ECA9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C537CB1B257E164A00ECA9FB /* Assets.xcassets */; };
+		C537CB1F257E164A00ECA9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C537CB1D257E164A00ECA9FB /* LaunchScreen.storyboard */; };
+		C537CB22257E164A00ECA9FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB21257E164A00ECA9FB /* main.m */; };
+		C537CB2C257E164B00ECA9FB /* JobsAppDoorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB2B257E164B00ECA9FB /* JobsAppDoorTests.m */; };
+		C537CB37257E164B00ECA9FB /* JobsAppDoorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB36257E164B00ECA9FB /* JobsAppDoorUITests.m */; };
+		C537CB57257E179700ECA9FB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB55257E179700ECA9FB /* BaseViewController.m */; };
+		C537CB5D257E17A600ECA9FB /* UIViewController+BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB5C257E17A600ECA9FB /* UIViewController+BaseVC.m */; };
+		C537CB75257E17BA00ECA9FB /* HQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB65257E17BA00ECA9FB /* HQTextField.m */; };
+		C537CB76257E17BA00ECA9FB /* ZYTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C537CB66257E17BA00ECA9FB /* ZYTextField.bundle */; };
+		C537CB77257E17BA00ECA9FB /* CJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB68257E17BA00ECA9FB /* CJTextField.m */; };
+		C537CB78257E17BA00ECA9FB /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB6B257E17BA00ECA9FB /* ZYTextField.m */; };
+		C537CB7A257E17BA00ECA9FB /* JobsMagicTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB70257E17BA00ECA9FB /* JobsMagicTextField.m */; };
+		C537CB7B257E17BA00ECA9FB /* UITextField+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB74257E17BA00ECA9FB /* UITextField+Extend.m */; };
+		C537CB8B257E17C200ECA9FB /* 高度自定义的按钮.md in Resources */ = {isa = PBXBuildFile; fileRef = C537CB83257E17C200ECA9FB /* 高度自定义的按钮.md */; };
+		C537CB8C257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB84257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m */; };
+		C537CB8D257E17C200ECA9FB /* UIButton+CountDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB86257E17C200ECA9FB /* UIButton+CountDownBtn.m */; };
+		C537CB8E257E17C200ECA9FB /* 验证码按钮单例封装.md in Resources */ = {isa = PBXBuildFile; fileRef = C537CB88257E17C200ECA9FB /* 验证码按钮单例封装.md */; };
+		C537CBAA257E17D400ECA9FB /* NSObject+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB93257E17D400ECA9FB /* NSObject+Random.m */; };
+		C537CBAF257E17D400ECA9FB /* NSObject+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB9F257E17D400ECA9FB /* NSObject+OpenURL.m */; };
+		C537CBB0257E17D400ECA9FB /* NSObject+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBA0257E17D400ECA9FB /* NSObject+Measure.m */; };
+		C537CBB1257E17D400ECA9FB /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBA1257E17D400ECA9FB /* NSObject+RichText.m */; };
+		C537CBB2257E17D400ECA9FB /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBA4257E17D400ECA9FB /* NSObject+Extras.m */; };
+		C537CBB4257E17D400ECA9FB /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBA7257E17D400ECA9FB /* NSObject+Time.m */; };
+		C537CBD9257E17F900ECA9FB /* 尝试高仿蜜柚.md in Resources */ = {isa = PBXBuildFile; fileRef = C537CBBA257E17F900ECA9FB /* 尝试高仿蜜柚.md */; };
+		C537CBDB257E17F900ECA9FB /* DoorInputViewBaseStyle_1.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBC0257E17F900ECA9FB /* DoorInputViewBaseStyle_1.m */; };
+		C537CBDC257E17F900ECA9FB /* DoorInputViewBaseStyle_2.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBC4257E17F900ECA9FB /* DoorInputViewBaseStyle_2.m */; };
+		C537CBDE257E17F900ECA9FB /* DoorInputViewBaseStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBC8257E17F900ECA9FB /* DoorInputViewBaseStyle.m */; };
+		C537CBE0257E17F900ECA9FB /* DoorInputViewBaseStyle_4.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBCD257E17F900ECA9FB /* DoorInputViewBaseStyle_4.m */; };
+		C537CBE2257E17F900ECA9FB /* DoorInputViewBaseStyle_3.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBD1257E17F900ECA9FB /* DoorInputViewBaseStyle_3.m */; };
+		C537CBE3257E17F900ECA9FB /* DoorInputViewBaseStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBD2257E17F900ECA9FB /* DoorInputViewBaseStyleModel.m */; };
+		C537CBE4257E17F900ECA9FB /* JobsAppDoorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBD5257E17F900ECA9FB /* JobsAppDoorContentView.m */; };
+		C537CBE5257E17F900ECA9FB /* JobsAppDoorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBD7257E17F900ECA9FB /* JobsAppDoorVC.m */; };
+		C537CBF7257E186300ECA9FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBF6257E186300ECA9FB /* ViewController.m */; };
+		C537CC38257E19B100ECA9FB /* YBNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CC2C257E19B100ECA9FB /* YBNotificationManager.m */; };
+		C537CF51257E1EA400ECA9FB /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CF46257E1EA400ECA9FB /* NSTimerManager.m */; };
+		C537CF52257E1EA400ECA9FB /* GCD_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CF48257E1EA400ECA9FB /* GCD_TimerManager.m */; };
+		C537CF53257E1EA400ECA9FB /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CF4C257E1EA400ECA9FB /* Nanosecond_TimerManager.m */; };
+		C537CF54257E1EA400ECA9FB /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CF4F257E1EA400ECA9FB /* CADisplayLink_TimerManager.m */; };
+		C537CFAB257E215C00ECA9FB /* UIView+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CF9F257E215C00ECA9FB /* UIView+Chain.m */; };
+		C537CFAC257E215C00ECA9FB /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFA1257E215C00ECA9FB /* UIView+Measure.m */; };
+		C537CFAD257E215C00ECA9FB /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFA2257E215C00ECA9FB /* UIView+Animation.m */; };
+		C537CFAE257E215C00ECA9FB /* UIView+SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFA3257E215C00ECA9FB /* UIView+SuspendView.m */; };
+		C537CFAF257E215C00ECA9FB /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFA5257E215C00ECA9FB /* UIView+Extras.m */; };
+		C537CFB0257E215C00ECA9FB /* UIView+ZFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFA6257E215C00ECA9FB /* UIView+ZFPlayer.m */; };
+		C537CFB1257E215C00ECA9FB /* UIView+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFA7257E215C00ECA9FB /* UIView+Gradient.m */; };
+		C537CFBB257E21BF00ECA9FB /* CustomZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFB9257E21BF00ECA9FB /* CustomZFPlayerControlView.m */; };
+		C537CFC5257E21D800ECA9FB /* ImageCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFC4257E21D800ECA9FB /* ImageCodeView.m */; };
+		C537CFCF257E222F00ECA9FB /* UBLLogoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFCE257E222F00ECA9FB /* UBLLogoContentView.m */; };
+		C537CFE9257E22FE00ECA9FB /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFE7257E22FE00ECA9FB /* NSString+Extras.m */; };
+		C537D0E2257E250600ECA9FB /* UIViewController+BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */; };
+		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C537CB28257E164B00ECA9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C537CB01257E164A00ECA9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C537CB08257E164A00ECA9FB;
+			remoteInfo = JobsAppDoor;
+		};
+		C537CB33257E164B00ECA9FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C537CB01257E164A00ECA9FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C537CB08257E164A00ECA9FB;
+			remoteInfo = JobsAppDoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F9886A7D03FC6BBC0E47DC0 /* Pods_JobsAppDoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsAppDoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		509DC8EE66B7841DB47FA620 /* Pods-JobsAppDoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoor.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor.release.xcconfig"; sourceTree = "<group>"; };
+		63C30F05F3543242B652821C /* Pods_JobsAppDoorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsAppDoorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E05F149063A0123E0C051E /* Pods_JobsAppDoorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsAppDoorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAD0D02AEC26C09811EA5CB /* Pods-JobsAppDoorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorTests/Pods-JobsAppDoorTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AAA71F706FA2BC697E5AE13 /* Pods-JobsAppDoorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorUITests/Pods-JobsAppDoorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96CD60B7BECFD24264325C15 /* Pods-JobsAppDoor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoor.debug.xcconfig"; path = "Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor.debug.xcconfig"; sourceTree = "<group>"; };
+		C537CB09257E164A00ECA9FB /* JobsAppDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsAppDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C537CB0C257E164A00ECA9FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C537CB0D257E164A00ECA9FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C537CB0F257E164A00ECA9FB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C537CB10257E164A00ECA9FB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C537CB16257E164A00ECA9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C537CB19257E164A00ECA9FB /* JobsAppDoor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JobsAppDoor.xcdatamodel; sourceTree = "<group>"; };
+		C537CB1B257E164A00ECA9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C537CB1E257E164A00ECA9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C537CB20257E164A00ECA9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C537CB21257E164A00ECA9FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C537CB27257E164B00ECA9FB /* JobsAppDoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsAppDoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C537CB2B257E164B00ECA9FB /* JobsAppDoorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorTests.m; sourceTree = "<group>"; };
+		C537CB2D257E164B00ECA9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C537CB32257E164B00ECA9FB /* JobsAppDoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsAppDoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C537CB36257E164B00ECA9FB /* JobsAppDoorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorUITests.m; sourceTree = "<group>"; };
+		C537CB38257E164B00ECA9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C537CB55257E179700ECA9FB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C537CB56257E179700ECA9FB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C537CB5B257E17A600ECA9FB /* UIViewController+BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BaseVC.h"; sourceTree = "<group>"; };
+		C537CB5C257E17A600ECA9FB /* UIViewController+BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BaseVC.m"; sourceTree = "<group>"; };
+		C537CB64257E17BA00ECA9FB /* HQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTextField.h; sourceTree = "<group>"; };
+		C537CB65257E17BA00ECA9FB /* HQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTextField.m; sourceTree = "<group>"; };
+		C537CB66257E17BA00ECA9FB /* ZYTextField.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYTextField.bundle; sourceTree = "<group>"; };
+		C537CB68257E17BA00ECA9FB /* CJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTextField.m; sourceTree = "<group>"; };
+		C537CB69257E17BA00ECA9FB /* CJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTextField.h; sourceTree = "<group>"; };
+		C537CB6B257E17BA00ECA9FB /* ZYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTextField.m; sourceTree = "<group>"; };
+		C537CB6D257E17BA00ECA9FB /* ZYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
+		C537CB70257E17BA00ECA9FB /* JobsMagicTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsMagicTextField.m; sourceTree = "<group>"; };
+		C537CB71257E17BA00ECA9FB /* JobsMagicTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsMagicTextField.h; sourceTree = "<group>"; };
+		C537CB73257E17BA00ECA9FB /* UITextField+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extend.h"; sourceTree = "<group>"; };
+		C537CB74257E17BA00ECA9FB /* UITextField+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extend.m"; sourceTree = "<group>"; };
+		C537CB82257E17C200ECA9FB /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		C537CB83257E17C200ECA9FB /* 高度自定义的按钮.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "高度自定义的按钮.md"; sourceTree = "<group>"; };
+		C537CB84257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		C537CB86257E17C200ECA9FB /* UIButton+CountDownBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDownBtn.m"; sourceTree = "<group>"; };
+		C537CB87257E17C200ECA9FB /* UIButton+CountDownBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDownBtn.h"; sourceTree = "<group>"; };
+		C537CB88257E17C200ECA9FB /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
+		C537CB93257E17D400ECA9FB /* NSObject+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Random.m"; sourceTree = "<group>"; };
+		C537CB94257E17D400ECA9FB /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
+		C537CB9C257E17D400ECA9FB /* NSObject+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extras.h"; sourceTree = "<group>"; };
+		C537CB9E257E17D400ECA9FB /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
+		C537CB9F257E17D400ECA9FB /* NSObject+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OpenURL.m"; sourceTree = "<group>"; };
+		C537CBA0257E17D400ECA9FB /* NSObject+Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Measure.m"; sourceTree = "<group>"; };
+		C537CBA1257E17D400ECA9FB /* NSObject+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RichText.m"; sourceTree = "<group>"; };
+		C537CBA2257E17D400ECA9FB /* NSObject+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Random.h"; sourceTree = "<group>"; };
+		C537CBA4257E17D400ECA9FB /* NSObject+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extras.m"; sourceTree = "<group>"; };
+		C537CBA7257E17D400ECA9FB /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
+		C537CBA8257E17D400ECA9FB /* NSObject+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OpenURL.h"; sourceTree = "<group>"; };
+		C537CBA9257E17D400ECA9FB /* NSObject+Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Measure.h"; sourceTree = "<group>"; };
+		C537CBBA257E17F900ECA9FB /* 尝试高仿蜜柚.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "尝试高仿蜜柚.md"; sourceTree = "<group>"; };
+		C537CBBF257E17F900ECA9FB /* 输入框样式_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框样式_1.png"; sourceTree = "<group>"; };
+		C537CBC0257E17F900ECA9FB /* DoorInputViewBaseStyle_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorInputViewBaseStyle_1.m; sourceTree = "<group>"; };
+		C537CBC1257E17F900ECA9FB /* DoorInputViewBaseStyle_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorInputViewBaseStyle_1.h; sourceTree = "<group>"; };
+		C537CBC2257E17F900ECA9FB /* DoorInputViewBaseStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorInputViewBaseStyleModel.h; sourceTree = "<group>"; };
+		C537CBC4257E17F900ECA9FB /* DoorInputViewBaseStyle_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorInputViewBaseStyle_2.m; sourceTree = "<group>"; };
+		C537CBC5257E17F900ECA9FB /* 输入框样式_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框样式_2.png"; sourceTree = "<group>"; };
+		C537CBC6257E17F900ECA9FB /* DoorInputViewBaseStyle_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorInputViewBaseStyle_2.h; sourceTree = "<group>"; };
+		C537CBC8257E17F900ECA9FB /* DoorInputViewBaseStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorInputViewBaseStyle.m; sourceTree = "<group>"; };
+		C537CBC9257E17F900ECA9FB /* DoorInputViewBaseStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorInputViewBaseStyle.h; sourceTree = "<group>"; };
+		C537CBCB257E17F900ECA9FB /* DoorInputViewBaseStyle_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorInputViewBaseStyle_4.h; sourceTree = "<group>"; };
+		C537CBCC257E17F900ECA9FB /* UBLDoorInputViewStyle_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UBLDoorInputViewStyle_4.png; sourceTree = "<group>"; };
+		C537CBCD257E17F900ECA9FB /* DoorInputViewBaseStyle_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorInputViewBaseStyle_4.m; sourceTree = "<group>"; };
+		C537CBCF257E17F900ECA9FB /* DoorInputViewBaseStyle_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorInputViewBaseStyle_3.h; sourceTree = "<group>"; };
+		C537CBD0257E17F900ECA9FB /* 输入框样式_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框样式_3.png"; sourceTree = "<group>"; };
+		C537CBD1257E17F900ECA9FB /* DoorInputViewBaseStyle_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorInputViewBaseStyle_3.m; sourceTree = "<group>"; };
+		C537CBD2257E17F900ECA9FB /* DoorInputViewBaseStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorInputViewBaseStyleModel.m; sourceTree = "<group>"; };
+		C537CBD3257E17F900ECA9FB /* DoorInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorInputView.h; sourceTree = "<group>"; };
+		C537CBD4257E17F900ECA9FB /* JobsAppDoorContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorContentView.h; sourceTree = "<group>"; };
+		C537CBD5257E17F900ECA9FB /* JobsAppDoorContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorContentView.m; sourceTree = "<group>"; };
+		C537CBD7257E17F900ECA9FB /* JobsAppDoorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorVC.m; sourceTree = "<group>"; };
+		C537CBD8257E17F900ECA9FB /* JobsAppDoorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorVC.h; sourceTree = "<group>"; };
+		C537CBF5257E186300ECA9FB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C537CBF6257E186300ECA9FB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcome_video.mp4; sourceTree = "<group>"; };
+		C537CC23257E19B100ECA9FB /* DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineStructure.h; sourceTree = "<group>"; };
+		C537CC27257E19B100ECA9FB /* Pods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
+		C537CC28257E19B100ECA9FB /* Other.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
+		C537CC29257E19B100ECA9FB /* My_BaseProj-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "My_BaseProj-Bridging-Header.h"; sourceTree = "<group>"; };
+		C537CC2B257E19B100ECA9FB /* YBNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBNotificationManager.h; sourceTree = "<group>"; };
+		C537CC2C257E19B100ECA9FB /* YBNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBNotificationManager.m; sourceTree = "<group>"; };
+		C537CC2D257E19B100ECA9FB /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		C537CC2E257E19B100ECA9FB /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
+		C537CC2F257E19B100ECA9FB /* Manual_Add_ThirdParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manual_Add_ThirdParty.h; sourceTree = "<group>"; };
+		C537CC30257E19B100ECA9FB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C537CC32257E19B100ECA9FB /* MacroDef_App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_App.h; sourceTree = "<group>"; };
+		C537CC33257E19B100ECA9FB /* MacroDef_Cor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_Cor.h; sourceTree = "<group>"; };
+		C537CC35257E19B100ECA9FB /* MacroDef_Func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_Func.h; sourceTree = "<group>"; };
+		C537CC36257E19B100ECA9FB /* MacroDef_Sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_Sys.h; sourceTree = "<group>"; };
+		C537CD40257E1C0A00ECA9FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C537CF43257E1EA400ECA9FB /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
+		C537CF45257E1EA400ECA9FB /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
+		C537CF46257E1EA400ECA9FB /* NSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerManager.m; sourceTree = "<group>"; };
+		C537CF48257E1EA400ECA9FB /* GCD_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD_TimerManager.m; sourceTree = "<group>"; };
+		C537CF49257E1EA400ECA9FB /* GCD_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD_TimerManager.h; sourceTree = "<group>"; };
+		C537CF4A257E1EA400ECA9FB /* TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager.h; sourceTree = "<group>"; };
+		C537CF4C257E1EA400ECA9FB /* Nanosecond_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nanosecond_TimerManager.m; sourceTree = "<group>"; };
+		C537CF4D257E1EA400ECA9FB /* Nanosecond_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nanosecond_TimerManager.h; sourceTree = "<group>"; };
+		C537CF4F257E1EA400ECA9FB /* CADisplayLink_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLink_TimerManager.m; sourceTree = "<group>"; };
+		C537CF50257E1EA400ECA9FB /* CADisplayLink_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADisplayLink_TimerManager.h; sourceTree = "<group>"; };
+		C537CF9D257E215C00ECA9FB /* UIView+ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZFPlayer.h"; sourceTree = "<group>"; };
+		C537CF9E257E215C00ECA9FB /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
+		C537CF9F257E215C00ECA9FB /* UIView+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Chain.m"; sourceTree = "<group>"; };
+		C537CFA0257E215C00ECA9FB /* UIView+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gradient.h"; sourceTree = "<group>"; };
+		C537CFA1257E215C00ECA9FB /* UIView+Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Measure.m"; sourceTree = "<group>"; };
+		C537CFA2257E215C00ECA9FB /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		C537CFA3257E215C00ECA9FB /* UIView+SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuspendView.m"; sourceTree = "<group>"; };
+		C537CFA4257E215C00ECA9FB /* UIView+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Chain.h"; sourceTree = "<group>"; };
+		C537CFA5257E215C00ECA9FB /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
+		C537CFA6257E215C00ECA9FB /* UIView+ZFPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZFPlayer.m"; sourceTree = "<group>"; };
+		C537CFA7257E215C00ECA9FB /* UIView+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gradient.m"; sourceTree = "<group>"; };
+		C537CFA8257E215C00ECA9FB /* UIView+SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SuspendView.h"; sourceTree = "<group>"; };
+		C537CFA9257E215C00ECA9FB /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		C537CFAA257E215C00ECA9FB /* UIView+Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Measure.h"; sourceTree = "<group>"; };
+		C537CFB9257E21BF00ECA9FB /* CustomZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomZFPlayerControlView.m; sourceTree = "<group>"; };
+		C537CFBA257E21BF00ECA9FB /* CustomZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomZFPlayerControlView.h; sourceTree = "<group>"; };
+		C537CFC3257E21D800ECA9FB /* ImageCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCodeView.h; sourceTree = "<group>"; };
+		C537CFC4257E21D800ECA9FB /* ImageCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCodeView.m; sourceTree = "<group>"; };
+		C537CFCD257E222F00ECA9FB /* UBLLogoContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBLLogoContentView.h; sourceTree = "<group>"; };
+		C537CFCE257E222F00ECA9FB /* UBLLogoContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBLLogoContentView.m; sourceTree = "<group>"; };
+		C537CFE7257E22FE00ECA9FB /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
+		C537CFE8257E22FE00ECA9FB /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
+		C537CFEE257E235800ECA9FB /* LoadingImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
+		C537D0E0257E250600ECA9FB /* UIViewController+BackBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackBtn.h"; sourceTree = "<group>"; };
+		C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackBtn.m"; sourceTree = "<group>"; };
+		FA3374C4D4F3467D978870FC /* Pods-JobsAppDoorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorTests/Pods-JobsAppDoorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5090199E67D974674A68C2 /* Pods-JobsAppDoorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorUITests/Pods-JobsAppDoorUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C537CB06257E164A00ECA9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F07F0F0BE881C4B5AD3EF /* Pods_JobsAppDoor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C537CB24257E164B00ECA9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546EEF83E03B6EAA77A461D2 /* Pods_JobsAppDoorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C537CB2F257E164B00ECA9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EBD71BBD9B305F86E8D1F2 /* Pods_JobsAppDoorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060D38056920D7F2CED59374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9886A7D03FC6BBC0E47DC0 /* Pods_JobsAppDoor.framework */,
+				73E05F149063A0123E0C051E /* Pods_JobsAppDoorTests.framework */,
+				63C30F05F3543242B652821C /* Pods_JobsAppDoorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2E7EFD75F49E62F154D2AF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96CD60B7BECFD24264325C15 /* Pods-JobsAppDoor.debug.xcconfig */,
+				509DC8EE66B7841DB47FA620 /* Pods-JobsAppDoor.release.xcconfig */,
+				FA3374C4D4F3467D978870FC /* Pods-JobsAppDoorTests.debug.xcconfig */,
+				7EAD0D02AEC26C09811EA5CB /* Pods-JobsAppDoorTests.release.xcconfig */,
+				8AAA71F706FA2BC697E5AE13 /* Pods-JobsAppDoorUITests.debug.xcconfig */,
+				FB5090199E67D974674A68C2 /* Pods-JobsAppDoorUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C537CB00257E164A00ECA9FB = {
+			isa = PBXGroup;
+			children = (
+				C537CD40257E1C0A00ECA9FB /* README.md */,
+				C537CB0B257E164A00ECA9FB /* JobsAppDoor */,
+				C537CB2A257E164B00ECA9FB /* JobsAppDoorTests */,
+				C537CB35257E164B00ECA9FB /* JobsAppDoorUITests */,
+				C537CB0A257E164A00ECA9FB /* Products */,
+				B2E7EFD75F49E62F154D2AF9 /* Pods */,
+				060D38056920D7F2CED59374 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C537CB0A257E164A00ECA9FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB09257E164A00ECA9FB /* JobsAppDoor.app */,
+				C537CB27257E164B00ECA9FB /* JobsAppDoorTests.xctest */,
+				C537CB32257E164B00ECA9FB /* JobsAppDoorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C537CB0B257E164A00ECA9FB /* JobsAppDoor */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB4A257E169F00ECA9FB /* AppDelegate & SceneDelegate */,
+				C537CF41257E1E9400ECA9FB /* 🔨Manual_Add_ThirdParty  */,
+				C537CC22257E19B100ECA9FB /* 🌹Macro */,
+				C537CBB8257E17ED00ECA9FB /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀Core */,
+				C537CB52257E177300ECA9FB /* BaseCustomizeUIKit */,
+				C537CB4E257E16ED00ECA9FB /* Others */,
+				C537CB4D257E16CB00ECA9FB /* 项目资源 */,
+				C537CB20257E164A00ECA9FB /* Info.plist */,
+				C537CBF5257E186300ECA9FB /* ViewController.h */,
+				C537CBF6257E186300ECA9FB /* ViewController.m */,
+			);
+			path = JobsAppDoor;
+			sourceTree = "<group>";
+		};
+		C537CB2A257E164B00ECA9FB /* JobsAppDoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB2B257E164B00ECA9FB /* JobsAppDoorTests.m */,
+				C537CB2D257E164B00ECA9FB /* Info.plist */,
+			);
+			path = JobsAppDoorTests;
+			sourceTree = "<group>";
+		};
+		C537CB35257E164B00ECA9FB /* JobsAppDoorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB36257E164B00ECA9FB /* JobsAppDoorUITests.m */,
+				C537CB38257E164B00ECA9FB /* Info.plist */,
+			);
+			path = JobsAppDoorUITests;
+			sourceTree = "<group>";
+		};
+		C537CB4A257E169F00ECA9FB /* AppDelegate & SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB4B257E16A900ECA9FB /* AppDelegate */,
+				C537CB4C257E16B000ECA9FB /* SceneDelegate */,
+			);
+			path = "AppDelegate & SceneDelegate";
+			sourceTree = "<group>";
+		};
+		C537CB4B257E16A900ECA9FB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB0C257E164A00ECA9FB /* AppDelegate.h */,
+				C537CB0D257E164A00ECA9FB /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C537CB4C257E16B000ECA9FB /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB0F257E164A00ECA9FB /* SceneDelegate.h */,
+				C537CB10257E164A00ECA9FB /* SceneDelegate.m */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		C537CB4D257E16CB00ECA9FB /* 项目资源 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */,
+				C537CB1B257E164A00ECA9FB /* Assets.xcassets */,
+			);
+			path = "项目资源";
+			sourceTree = "<group>";
+		};
+		C537CB4E257E16ED00ECA9FB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB15257E164A00ECA9FB /* Main.storyboard */,
+				C537CB1D257E164A00ECA9FB /* LaunchScreen.storyboard */,
+				C537CB21257E164A00ECA9FB /* main.m */,
+				C537CB18257E164A00ECA9FB /* JobsAppDoor.xcdatamodeld */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C537CB52257E177300ECA9FB /* BaseCustomizeUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFED257E235200ECA9FB /* UIImage */,
+				C537CFE6257E22F800ECA9FB /* NSString */,
+				C537CF9C257E215C00ECA9FB /* UIView */,
+				C537CB92257E17D400ECA9FB /* NSObject */,
+				C537CB7F257E17C200ECA9FB /* UIButton */,
+				C537CB62257E17BA00ECA9FB /* UITextField */,
+				C537CB53257E178100ECA9FB /* UIViewController */,
+			);
+			path = BaseCustomizeUIKit;
+			sourceTree = "<group>";
+		};
+		C537CB53257E178100ECA9FB /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB54257E179700ECA9FB /* BaseViewController */,
+				C537CB61257E17AB00ECA9FB /* UIViewController+Category */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		C537CB54257E179700ECA9FB /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB56257E179700ECA9FB /* BaseViewController.h */,
+				C537CB55257E179700ECA9FB /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		C537CB61257E17AB00ECA9FB /* UIViewController+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C537D0E0257E250600ECA9FB /* UIViewController+BackBtn.h */,
+				C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */,
+				C537CB5B257E17A600ECA9FB /* UIViewController+BaseVC.h */,
+				C537CB5C257E17A600ECA9FB /* UIViewController+BaseVC.m */,
+			);
+			path = "UIViewController+Category";
+			sourceTree = "<group>";
+		};
+		C537CB62257E17BA00ECA9FB /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB67257E17BA00ECA9FB /* CJTextField */,
+				C537CB63257E17BA00ECA9FB /* HQTextField */,
+				C537CB6F257E17BA00ECA9FB /* JobsMagicTextField */,
+				C537CB72257E17BA00ECA9FB /* UITextField+Extend */,
+				C537CB6A257E17BA00ECA9FB /* ZYTextField */,
+				C537CB66257E17BA00ECA9FB /* ZYTextField.bundle */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		C537CB63257E17BA00ECA9FB /* HQTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB64257E17BA00ECA9FB /* HQTextField.h */,
+				C537CB65257E17BA00ECA9FB /* HQTextField.m */,
+			);
+			path = HQTextField;
+			sourceTree = "<group>";
+		};
+		C537CB67257E17BA00ECA9FB /* CJTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB69257E17BA00ECA9FB /* CJTextField.h */,
+				C537CB68257E17BA00ECA9FB /* CJTextField.m */,
+			);
+			path = CJTextField;
+			sourceTree = "<group>";
+		};
+		C537CB6A257E17BA00ECA9FB /* ZYTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB6D257E17BA00ECA9FB /* ZYTextField.h */,
+				C537CB6B257E17BA00ECA9FB /* ZYTextField.m */,
+			);
+			path = ZYTextField;
+			sourceTree = "<group>";
+		};
+		C537CB6F257E17BA00ECA9FB /* JobsMagicTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB71257E17BA00ECA9FB /* JobsMagicTextField.h */,
+				C537CB70257E17BA00ECA9FB /* JobsMagicTextField.m */,
+			);
+			path = JobsMagicTextField;
+			sourceTree = "<group>";
+		};
+		C537CB72257E17BA00ECA9FB /* UITextField+Extend */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB73257E17BA00ECA9FB /* UITextField+Extend.h */,
+				C537CB74257E17BA00ECA9FB /* UITextField+Extend.m */,
+			);
+			path = "UITextField+Extend";
+			sourceTree = "<group>";
+		};
+		C537CB7F257E17C200ECA9FB /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB85257E17C200ECA9FB /* 💰VerifyCodeButton */,
+				C537CB81257E17C200ECA9FB /* 高度自定义的按钮 */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		C537CB81257E17C200ECA9FB /* 高度自定义的按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB83257E17C200ECA9FB /* 高度自定义的按钮.md */,
+				C537CB82257E17C200ECA9FB /* UIButton+ImageTitleSpacing.h */,
+				C537CB84257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = "高度自定义的按钮";
+			sourceTree = "<group>";
+		};
+		C537CB85257E17C200ECA9FB /* 💰VerifyCodeButton */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB88257E17C200ECA9FB /* 验证码按钮单例封装.md */,
+				C537CB87257E17C200ECA9FB /* UIButton+CountDownBtn.h */,
+				C537CB86257E17C200ECA9FB /* UIButton+CountDownBtn.m */,
+			);
+			path = "💰VerifyCodeButton";
+			sourceTree = "<group>";
+		};
+		C537CB92257E17D400ECA9FB /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB9C257E17D400ECA9FB /* NSObject+Extras.h */,
+				C537CBA4257E17D400ECA9FB /* NSObject+Extras.m */,
+				C537CBA9257E17D400ECA9FB /* NSObject+Measure.h */,
+				C537CBA0257E17D400ECA9FB /* NSObject+Measure.m */,
+				C537CBA8257E17D400ECA9FB /* NSObject+OpenURL.h */,
+				C537CB9F257E17D400ECA9FB /* NSObject+OpenURL.m */,
+				C537CBA2257E17D400ECA9FB /* NSObject+Random.h */,
+				C537CB93257E17D400ECA9FB /* NSObject+Random.m */,
+				C537CB94257E17D400ECA9FB /* NSObject+RichText.h */,
+				C537CBA1257E17D400ECA9FB /* NSObject+RichText.m */,
+				C537CB9E257E17D400ECA9FB /* NSObject+Time.h */,
+				C537CBA7257E17D400ECA9FB /* NSObject+Time.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		C537CBB8257E17ED00ECA9FB /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀Core */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBB9257E17F900ECA9FB /* 模式2 */,
+			);
+			path = "🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀Core";
+			sourceTree = "<group>";
+		};
+		C537CBB9257E17F900ECA9FB /* 模式2 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBBA257E17F900ECA9FB /* 尝试高仿蜜柚.md */,
+				C537CBBB257E17F900ECA9FB /* View */,
+				C537CBD6257E17F900ECA9FB /* ViewController */,
+			);
+			path = "模式2";
+			sourceTree = "<group>";
+		};
+		C537CBBB257E17F900ECA9FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFCC257E222F00ECA9FB /* UBLLogoContentView */,
+				C537CBBC257E17F900ECA9FB /* 输入框样式 */,
+				C537CBD4257E17F900ECA9FB /* JobsAppDoorContentView.h */,
+				C537CBD5257E17F900ECA9FB /* JobsAppDoorContentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C537CBBC257E17F900ECA9FB /* 输入框样式 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBBD257E17F900ECA9FB /* DoorInputView */,
+				C537CBD3257E17F900ECA9FB /* DoorInputView.h */,
+			);
+			path = "输入框样式";
+			sourceTree = "<group>";
+		};
+		C537CBBD257E17F900ECA9FB /* DoorInputView */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBBE257E17F900ECA9FB /* 输入框样式_1 */,
+				C537CBC3257E17F900ECA9FB /* 输入框样式_2 */,
+				C537CBCE257E17F900ECA9FB /* 输入框样式_3 */,
+				C537CBCA257E17F900ECA9FB /* 输入框样式_4 */,
+				C537CBC7257E17F900ECA9FB /* 输入框样式基类 */,
+			);
+			path = DoorInputView;
+			sourceTree = "<group>";
+		};
+		C537CBBE257E17F900ECA9FB /* 输入框样式_1 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBBF257E17F900ECA9FB /* 输入框样式_1.png */,
+				C537CBC1257E17F900ECA9FB /* DoorInputViewBaseStyle_1.h */,
+				C537CBC0257E17F900ECA9FB /* DoorInputViewBaseStyle_1.m */,
+			);
+			path = "输入框样式_1";
+			sourceTree = "<group>";
+		};
+		C537CBC3257E17F900ECA9FB /* 输入框样式_2 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBC5257E17F900ECA9FB /* 输入框样式_2.png */,
+				C537CBC6257E17F900ECA9FB /* DoorInputViewBaseStyle_2.h */,
+				C537CBC4257E17F900ECA9FB /* DoorInputViewBaseStyle_2.m */,
+			);
+			path = "输入框样式_2";
+			sourceTree = "<group>";
+		};
+		C537CBC7257E17F900ECA9FB /* 输入框样式基类 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBC2257E17F900ECA9FB /* DoorInputViewBaseStyleModel.h */,
+				C537CBD2257E17F900ECA9FB /* DoorInputViewBaseStyleModel.m */,
+				C537CBC9257E17F900ECA9FB /* DoorInputViewBaseStyle.h */,
+				C537CBC8257E17F900ECA9FB /* DoorInputViewBaseStyle.m */,
+			);
+			path = "输入框样式基类";
+			sourceTree = "<group>";
+		};
+		C537CBCA257E17F900ECA9FB /* 输入框样式_4 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBCB257E17F900ECA9FB /* DoorInputViewBaseStyle_4.h */,
+				C537CBCD257E17F900ECA9FB /* DoorInputViewBaseStyle_4.m */,
+				C537CBCC257E17F900ECA9FB /* UBLDoorInputViewStyle_4.png */,
+			);
+			path = "输入框样式_4";
+			sourceTree = "<group>";
+		};
+		C537CBCE257E17F900ECA9FB /* 输入框样式_3 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBD0257E17F900ECA9FB /* 输入框样式_3.png */,
+				C537CBCF257E17F900ECA9FB /* DoorInputViewBaseStyle_3.h */,
+				C537CBD1257E17F900ECA9FB /* DoorInputViewBaseStyle_3.m */,
+			);
+			path = "输入框样式_3";
+			sourceTree = "<group>";
+		};
+		C537CBD6257E17F900ECA9FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBD8257E17F900ECA9FB /* JobsAppDoorVC.h */,
+				C537CBD7257E17F900ECA9FB /* JobsAppDoorVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C537CC22257E19B100ECA9FB /* 🌹Macro */ = {
+			isa = PBXGroup;
+			children = (
+				C537CC30257E19B100ECA9FB /* PrefixHeader.pch */,
+				C537CC31257E19B100ECA9FB /* 各项宏定义 */,
+				C537CC2A257E19B100ECA9FB /* Notification */,
+				C537CC2E257E19B100ECA9FB /* AABlock.h */,
+				C537CC2D257E19B100ECA9FB /* APIKey.h */,
+				C537CC23257E19B100ECA9FB /* DefineStructure.h */,
+				C537CC2F257E19B100ECA9FB /* Manual_Add_ThirdParty.h */,
+				C537CC29257E19B100ECA9FB /* My_BaseProj-Bridging-Header.h */,
+				C537CC28257E19B100ECA9FB /* Other.h */,
+				C537CC27257E19B100ECA9FB /* Pods.h */,
+			);
+			path = "🌹Macro";
+			sourceTree = "<group>";
+		};
+		C537CC2A257E19B100ECA9FB /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				C537CC2B257E19B100ECA9FB /* YBNotificationManager.h */,
+				C537CC2C257E19B100ECA9FB /* YBNotificationManager.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		C537CC31257E19B100ECA9FB /* 各项宏定义 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CC32257E19B100ECA9FB /* MacroDef_App.h */,
+				C537CC33257E19B100ECA9FB /* MacroDef_Cor.h */,
+				C537CC35257E19B100ECA9FB /* MacroDef_Func.h */,
+				C537CC36257E19B100ECA9FB /* MacroDef_Sys.h */,
+			);
+			path = "各项宏定义";
+			sourceTree = "<group>";
+		};
+		C537CF41257E1E9400ECA9FB /* 🔨Manual_Add_ThirdParty  */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFC2257E21D800ECA9FB /* 图形验证码 */,
+				C537CFB8257E21BF00ECA9FB /* 播放器控制层 */,
+				C537CF42257E1EA400ECA9FB /* TimerManager */,
+			);
+			path = "🔨Manual_Add_ThirdParty ";
+			sourceTree = "<group>";
+		};
+		C537CF42257E1EA400ECA9FB /* TimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C537CF4E257E1EA400ECA9FB /* CADisplayLink_TimerManager */,
+				C537CF47257E1EA400ECA9FB /* GCD_TimerManager(未完) */,
+				C537CF4B257E1EA400ECA9FB /* Nanosecond_TimerManager */,
+				C537CF44257E1EA400ECA9FB /* NSTimerManager */,
+				C537CF43257E1EA400ECA9FB /* TimerManager_DefineStructure.h */,
+				C537CF4A257E1EA400ECA9FB /* TimerManager.h */,
+			);
+			path = TimerManager;
+			sourceTree = "<group>";
+		};
+		C537CF44257E1EA400ECA9FB /* NSTimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C537CF45257E1EA400ECA9FB /* NSTimerManager.h */,
+				C537CF46257E1EA400ECA9FB /* NSTimerManager.m */,
+			);
+			path = NSTimerManager;
+			sourceTree = "<group>";
+		};
+		C537CF47257E1EA400ECA9FB /* GCD_TimerManager(未完) */ = {
+			isa = PBXGroup;
+			children = (
+				C537CF48257E1EA400ECA9FB /* GCD_TimerManager.m */,
+				C537CF49257E1EA400ECA9FB /* GCD_TimerManager.h */,
+			);
+			path = "GCD_TimerManager(未完)";
+			sourceTree = "<group>";
+		};
+		C537CF4B257E1EA400ECA9FB /* Nanosecond_TimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C537CF4C257E1EA400ECA9FB /* Nanosecond_TimerManager.m */,
+				C537CF4D257E1EA400ECA9FB /* Nanosecond_TimerManager.h */,
+			);
+			path = Nanosecond_TimerManager;
+			sourceTree = "<group>";
+		};
+		C537CF4E257E1EA400ECA9FB /* CADisplayLink_TimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C537CF4F257E1EA400ECA9FB /* CADisplayLink_TimerManager.m */,
+				C537CF50257E1EA400ECA9FB /* CADisplayLink_TimerManager.h */,
+			);
+			path = CADisplayLink_TimerManager;
+			sourceTree = "<group>";
+		};
+		C537CF9C257E215C00ECA9FB /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFA9257E215C00ECA9FB /* UIView+Animation.h */,
+				C537CFA2257E215C00ECA9FB /* UIView+Animation.m */,
+				C537CFA4257E215C00ECA9FB /* UIView+Chain.h */,
+				C537CF9F257E215C00ECA9FB /* UIView+Chain.m */,
+				C537CF9E257E215C00ECA9FB /* UIView+Extras.h */,
+				C537CFA5257E215C00ECA9FB /* UIView+Extras.m */,
+				C537CFA0257E215C00ECA9FB /* UIView+Gradient.h */,
+				C537CFA7257E215C00ECA9FB /* UIView+Gradient.m */,
+				C537CFAA257E215C00ECA9FB /* UIView+Measure.h */,
+				C537CFA1257E215C00ECA9FB /* UIView+Measure.m */,
+				C537CFA8257E215C00ECA9FB /* UIView+SuspendView.h */,
+				C537CFA3257E215C00ECA9FB /* UIView+SuspendView.m */,
+				C537CF9D257E215C00ECA9FB /* UIView+ZFPlayer.h */,
+				C537CFA6257E215C00ECA9FB /* UIView+ZFPlayer.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		C537CFB8257E21BF00ECA9FB /* 播放器控制层 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFBA257E21BF00ECA9FB /* CustomZFPlayerControlView.h */,
+				C537CFB9257E21BF00ECA9FB /* CustomZFPlayerControlView.m */,
+			);
+			path = "播放器控制层";
+			sourceTree = "<group>";
+		};
+		C537CFC2257E21D800ECA9FB /* 图形验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFC3257E21D800ECA9FB /* ImageCodeView.h */,
+				C537CFC4257E21D800ECA9FB /* ImageCodeView.m */,
+			);
+			path = "图形验证码";
+			sourceTree = "<group>";
+		};
+		C537CFCC257E222F00ECA9FB /* UBLLogoContentView */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFCD257E222F00ECA9FB /* UBLLogoContentView.h */,
+				C537CFCE257E222F00ECA9FB /* UBLLogoContentView.m */,
+			);
+			path = UBLLogoContentView;
+			sourceTree = "<group>";
+		};
+		C537CFE6257E22F800ECA9FB /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFE8257E22FE00ECA9FB /* NSString+Extras.h */,
+				C537CFE7257E22FE00ECA9FB /* NSString+Extras.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		C537CFED257E235200ECA9FB /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFEE257E235800ECA9FB /* LoadingImage.h */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C537CB08257E164A00ECA9FB /* JobsAppDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C537CB3B257E164B00ECA9FB /* Build configuration list for PBXNativeTarget "JobsAppDoor" */;
+			buildPhases = (
+				256B439A909DB5C5EFFF9630 /* [CP] Check Pods Manifest.lock */,
+				C537CB05257E164A00ECA9FB /* Sources */,
+				C537CB06257E164A00ECA9FB /* Frameworks */,
+				C537CB07257E164A00ECA9FB /* Resources */,
+				571E7CC0B116406A38BB19E7 /* [CP] Embed Pods Frameworks */,
+				A358AD07429CE3F1CA76CE19 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobsAppDoor;
+			productName = JobsAppDoor;
+			productReference = C537CB09257E164A00ECA9FB /* JobsAppDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C537CB26257E164B00ECA9FB /* JobsAppDoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C537CB3E257E164B00ECA9FB /* Build configuration list for PBXNativeTarget "JobsAppDoorTests" */;
+			buildPhases = (
+				A80756FFDDD60ED01BD24118 /* [CP] Check Pods Manifest.lock */,
+				C537CB23257E164B00ECA9FB /* Sources */,
+				C537CB24257E164B00ECA9FB /* Frameworks */,
+				C537CB25257E164B00ECA9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C537CB29257E164B00ECA9FB /* PBXTargetDependency */,
+			);
+			name = JobsAppDoorTests;
+			productName = JobsAppDoorTests;
+			productReference = C537CB27257E164B00ECA9FB /* JobsAppDoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C537CB31257E164B00ECA9FB /* JobsAppDoorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C537CB41257E164B00ECA9FB /* Build configuration list for PBXNativeTarget "JobsAppDoorUITests" */;
+			buildPhases = (
+				B56B5E037907FA791C40194E /* [CP] Check Pods Manifest.lock */,
+				C537CB2E257E164B00ECA9FB /* Sources */,
+				C537CB2F257E164B00ECA9FB /* Frameworks */,
+				C537CB30257E164B00ECA9FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C537CB34257E164B00ECA9FB /* PBXTargetDependency */,
+			);
+			name = JobsAppDoorUITests;
+			productName = JobsAppDoorUITests;
+			productReference = C537CB32257E164B00ECA9FB /* JobsAppDoorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C537CB01257E164A00ECA9FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C537CB08257E164A00ECA9FB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C537CB26257E164B00ECA9FB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C537CB08257E164A00ECA9FB;
+					};
+					C537CB31257E164B00ECA9FB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C537CB08257E164A00ECA9FB;
+					};
+				};
+			};
+			buildConfigurationList = C537CB04257E164A00ECA9FB /* Build configuration list for PBXProject "JobsAppDoor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C537CB00257E164A00ECA9FB;
+			productRefGroup = C537CB0A257E164A00ECA9FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C537CB08257E164A00ECA9FB /* JobsAppDoor */,
+				C537CB26257E164B00ECA9FB /* JobsAppDoorTests */,
+				C537CB31257E164B00ECA9FB /* JobsAppDoorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C537CB07257E164A00ECA9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C537CB8E257E17C200ECA9FB /* 验证码按钮单例封装.md in Resources */,
+				C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */,
+				C537CB1F257E164A00ECA9FB /* LaunchScreen.storyboard in Resources */,
+				C537CB1C257E164A00ECA9FB /* Assets.xcassets in Resources */,
+				C537CBD9257E17F900ECA9FB /* 尝试高仿蜜柚.md in Resources */,
+				C537CB76257E17BA00ECA9FB /* ZYTextField.bundle in Resources */,
+				C537CB17257E164A00ECA9FB /* Main.storyboard in Resources */,
+				C537CB8B257E17C200ECA9FB /* 高度自定义的按钮.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C537CB25257E164B00ECA9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C537CB30257E164B00ECA9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256B439A909DB5C5EFFF9630 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobsAppDoor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		571E7CC0B116406A38BB19E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A358AD07429CE3F1CA76CE19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80756FFDDD60ED01BD24118 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobsAppDoorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56B5E037907FA791C40194E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobsAppDoorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C537CB05257E164A00ECA9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C537CBAA257E17D400ECA9FB /* NSObject+Random.m in Sources */,
+				C537CF53257E1EA400ECA9FB /* Nanosecond_TimerManager.m in Sources */,
+				C537CBDB257E17F900ECA9FB /* DoorInputViewBaseStyle_1.m in Sources */,
+				C537CB8D257E17C200ECA9FB /* UIButton+CountDownBtn.m in Sources */,
+				C537CB8C257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m in Sources */,
+				C537CB5D257E17A600ECA9FB /* UIViewController+BaseVC.m in Sources */,
+				C537CFAB257E215C00ECA9FB /* UIView+Chain.m in Sources */,
+				C537CB22257E164A00ECA9FB /* main.m in Sources */,
+				C537CBB2257E17D400ECA9FB /* NSObject+Extras.m in Sources */,
+				C537CB75257E17BA00ECA9FB /* HQTextField.m in Sources */,
+				C537CFE9257E22FE00ECA9FB /* NSString+Extras.m in Sources */,
+				C537CBE4257E17F900ECA9FB /* JobsAppDoorContentView.m in Sources */,
+				C537CBE5257E17F900ECA9FB /* JobsAppDoorVC.m in Sources */,
+				C537CBDE257E17F900ECA9FB /* DoorInputViewBaseStyle.m in Sources */,
+				C537CBE2257E17F900ECA9FB /* DoorInputViewBaseStyle_3.m in Sources */,
+				C537CBF7257E186300ECA9FB /* ViewController.m in Sources */,
+				C537CFAC257E215C00ECA9FB /* UIView+Measure.m in Sources */,
+				C537CFBB257E21BF00ECA9FB /* CustomZFPlayerControlView.m in Sources */,
+				C537CB57257E179700ECA9FB /* BaseViewController.m in Sources */,
+				C537CB0E257E164A00ECA9FB /* AppDelegate.m in Sources */,
+				C537CB11257E164A00ECA9FB /* SceneDelegate.m in Sources */,
+				C537CBB1257E17D400ECA9FB /* NSObject+RichText.m in Sources */,
+				C537CB78257E17BA00ECA9FB /* ZYTextField.m in Sources */,
+				C537CFAD257E215C00ECA9FB /* UIView+Animation.m in Sources */,
+				C537CFB1257E215C00ECA9FB /* UIView+Gradient.m in Sources */,
+				C537D0E2257E250600ECA9FB /* UIViewController+BackBtn.m in Sources */,
+				C537CBE3257E17F900ECA9FB /* DoorInputViewBaseStyleModel.m in Sources */,
+				C537CF54257E1EA400ECA9FB /* CADisplayLink_TimerManager.m in Sources */,
+				C537CFCF257E222F00ECA9FB /* UBLLogoContentView.m in Sources */,
+				C537CF51257E1EA400ECA9FB /* NSTimerManager.m in Sources */,
+				C537CB77257E17BA00ECA9FB /* CJTextField.m in Sources */,
+				C537CFAE257E215C00ECA9FB /* UIView+SuspendView.m in Sources */,
+				C537CF52257E1EA400ECA9FB /* GCD_TimerManager.m in Sources */,
+				C537CB7B257E17BA00ECA9FB /* UITextField+Extend.m in Sources */,
+				C537CBDC257E17F900ECA9FB /* DoorInputViewBaseStyle_2.m in Sources */,
+				C537CB1A257E164A00ECA9FB /* JobsAppDoor.xcdatamodeld in Sources */,
+				C537CFAF257E215C00ECA9FB /* UIView+Extras.m in Sources */,
+				C537CBAF257E17D400ECA9FB /* NSObject+OpenURL.m in Sources */,
+				C537CC38257E19B100ECA9FB /* YBNotificationManager.m in Sources */,
+				C537CBE0257E17F900ECA9FB /* DoorInputViewBaseStyle_4.m in Sources */,
+				C537CFC5257E21D800ECA9FB /* ImageCodeView.m in Sources */,
+				C537CFB0257E215C00ECA9FB /* UIView+ZFPlayer.m in Sources */,
+				C537CBB4257E17D400ECA9FB /* NSObject+Time.m in Sources */,
+				C537CB7A257E17BA00ECA9FB /* JobsMagicTextField.m in Sources */,
+				C537CBB0257E17D400ECA9FB /* NSObject+Measure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C537CB23257E164B00ECA9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C537CB2C257E164B00ECA9FB /* JobsAppDoorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C537CB2E257E164B00ECA9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C537CB37257E164B00ECA9FB /* JobsAppDoorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C537CB29257E164B00ECA9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C537CB08257E164A00ECA9FB /* JobsAppDoor */;
+			targetProxy = C537CB28257E164B00ECA9FB /* PBXContainerItemProxy */;
+		};
+		C537CB34257E164B00ECA9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C537CB08257E164A00ECA9FB /* JobsAppDoor */;
+			targetProxy = C537CB33257E164B00ECA9FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C537CB15257E164A00ECA9FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C537CB16257E164A00ECA9FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C537CB1D257E164A00ECA9FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C537CB1E257E164A00ECA9FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C537CB39257E164B00ECA9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C537CB3A257E164B00ECA9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C537CB3C257E164B00ECA9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CD60B7BECFD24264325C15 /* Pods-JobsAppDoor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K92UCMVH8G;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
+				INFOPLIST_FILE = JobsAppDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JobsComment.JobsAppDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C537CB3D257E164B00ECA9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509DC8EE66B7841DB47FA620 /* Pods-JobsAppDoor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K92UCMVH8G;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
+				INFOPLIST_FILE = JobsAppDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JobsComment.JobsAppDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C537CB3F257E164B00ECA9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3374C4D4F3467D978870FC /* Pods-JobsAppDoorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K92UCMVH8G;
+				INFOPLIST_FILE = JobsAppDoorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JobsComment.JobsAppDoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsAppDoor.app/JobsAppDoor";
+			};
+			name = Debug;
+		};
+		C537CB40257E164B00ECA9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAD0D02AEC26C09811EA5CB /* Pods-JobsAppDoorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K92UCMVH8G;
+				INFOPLIST_FILE = JobsAppDoorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JobsComment.JobsAppDoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsAppDoor.app/JobsAppDoor";
+			};
+			name = Release;
+		};
+		C537CB42257E164B00ECA9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAA71F706FA2BC697E5AE13 /* Pods-JobsAppDoorUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K92UCMVH8G;
+				INFOPLIST_FILE = JobsAppDoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JobsComment.JobsAppDoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JobsAppDoor;
+			};
+			name = Debug;
+		};
+		C537CB43257E164B00ECA9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5090199E67D974674A68C2 /* Pods-JobsAppDoorUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K92UCMVH8G;
+				INFOPLIST_FILE = JobsAppDoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JobsComment.JobsAppDoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JobsAppDoor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C537CB04257E164A00ECA9FB /* Build configuration list for PBXProject "JobsAppDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C537CB39257E164B00ECA9FB /* Debug */,
+				C537CB3A257E164B00ECA9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C537CB3B257E164B00ECA9FB /* Build configuration list for PBXNativeTarget "JobsAppDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C537CB3C257E164B00ECA9FB /* Debug */,
+				C537CB3D257E164B00ECA9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C537CB3E257E164B00ECA9FB /* Build configuration list for PBXNativeTarget "JobsAppDoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C537CB3F257E164B00ECA9FB /* Debug */,
+				C537CB40257E164B00ECA9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C537CB41257E164B00ECA9FB /* Build configuration list for PBXNativeTarget "JobsAppDoorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C537CB42257E164B00ECA9FB /* Debug */,
+				C537CB43257E164B00ECA9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C537CB18257E164A00ECA9FB /* JobsAppDoor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C537CB19257E164A00ECA9FB /* JobsAppDoor.xcdatamodel */,
+			);
+			currentVersion = C537CB19257E164A00ECA9FB /* JobsAppDoor.xcdatamodel */;
+			path = JobsAppDoor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C537CB01257E164A00ECA9FB /* Project object */;
+}

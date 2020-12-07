@@ -1,0 +1,43 @@
+PODS:
+  - IJKMediaFramework (0.1.5)
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
+  - WHToast (0.0.7)
+  - ZFPlayer (4.0.1):
+    - ZFPlayer/Core (= 4.0.1)
+  - ZFPlayer/AVPlayer (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.0.1)
+  - ZFPlayer/ijkplayer (4.0.1):
+    - IJKMediaFramework
+    - ZFPlayer/Core
+
+DEPENDENCIES:
+  - Masonry
+  - ReactiveObjC
+  - WHToast
+  - ZFPlayer
+  - ZFPlayer/AVPlayer
+  - ZFPlayer/ControlView
+  - ZFPlayer/ijkplayer
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IJKMediaFramework
+    - Masonry
+    - ReactiveObjC
+    - WHToast
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
+  ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
+
+PODFILE CHECKSUM: 5f7320589172b515f30696b98b3723144f6e9609
+
+COCOAPODS: 1.10.0
