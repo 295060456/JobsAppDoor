@@ -9,24 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "JobsAppDoorInputViewBaseStyleModel.h"
 #import "JobsAppDoorInputView.h"
-
-#define Cor1 [kBlackColor colorWithAlphaComponent:0.6f]
-#define Cor2 [kWhiteColor colorWithAlphaComponent:0.7f]
+#import "JobsAppDoorConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
-@interface JobsAppDoorContentViewModel : NSObject
-
-@property(nonatomic,assign)CGFloat contentViewLeftHeight;// 竖形按钮在左边
-@property(nonatomic,assign)CGFloat contentViewRightHeight;// 竖形按钮在右边
-
-@end
 
 @interface JobsAppDoorContentView : UIView
 
 @property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyle *>*loginDoorInputViewBaseStyleMutArr;
 @property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyle *>*registerDoorInputViewBaseStyleMutArr;
 
--(void)richElementsInViewWithModel:(JobsAppDoorContentViewModel *_Nullable)appDoorContentViewModel;//外层数据渲染
+-(void)richElementsInViewWithModel:(id _Nullable)contentViewModel;//外层数据渲染
 -(void)actionBlockJobsAppDoorContentView:(MKDataBlock)jobsAppDoorContentViewBlock;//监测输入字符回调 和 激活的textField 和 toRegisterBtn/abandonLoginBtn点击事件
 
 @end

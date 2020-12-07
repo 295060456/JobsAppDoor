@@ -7,12 +7,9 @@
 //
 
 #import "JobsAppDoorContentView.h"
+#import "JobsAppDoorConfig.h"
 
 //可以发现：（animateWithDuration + Masonry，动画参数设置无效）
-static float ThingsHeight = 50;//边角半圆形控件的高度
-static float RegisterBtnWidth = 64;//竖形按钮的宽度
-static float InputViewOffset = 20;//输入框承接控件之间的上下间距
-
 @interface JobsAppDoorContentView ()
 
 @property(nonatomic,strong)UILabel *titleLab;//标题
@@ -24,7 +21,6 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
 @property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyleModel *>*registerDoorInputViewBaseStyleModelMutArr;
 
 @property(nonatomic,assign)BOOL isOK;
-@property(nonatomic,strong)JobsAppDoorContentViewModel *appDoorContentViewModel;
 @property(nonatomic,copy)MKDataBlock jobsAppDoorContentViewBlock;
 
 @end
@@ -80,8 +76,8 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
     }
 }
 
--(void)richElementsInViewWithModel:(JobsAppDoorContentViewModel *_Nullable)appDoorContentViewModel{
-    self.appDoorContentViewModel = appDoorContentViewModel;
+-(void)richElementsInViewWithModel:(id _Nullable)contentViewModel{
+    
 }
 
 -(void)animationChangeRegisterBtnFrame{
@@ -109,12 +105,12 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
             [self.sendBtn setTitle:@"注册"
                           forState:UIControlStateNormal];
             self.sendBtn.x = self.toRegisterBtn.width + 20;
-            self.sendBtn.bottom = self.appDoorContentViewModel.contentViewLeftHeight - 20;
+            self.sendBtn.bottom = JobsAppDoorContentViewLeftHeight - 20;
             self.sendBtn.size = CGSizeMake(self.width - self.toRegisterBtn.width - 40, ThingsHeight);
             
             self.titleLab.centerX = (self.width + self.toRegisterBtn.width) / 2;
             self.titleLab.text = @"注册";
-            [self.toRegisterBtn setTitle:@"返\n回\n登\n录"
+            [self.toRegisterBtn setTitle:btnTitle1
                                 forState:UIControlStateNormal];
             [self.toRegisterBtn setImage:KIMG(@"用户名称")
                                 forState:UIControlStateNormal];
@@ -193,7 +189,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
             
             self.titleLab.centerX = (self.width - self.toRegisterBtn.width) / 2;
             self.titleLab.text = @"登录";
-            [self.toRegisterBtn setTitle:@"新\n用\n户\n注\n册"
+            [self.toRegisterBtn setTitle:btnTitle2
                                 forState:UIControlStateNormal];
             [self.toRegisterBtn setImage:KIMG(@"用户名称")
                                 forState:UIControlStateNormal];
@@ -230,7 +226,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
                              forState:UIControlStateNormal];
         _toRegisterBtn.titleLabel.font = [UIFont systemFontOfSize:13
                                                            weight:UIFontWeightMedium];
-        [_toRegisterBtn setTitle:@"新\n用\n户\n注\n册"
+        [_toRegisterBtn setTitle:btnTitle2
                         forState:UIControlStateNormal];
         [_toRegisterBtn setImage:KIMG(@"用户名称")
                         forState:UIControlStateNormal];
@@ -380,7 +376,7 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
         [_registerDoorInputViewBaseStyleModelMutArr addObject:确认密码];
         
         JobsAppDoorInputViewBaseStyleModel *推广码 = JobsAppDoorInputViewBaseStyleModel.new;
-        推广码.leftViewIMG = KIMG(@"手机验证码");
+        推广码.leftViewIMG = KIMG(@"推广码");
         推广码.placeHolderStr = @"手机验证码";
         推广码.isShowDelBtn = YES;
         推广码.isShowSecurityBtn = NO;
@@ -416,8 +412,5 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
 
 @end
 
-@implementation JobsAppDoorContentViewModel
-
-@end
 
 

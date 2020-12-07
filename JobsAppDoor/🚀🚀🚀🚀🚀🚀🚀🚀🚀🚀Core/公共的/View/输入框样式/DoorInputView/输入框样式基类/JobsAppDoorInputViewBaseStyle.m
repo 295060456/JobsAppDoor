@@ -16,4 +16,9 @@
 
 @implementation JobsAppDoorInputViewBaseStyle
 
+//外层数据渲染 子类进行覆写
+-(void)richElementsInViewWithModel:(JobsAppDoorInputViewBaseStyleModel *_Nullable)doorInputViewBaseStyleModel{
+    
+}
+
 @end

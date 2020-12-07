@@ -6,10 +6,9 @@
 //  Copyright © 2020 Jobs. All rights reserved.
 //
 
-#import "JobsAppDoorVC.h"
+#import "JobsAppDoorVC_Style1.h"
 
-#define JobsAppDoorContentViewLeftHeight  SCREEN_HEIGHT / 1.7 // 竖形按钮在左边
-#define JobsAppDoorContentViewRightHeight  SCREEN_HEIGHT / 2.5 // 竖形按钮在右边
+
 
 typedef NS_ENUM(NSInteger, CurrentPage) {
     CurrentPage_login = 0,
@@ -18,7 +17,7 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
 
 //ZFPlayerController *ZFPlayer_DoorVC;
 
-@interface JobsAppDoorVC ()
+@interface JobsAppDoorVC_Style1 ()
 
 @property(nonatomic,strong)JobsAppDoorLogoContentView *logoContentView;
 @property(nonatomic,strong)JobsAppDoorContentView *jobsAppDoorContentView;
@@ -39,7 +38,7 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
 
 @end
 
-@implementation JobsAppDoorVC
+@implementation JobsAppDoorVC_Style1
 
 -(void)loadView{
     [super loadView];
@@ -81,7 +80,6 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
         }
     }else{}
 }
-
 
 -(void)keyboard{
     [[NSNotificationCenter defaultCenter] addObserver:self
@@ -174,18 +172,14 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
         _jobsAppDoorContentView = JobsAppDoorContentView.new;
         _jobsAppDoorContentView.backgroundColor = Cor2;
         
-        JobsAppDoorContentViewModel *appDoorContentViewModel = JobsAppDoorContentViewModel.new;
-        appDoorContentViewModel.contentViewLeftHeight = JobsAppDoorContentViewLeftHeight;
-        appDoorContentViewModel.contentViewRightHeight = JobsAppDoorContentViewRightHeight;
-        
-        [_jobsAppDoorContentView richElementsInViewWithModel:appDoorContentViewModel];
+//        [_jobsAppDoorContentView richElementsInViewWithModel:nil];
         @weakify(self)
         //监测输入字符回调 和 激活的textField 和 toRegisterBtn/abandonLoginBtn点击事件
         [_jobsAppDoorContentView actionBlockJobsAppDoorContentView:^(id data) {
             @strongify(self)
             if ([data isKindOfClass:UIButton.class]) {
                 UIButton *btn = (UIButton *)data;
-                if ([btn.titleLabel.text isEqualToString:@"新\n用\n户\n注\n册"] || [btn.titleLabel.text isEqualToString:@"返\n回\n登\n录"]) {
+                if ([btn.titleLabel.text isEqualToString:btnTitle2] || [btn.titleLabel.text isEqualToString:btnTitle1]) {
                     UIButton *toRegisterBtn = (UIButton *)data;
                     //状态置空
                     self.currentActivateTFIndex = 0;

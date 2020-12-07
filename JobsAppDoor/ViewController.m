@@ -6,7 +6,9 @@
 //
 
 #import "ViewController.h"
-#import "JobsAppDoorVC.h"
+
+#import "JobsAppDoorVC_Style1.h"
+#import "JobsAppDoorVC_Style2.h"
 
 @interface ViewController ()
 
@@ -22,7 +24,7 @@
           withEvent:(UIEvent *)event{
     //尝试高仿蜜柚 登录注册忘记密码
     [UIViewController comingFromVC:self
-                              toVC:JobsAppDoorVC.new
+                              toVC:JobsAppDoorVC_Style1.new
                        comingStyle:ComingStyle_PRESENT
                  presentationStyle:UIModalPresentationFullScreen//[UIDevice currentDevice].systemVersion.doubleValue >= 13.0 ? UIModalPresentationAutomatic : UIModalPresentationFullScreen
                      requestParams:@(JobsAppDoorBgType_video)
@@ -31,6 +33,17 @@
                            success:^(id data) {
         
     }];
+    //我自己写的
+//    [UIViewController comingFromVC:self
+//                              toVC:JobsAppDoorVC_Style2.new
+//                       comingStyle:ComingStyle_PRESENT
+//                 presentationStyle:UIModalPresentationFullScreen//[UIDevice currentDevice].systemVersion.doubleValue >= 13.0 ? UIModalPresentationAutomatic : UIModalPresentationFullScreen
+//                     requestParams:@(JobsAppDoorBgType_video)
+//          hidesBottomBarWhenPushed:YES
+//                          animated:YES
+//                           success:^(id data) {
+//
+//    }];
 }
 
 
