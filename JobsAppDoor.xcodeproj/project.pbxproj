@@ -462,7 +462,6 @@
 				C537CB6F257E17BA00ECA9FB /* JobsMagicTextField */,
 				C537CB72257E17BA00ECA9FB /* UITextField+Extend */,
 				C537CB6A257E17BA00ECA9FB /* ZYTextField */,
-				C537CB66257E17BA00ECA9FB /* ZYTextField.bundle */,
 			);
 			path = UITextField;
 			sourceTree = "<group>";
@@ -488,6 +487,7 @@
 		C537CB6A257E17BA00ECA9FB /* ZYTextField */ = {
 			isa = PBXGroup;
 			children = (
+				C537CB66257E17BA00ECA9FB /* ZYTextField.bundle */,
 				C537CB6D257E17BA00ECA9FB /* ZYTextField.h */,
 				C537CB6B257E17BA00ECA9FB /* ZYTextField.m */,
 			);
