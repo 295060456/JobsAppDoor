@@ -8,17 +8,10 @@
 
 #import "JobsAppDoorVC_Style1.h"
 
-
-
-typedef NS_ENUM(NSInteger, CurrentPage) {
-    CurrentPage_login = 0,
-    CurrentPage_register
-};
-
 //ZFPlayerController *ZFPlayer_DoorVC;
 
 @interface JobsAppDoorVC_Style1 ()
-
+//UI
 @property(nonatomic,strong)JobsAppDoorLogoContentView *logoContentView;
 @property(nonatomic,strong)JobsAppDoorContentView *jobsAppDoorContentView;
 @property(nonatomic,strong)UIButton *customerServiceBtn;
@@ -26,8 +19,8 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
 @property(nonatomic,strong)ZFPlayerController *player;
 @property(nonatomic,strong)ZFAVPlayerManager *playerManager;
 @property(nonatomic,strong,nullable)CustomZFPlayerControlView *customPlayerControlView;
-//只要有一个TF还在编辑那么就是在编辑
-@property(nonatomic,assign)BOOL loginDoorInputEditing;
+//Data
+@property(nonatomic,assign)BOOL loginDoorInputEditing;//只要有一个TF还在编辑那么就是在编辑
 @property(nonatomic,assign)BOOL registerDoorInputEditing;
 @property(nonatomic,assign)CGFloat logoContentViewY;//初始高度
 @property(nonatomic,assign)CGFloat jobsAppDoorContentViewY;//初始高度
@@ -55,6 +48,11 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
     [self keyboard];
     self.view.backgroundColor = kBlueColor;
 //    self.setupNavigationBarHidden = YES;
+    
+    //标的值初始化
+    self.logoContentViewY = 0;
+    self.jobsAppDoorContentViewY = 0;
+    self.customerServiceBtnY = 0;
     
     [UIView animationAlert:self.jobsAppDoorContentView];
     [UIView animationAlert:self.logoContentView];

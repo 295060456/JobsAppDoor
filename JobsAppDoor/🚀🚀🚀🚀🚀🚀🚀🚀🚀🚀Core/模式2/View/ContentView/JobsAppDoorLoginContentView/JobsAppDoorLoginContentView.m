@@ -17,7 +17,6 @@
 
 @property(nonatomic,copy)MKDataBlock loginContentViewBlock;
 @property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyleModel *>*loginDoorInputViewBaseStyleModelMutArr;
-@property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyle *>*loginDoorInputViewBaseStyleMutArr;
 
 @end
 

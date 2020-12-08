@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JobsAppDoorRegisterContentView : BaseContentView
 
+@property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyle *>*registerDoorInputViewBaseStyleMutArr;
+
 -(void)richElementsInViewWithModel:(id _Nullable)contentViewModel;//外层数据渲染
 -(void)actionBlockRegisterContentView:(MKDataBlock)registerContentViewBlock;
 

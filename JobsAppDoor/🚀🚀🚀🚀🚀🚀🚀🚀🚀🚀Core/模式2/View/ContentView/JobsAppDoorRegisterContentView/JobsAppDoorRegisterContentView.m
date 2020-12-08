@@ -17,7 +17,6 @@
 @property(nonatomic,strong)UIButton *sendBtn;// 注册按钮
 @property(nonatomic,copy)MKDataBlock registerContentViewBlock;
 @property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyleModel *>*registerDoorInputViewBaseStyleModelMutArr;
-@property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyle *>*registerDoorInputViewBaseStyleMutArr;
 
 @end
 

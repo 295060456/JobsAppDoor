@@ -19,6 +19,11 @@ static float InputViewOffset = 20;//输入框承接控件之间的上下间距
 static NSString * _Nullable btnTitle1 = @"返\n回\n登\n录";
 static NSString * _Nullable btnTitle2 = @"新\n用\n户\n注\n册";
 
+typedef NS_ENUM(NSInteger, CurrentPage) {
+    CurrentPage_login = 0,
+    CurrentPage_register
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JobsAppDoorConfig : NSObject

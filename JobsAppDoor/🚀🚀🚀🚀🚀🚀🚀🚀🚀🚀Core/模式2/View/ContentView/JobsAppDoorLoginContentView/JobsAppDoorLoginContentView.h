@@ -15,8 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JobsAppDoorLoginContentView : BaseContentView
 
+@property(nonatomic,strong)NSMutableArray <JobsAppDoorInputViewBaseStyle *>*loginDoorInputViewBaseStyleMutArr;
+
 -(void)richElementsInViewWithModel:(id _Nullable)contentViewModel;//外层数据渲染
--(void)actionBlockLoginContentView:(MKDataBlock)loginContentViewBlock;
+-(void)actionBlockLoginContentView:(MKDataBlock)loginContentViewBlock;// toRegisterBtn & abandonLoginBtn & sendBtn 点击事件
 
 @end
 
