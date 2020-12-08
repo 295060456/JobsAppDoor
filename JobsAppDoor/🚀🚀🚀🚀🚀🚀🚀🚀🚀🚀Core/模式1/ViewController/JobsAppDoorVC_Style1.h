@@ -37,11 +37,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSInteger, JobsAppDoorBgType){
-    JobsAppDoorBgType_Image = 0,//背景只是一张图
-    JobsAppDoorBgType_video//背景是视频资源
-};
-
+//高仿蜜柚
 @interface JobsAppDoorVC_Style1 : BaseViewController
 
 @end

@@ -32,6 +32,15 @@
 
 @implementation JobsAppDoorVC_Style2
 
+-(void)loadView{
+    [super loadView];
+    if ([self.requestParams integerValue] == JobsAppDoorBgType_Image) {
+        self.view = self.bgImgV;
+    }else if ([self.requestParams integerValue] == JobsAppDoorBgType_video){
+        [self.player.currentPlayerManager play];
+    }else{}
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = kBlueColor;
@@ -60,6 +69,17 @@
     [UIView animationAlert:self.registerContentView];
     [UIView animationAlert:self.logoContentView];
     [UIView animationAlert:self.customerServiceBtn];
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    if ([self.requestParams integerValue] == JobsAppDoorBgType_Image) {
+        
+    }else if ([self.requestParams integerValue] == JobsAppDoorBgType_video){
+        if (self.player.currentPlayerManager.isPlaying) {
+            [self.player.currentPlayerManager pause];
+        }
+    }else{}
 }
 
 -(void)keyboard{
@@ -263,5 +283,54 @@
                      AndBorderWidth:2];
     }return _customerServiceBtn;
 }
+
+-(ZFAVPlayerManager *)playerManager{
+    if (!_playerManager) {
+        _playerManager = ZFAVPlayerManager.new;
+        _playerManager.shouldAutoPlay = YES;
+
+        if (isiPhoneX_series()) {
+            _playerManager.assetURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"welcome_video"
+                                                                                             ofType:@"mp4"]];
+        }else{
+            _playerManager.assetURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"welcome_video"
+                                                                                             ofType:@"mp4"]];
+        }
+    }return _playerManager;
+}
+
+-(ZFPlayerController *)player{
+    if (!_player) {
+        @weakify(self)
+        _player = [[ZFPlayerController alloc] initWithPlayerManager:self.playerManager
+                                                      containerView:self.view];
+        _player.controlView = self.customPlayerControlView;
+//        ZFPlayer_DoorVC = _player;
+        [_player setPlayerDidToEnd:^(id<ZFPlayerMediaPlayback>  _Nonnull asset) {
+            @strongify(self)
+            [self.playerManager replay];//设置循环播放
+        }];
+    }return _player;
+}
+
+-(CustomZFPlayerControlView *)customPlayerControlView{
+    if (!_customPlayerControlView) {
+        _customPlayerControlView = CustomZFPlayerControlView.new;
+        @weakify(self)
+        [_customPlayerControlView actionCustomZFPlayerControlViewBlock:^(id data, id data2) {
+            @strongify(self)
+            [self.view endEditing:YES];
+        }];
+    }return _customPlayerControlView;
+}
+
+-(UIImageView *)bgImgV{
+    if (!_bgImgV) {
+        _bgImgV = UIImageView.new;
+        _bgImgV.image = KIMG(@"AppDoorBgImage");
+        _bgImgV.userInteractionEnabled = YES;
+    }return _bgImgV;
+}
+
 
 @end

@@ -24,6 +24,11 @@ typedef NS_ENUM(NSInteger, CurrentPage) {
     CurrentPage_register
 };
 
+typedef NS_ENUM(NSInteger, JobsAppDoorBgType){
+    JobsAppDoorBgType_Image = 0,//背景只是一张图
+    JobsAppDoorBgType_video//背景是视频资源
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JobsAppDoorConfig : NSObject

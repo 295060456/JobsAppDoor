@@ -40,10 +40,8 @@ typedef NS_ENUM(NSInteger, DoorBgType){
     doorBgType_Image = 0,//背景只是一张图
     doorBgType_video//背景是视频资源
 };
-
 //注册和登录共用一个控制器DoorVC；忘记密码单独一个控制器
 @interface JobsAppDoorVC_Style2 : BaseViewController
-
 
 @end
 
