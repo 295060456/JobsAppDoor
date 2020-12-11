@@ -593,7 +593,6 @@
 			isa = PBXGroup;
 			children = (
 				C537CBBD257E17F900ECA9FB /* DoorInputView */,
-				C537CBD3257E17F900ECA9FB /* JobsAppDoorInputView.h */,
 			);
 			path = "输入框样式";
 			sourceTree = "<group>";
@@ -601,6 +600,7 @@
 		C537CBBD257E17F900ECA9FB /* DoorInputView */ = {
 			isa = PBXGroup;
 			children = (
+				C537CBD3257E17F900ECA9FB /* JobsAppDoorInputView.h */,
 				C537CBBE257E17F900ECA9FB /* 输入框样式_1 */,
 				C537CBC3257E17F900ECA9FB /* 输入框样式_2 */,
 				C537CBCE257E17F900ECA9FB /* 输入框样式_3 */,
@@ -633,10 +633,10 @@
 		C537CBC7257E17F900ECA9FB /* 输入框样式基类 */ = {
 			isa = PBXGroup;
 			children = (
-				C537CBC2257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyleModel.h */,
-				C537CBD2257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyleModel.m */,
 				C537CBC9257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle.h */,
 				C537CBC8257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle.m */,
+				C537CBC2257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyleModel.h */,
+				C537CBD2257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyleModel.m */,
 			);
 			path = "输入框样式基类";
 			sourceTree = "<group>";
@@ -644,9 +644,9 @@
 		C537CBCA257E17F900ECA9FB /* 输入框样式_4 */ = {
 			isa = PBXGroup;
 			children = (
+				C537CBCC257E17F900ECA9FB /* 输入框样式_4.png */,
 				C537CBCB257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_4.h */,
 				C537CBCD257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_4.m */,
-				C537CBCC257E17F900ECA9FB /* 输入框样式_4.png */,
 			);
 			path = "输入框样式_4";
 			sourceTree = "<group>";
