@@ -22,7 +22,6 @@
 		C537CB22257E164A00ECA9FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB21257E164A00ECA9FB /* main.m */; };
 		C537CB2C257E164B00ECA9FB /* JobsAppDoorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB2B257E164B00ECA9FB /* JobsAppDoorTests.m */; };
 		C537CB37257E164B00ECA9FB /* JobsAppDoorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB36257E164B00ECA9FB /* JobsAppDoorUITests.m */; };
-		C537CB57257E179700ECA9FB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB55257E179700ECA9FB /* BaseViewController.m */; };
 		C537CB5D257E17A600ECA9FB /* UIViewController+BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB5C257E17A600ECA9FB /* UIViewController+BaseVC.m */; };
 		C537CB75257E17BA00ECA9FB /* HQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB65257E17BA00ECA9FB /* HQTextField.m */; };
 		C537CB76257E17BA00ECA9FB /* ZYTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C537CB66257E17BA00ECA9FB /* ZYTextField.bundle */; };
@@ -68,6 +67,7 @@
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
 		C5952158257E43CF00376248 /* JobsAppDoorVC_Style2.m in Sources */ = {isa = PBXBuildFile; fileRef = C5952157257E43CF00376248 /* JobsAppDoorVC_Style2.m */; };
 		C595218A257E484D00376248 /* BaseContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5952189257E484D00376248 /* BaseContentView.m */; };
+		C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D600AB2586307C00029AFF /* BaseViewController.m */; };
 		C5D6D82F25860D8E00029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D82A25860D8E00029AFF /* TimeModel.m */; };
 		C5D6D83025860D8E00029AFF /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D82E25860D8E00029AFF /* NSObject+Time.m */; };
 		C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D83925860DAC00029AFF /* NSTimerManager.m */; };
@@ -117,8 +117,6 @@
 		C537CB32257E164B00ECA9FB /* JobsAppDoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsAppDoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C537CB36257E164B00ECA9FB /* JobsAppDoorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorUITests.m; sourceTree = "<group>"; };
 		C537CB38257E164B00ECA9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C537CB55257E179700ECA9FB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		C537CB56257E179700ECA9FB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		C537CB5B257E17A600ECA9FB /* UIViewController+BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BaseVC.h"; sourceTree = "<group>"; };
 		C537CB5C257E17A600ECA9FB /* UIViewController+BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BaseVC.m"; sourceTree = "<group>"; };
 		C537CB64257E17BA00ECA9FB /* HQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTextField.h; sourceTree = "<group>"; };
@@ -230,6 +228,8 @@
 		C5952165257E43ED00376248 /* JobsAppDoorLoginContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorLoginContentView.h; sourceTree = "<group>"; };
 		C5952188257E484D00376248 /* BaseContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseContentView.h; sourceTree = "<group>"; };
 		C5952189257E484D00376248 /* BaseContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseContentView.m; sourceTree = "<group>"; };
+		C5D600AB2586307C00029AFF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C5D600AC2586307C00029AFF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		C5D6D82A25860D8E00029AFF /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
 		C5D6D82B25860D8E00029AFF /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
 		C5D6D82D25860D8E00029AFF /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
@@ -440,8 +440,8 @@
 		C537CB54257E179700ECA9FB /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C537CB56257E179700ECA9FB /* BaseViewController.h */,
-				C537CB55257E179700ECA9FB /* BaseViewController.m */,
+				C5D600AC2586307C00029AFF /* BaseViewController.h */,
+				C5D600AB2586307C00029AFF /* BaseViewController.m */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -449,10 +449,8 @@
 		C537CB61257E17AB00ECA9FB /* UIViewController+Category */ = {
 			isa = PBXGroup;
 			children = (
-				C537D0E0257E250600ECA9FB /* UIViewController+BackBtn.h */,
-				C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */,
-				C537CB5B257E17A600ECA9FB /* UIViewController+BaseVC.h */,
-				C537CB5C257E17A600ECA9FB /* UIViewController+BaseVC.m */,
+				C5D6F9F1258626C800029AFF /* UIViewController+BaseVC */,
+				C5D6F9F0258626C000029AFF /* UIViewController+BackBtn */,
 			);
 			path = "UIViewController+Category";
 			sourceTree = "<group>";
@@ -974,6 +972,24 @@
 			path = NSTimerManager;
 			sourceTree = "<group>";
 		};
+		C5D6F9F0258626C000029AFF /* UIViewController+BackBtn */ = {
+			isa = PBXGroup;
+			children = (
+				C537D0E0257E250600ECA9FB /* UIViewController+BackBtn.h */,
+				C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */,
+			);
+			path = "UIViewController+BackBtn";
+			sourceTree = "<group>";
+		};
+		C5D6F9F1258626C800029AFF /* UIViewController+BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB5B257E17A600ECA9FB /* UIViewController+BaseVC.h */,
+				C537CB5C257E17A600ECA9FB /* UIViewController+BaseVC.m */,
+			);
+			path = "UIViewController+BaseVC";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1219,6 +1235,7 @@
 				C537CB8C257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m in Sources */,
 				C537CB5D257E17A600ECA9FB /* UIViewController+BaseVC.m in Sources */,
 				C537CFAB257E215C00ECA9FB /* UIView+Chain.m in Sources */,
+				C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */,
 				C52F954B257E554400DF2DA9 /* JobsAppDoorRegisterContentView.m in Sources */,
 				C537CB22257E164A00ECA9FB /* main.m in Sources */,
 				C537CBB2257E17D400ECA9FB /* NSObject+Extras.m in Sources */,
@@ -1233,7 +1250,6 @@
 				C537CFAC257E215C00ECA9FB /* UIView+Measure.m in Sources */,
 				C537CFBB257E21BF00ECA9FB /* CustomZFPlayerControlView.m in Sources */,
 				C595218A257E484D00376248 /* BaseContentView.m in Sources */,
-				C537CB57257E179700ECA9FB /* BaseViewController.m in Sources */,
 				C5D6D83025860D8E00029AFF /* NSObject+Time.m in Sources */,
 				C537CB0E257E164A00ECA9FB /* JobsAppDoorDelegate.m in Sources */,
 				C52F9551257E565E00DF2DA9 /* JobsAppDoorConfig.m in Sources */,
