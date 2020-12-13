@@ -39,7 +39,6 @@
 		C537CBB0257E17D400ECA9FB /* NSObject+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBA0257E17D400ECA9FB /* NSObject+Measure.m */; };
 		C537CBB1257E17D400ECA9FB /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBA1257E17D400ECA9FB /* NSObject+RichText.m */; };
 		C537CBB2257E17D400ECA9FB /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBA4257E17D400ECA9FB /* NSObject+Extras.m */; };
-		C537CBB4257E17D400ECA9FB /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBA7257E17D400ECA9FB /* NSObject+Time.m */; };
 		C537CBD9257E17F900ECA9FB /* 尝试高仿蜜柚.md in Resources */ = {isa = PBXBuildFile; fileRef = C537CBBA257E17F900ECA9FB /* 尝试高仿蜜柚.md */; };
 		C537CBDB257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_1.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBC0257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_1.m */; };
 		C537CBDC257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_2.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBC4257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_2.m */; };
@@ -51,7 +50,6 @@
 		C537CBE5257E17F900ECA9FB /* JobsAppDoorVC_Style1.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBD7257E17F900ECA9FB /* JobsAppDoorVC_Style1.m */; };
 		C537CBF7257E186300ECA9FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CBF6257E186300ECA9FB /* ViewController.m */; };
 		C537CC38257E19B100ECA9FB /* YBNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CC2C257E19B100ECA9FB /* YBNotificationManager.m */; };
-		C537CF51257E1EA400ECA9FB /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CF46257E1EA400ECA9FB /* NSTimerManager.m */; };
 		C537CF52257E1EA400ECA9FB /* GCD_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CF48257E1EA400ECA9FB /* GCD_TimerManager.m */; };
 		C537CF53257E1EA400ECA9FB /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CF4C257E1EA400ECA9FB /* Nanosecond_TimerManager.m */; };
 		C537CF54257E1EA400ECA9FB /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CF4F257E1EA400ECA9FB /* CADisplayLink_TimerManager.m */; };
@@ -70,6 +68,9 @@
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
 		C5952158257E43CF00376248 /* JobsAppDoorVC_Style2.m in Sources */ = {isa = PBXBuildFile; fileRef = C5952157257E43CF00376248 /* JobsAppDoorVC_Style2.m */; };
 		C595218A257E484D00376248 /* BaseContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5952189257E484D00376248 /* BaseContentView.m */; };
+		C5D6D82F25860D8E00029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D82A25860D8E00029AFF /* TimeModel.m */; };
+		C5D6D83025860D8E00029AFF /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D82E25860D8E00029AFF /* NSObject+Time.m */; };
+		C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D83925860DAC00029AFF /* NSTimerManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,13 +141,11 @@
 		C537CB93257E17D400ECA9FB /* NSObject+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Random.m"; sourceTree = "<group>"; };
 		C537CB94257E17D400ECA9FB /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
 		C537CB9C257E17D400ECA9FB /* NSObject+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extras.h"; sourceTree = "<group>"; };
-		C537CB9E257E17D400ECA9FB /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
 		C537CB9F257E17D400ECA9FB /* NSObject+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OpenURL.m"; sourceTree = "<group>"; };
 		C537CBA0257E17D400ECA9FB /* NSObject+Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Measure.m"; sourceTree = "<group>"; };
 		C537CBA1257E17D400ECA9FB /* NSObject+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RichText.m"; sourceTree = "<group>"; };
 		C537CBA2257E17D400ECA9FB /* NSObject+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Random.h"; sourceTree = "<group>"; };
 		C537CBA4257E17D400ECA9FB /* NSObject+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extras.m"; sourceTree = "<group>"; };
-		C537CBA7257E17D400ECA9FB /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C537CBA8257E17D400ECA9FB /* NSObject+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OpenURL.h"; sourceTree = "<group>"; };
 		C537CBA9257E17D400ECA9FB /* NSObject+Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Measure.h"; sourceTree = "<group>"; };
 		C537CBBA257E17F900ECA9FB /* 尝试高仿蜜柚.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "尝试高仿蜜柚.md"; sourceTree = "<group>"; };
@@ -190,8 +189,6 @@
 		C537CC36257E19B100ECA9FB /* MacroDef_Sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_Sys.h; sourceTree = "<group>"; };
 		C537CD40257E1C0A00ECA9FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C537CF43257E1EA400ECA9FB /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
-		C537CF45257E1EA400ECA9FB /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
-		C537CF46257E1EA400ECA9FB /* NSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerManager.m; sourceTree = "<group>"; };
 		C537CF48257E1EA400ECA9FB /* GCD_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD_TimerManager.m; sourceTree = "<group>"; };
 		C537CF49257E1EA400ECA9FB /* GCD_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD_TimerManager.h; sourceTree = "<group>"; };
 		C537CF4A257E1EA400ECA9FB /* TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager.h; sourceTree = "<group>"; };
@@ -233,6 +230,12 @@
 		C5952165257E43ED00376248 /* JobsAppDoorLoginContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorLoginContentView.h; sourceTree = "<group>"; };
 		C5952188257E484D00376248 /* BaseContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseContentView.h; sourceTree = "<group>"; };
 		C5952189257E484D00376248 /* BaseContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseContentView.m; sourceTree = "<group>"; };
+		C5D6D82A25860D8E00029AFF /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		C5D6D82B25860D8E00029AFF /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		C5D6D82D25860D8E00029AFF /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
+		C5D6D82E25860D8E00029AFF /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
+		C5D6D83825860DAC00029AFF /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
+		C5D6D83925860DAC00029AFF /* NSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerManager.m; sourceTree = "<group>"; };
 		FA3374C4D4F3467D978870FC /* Pods-JobsAppDoorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorTests/Pods-JobsAppDoorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB5090199E67D974674A68C2 /* Pods-JobsAppDoorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorUITests/Pods-JobsAppDoorUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -544,18 +547,13 @@
 		C537CB92257E17D400ECA9FB /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				C537CB9C257E17D400ECA9FB /* NSObject+Extras.h */,
-				C537CBA4257E17D400ECA9FB /* NSObject+Extras.m */,
-				C537CBA9257E17D400ECA9FB /* NSObject+Measure.h */,
-				C537CBA0257E17D400ECA9FB /* NSObject+Measure.m */,
-				C537CBA8257E17D400ECA9FB /* NSObject+OpenURL.h */,
-				C537CB9F257E17D400ECA9FB /* NSObject+OpenURL.m */,
-				C537CBA2257E17D400ECA9FB /* NSObject+Random.h */,
-				C537CB93257E17D400ECA9FB /* NSObject+Random.m */,
-				C537CB94257E17D400ECA9FB /* NSObject+RichText.h */,
-				C537CBA1257E17D400ECA9FB /* NSObject+RichText.m */,
-				C537CB9E257E17D400ECA9FB /* NSObject+Time.h */,
-				C537CBA7257E17D400ECA9FB /* NSObject+Time.m */,
+				C5D6D82925860D8E00029AFF /* NSObject (Time) */,
+				C5D6D82C25860D8E00029AFF /* NSObject+Time */,
+				C5D6C6AC2585F16900029AFF /* NSObject+RichText */,
+				C5D6C6AB2585F15F00029AFF /* NSObject+Random */,
+				C5D6C6AA2585F15700029AFF /* NSObject+OpenURL */,
+				C5D6C6A92585F15000029AFF /* NSObject+Measure */,
+				C5D6C6A82585F14900029AFF /* NSObject+Extras */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -723,20 +721,11 @@
 				C537CF4E257E1EA400ECA9FB /* CADisplayLink_TimerManager */,
 				C537CF47257E1EA400ECA9FB /* GCD_TimerManager(未完) */,
 				C537CF4B257E1EA400ECA9FB /* Nanosecond_TimerManager */,
-				C537CF44257E1EA400ECA9FB /* NSTimerManager */,
+				C5D6D83725860DAC00029AFF /* NSTimerManager */,
 				C537CF43257E1EA400ECA9FB /* TimerManager_DefineStructure.h */,
 				C537CF4A257E1EA400ECA9FB /* TimerManager.h */,
 			);
 			path = TimerManager;
-			sourceTree = "<group>";
-		};
-		C537CF44257E1EA400ECA9FB /* NSTimerManager */ = {
-			isa = PBXGroup;
-			children = (
-				C537CF45257E1EA400ECA9FB /* NSTimerManager.h */,
-				C537CF46257E1EA400ECA9FB /* NSTimerManager.m */,
-			);
-			path = NSTimerManager;
 			sourceTree = "<group>";
 		};
 		C537CF47257E1EA400ECA9FB /* GCD_TimerManager(未完) */ = {
@@ -817,8 +806,7 @@
 		C537CFE6257E22F800ECA9FB /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				C537CFE8257E22FE00ECA9FB /* NSString+Extras.h */,
-				C537CFE7257E22FE00ECA9FB /* NSString+Extras.m */,
+				C5D6CCFB2585FA6500029AFF /* NSString+Extras */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -902,6 +890,88 @@
 				C5952189257E484D00376248 /* BaseContentView.m */,
 			);
 			path = BaseContentView;
+			sourceTree = "<group>";
+		};
+		C5D6C6A82585F14900029AFF /* NSObject+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB9C257E17D400ECA9FB /* NSObject+Extras.h */,
+				C537CBA4257E17D400ECA9FB /* NSObject+Extras.m */,
+			);
+			path = "NSObject+Extras";
+			sourceTree = "<group>";
+		};
+		C5D6C6A92585F15000029AFF /* NSObject+Measure */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBA9257E17D400ECA9FB /* NSObject+Measure.h */,
+				C537CBA0257E17D400ECA9FB /* NSObject+Measure.m */,
+			);
+			path = "NSObject+Measure";
+			sourceTree = "<group>";
+		};
+		C5D6C6AA2585F15700029AFF /* NSObject+OpenURL */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBA8257E17D400ECA9FB /* NSObject+OpenURL.h */,
+				C537CB9F257E17D400ECA9FB /* NSObject+OpenURL.m */,
+			);
+			path = "NSObject+OpenURL";
+			sourceTree = "<group>";
+		};
+		C5D6C6AB2585F15F00029AFF /* NSObject+Random */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBA2257E17D400ECA9FB /* NSObject+Random.h */,
+				C537CB93257E17D400ECA9FB /* NSObject+Random.m */,
+			);
+			path = "NSObject+Random";
+			sourceTree = "<group>";
+		};
+		C5D6C6AC2585F16900029AFF /* NSObject+RichText */ = {
+			isa = PBXGroup;
+			children = (
+				C537CB94257E17D400ECA9FB /* NSObject+RichText.h */,
+				C537CBA1257E17D400ECA9FB /* NSObject+RichText.m */,
+			);
+			path = "NSObject+RichText";
+			sourceTree = "<group>";
+		};
+		C5D6CCFB2585FA6500029AFF /* NSString+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFE8257E22FE00ECA9FB /* NSString+Extras.h */,
+				C537CFE7257E22FE00ECA9FB /* NSString+Extras.m */,
+			);
+			path = "NSString+Extras";
+			sourceTree = "<group>";
+		};
+		C5D6D82925860D8E00029AFF /* NSObject (Time) */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6D82A25860D8E00029AFF /* TimeModel.m */,
+				C5D6D82B25860D8E00029AFF /* TimeModel.h */,
+			);
+			path = "NSObject (Time)";
+			sourceTree = "<group>";
+		};
+		C5D6D82C25860D8E00029AFF /* NSObject+Time */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6D82D25860D8E00029AFF /* NSObject+Time.h */,
+				C5D6D82E25860D8E00029AFF /* NSObject+Time.m */,
+			);
+			name = "NSObject+Time";
+			path = "../../../../JobsBitsMonitor/JobsBitsMonitor/BaseCustomizeUIKit/NSObject/NSObject+Time";
+			sourceTree = "<group>";
+		};
+		C5D6D83725860DAC00029AFF /* NSTimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6D83825860DAC00029AFF /* NSTimerManager.h */,
+				C5D6D83925860DAC00029AFF /* NSTimerManager.m */,
+			);
+			path = NSTimerManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1164,6 +1234,7 @@
 				C537CFBB257E21BF00ECA9FB /* CustomZFPlayerControlView.m in Sources */,
 				C595218A257E484D00376248 /* BaseContentView.m in Sources */,
 				C537CB57257E179700ECA9FB /* BaseViewController.m in Sources */,
+				C5D6D83025860D8E00029AFF /* NSObject+Time.m in Sources */,
 				C537CB0E257E164A00ECA9FB /* JobsAppDoorDelegate.m in Sources */,
 				C52F9551257E565E00DF2DA9 /* JobsAppDoorConfig.m in Sources */,
 				C537CB11257E164A00ECA9FB /* JobsAppDoorSceneDelegate.m in Sources */,
@@ -1175,20 +1246,20 @@
 				C537CBE3257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyleModel.m in Sources */,
 				C537CF54257E1EA400ECA9FB /* CADisplayLink_TimerManager.m in Sources */,
 				C537CFCF257E222F00ECA9FB /* JobsAppDoorLogoContentView.m in Sources */,
-				C537CF51257E1EA400ECA9FB /* NSTimerManager.m in Sources */,
 				C537CB77257E17BA00ECA9FB /* CJTextField.m in Sources */,
 				C537CFAE257E215C00ECA9FB /* UIView+SuspendView.m in Sources */,
 				C537CF52257E1EA400ECA9FB /* GCD_TimerManager.m in Sources */,
 				C537CB7B257E17BA00ECA9FB /* UITextField+Extend.m in Sources */,
+				C5D6D82F25860D8E00029AFF /* TimeModel.m in Sources */,
 				C537CBDC257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_2.m in Sources */,
 				C537CB1A257E164A00ECA9FB /* JobsAppDoor.xcdatamodeld in Sources */,
+				C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */,
 				C537CFAF257E215C00ECA9FB /* UIView+Extras.m in Sources */,
 				C537CBAF257E17D400ECA9FB /* NSObject+OpenURL.m in Sources */,
 				C537CC38257E19B100ECA9FB /* YBNotificationManager.m in Sources */,
 				C537CBE0257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_4.m in Sources */,
 				C537CFC5257E21D800ECA9FB /* ImageCodeView.m in Sources */,
 				C537CFB0257E215C00ECA9FB /* UIView+ZFPlayer.m in Sources */,
-				C537CBB4257E17D400ECA9FB /* NSObject+Time.m in Sources */,
 				C5952158257E43CF00376248 /* JobsAppDoorVC_Style2.m in Sources */,
 				C537CB7A257E17BA00ECA9FB /* JobsMagicTextField.m in Sources */,
 				C537CBB0257E17D400ECA9FB /* NSObject+Measure.m in Sources */,
