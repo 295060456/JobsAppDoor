@@ -756,20 +756,13 @@
 		C537CF9C257E215C00ECA9FB /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C537CFA9257E215C00ECA9FB /* UIView+Animation.h */,
-				C537CFA2257E215C00ECA9FB /* UIView+Animation.m */,
-				C537CFA4257E215C00ECA9FB /* UIView+Chain.h */,
-				C537CF9F257E215C00ECA9FB /* UIView+Chain.m */,
-				C537CF9E257E215C00ECA9FB /* UIView+Extras.h */,
-				C537CFA5257E215C00ECA9FB /* UIView+Extras.m */,
-				C537CFA0257E215C00ECA9FB /* UIView+Gradient.h */,
-				C537CFA7257E215C00ECA9FB /* UIView+Gradient.m */,
-				C537CFAA257E215C00ECA9FB /* UIView+Measure.h */,
-				C537CFA1257E215C00ECA9FB /* UIView+Measure.m */,
-				C537CFA8257E215C00ECA9FB /* UIView+SuspendView.h */,
-				C537CFA3257E215C00ECA9FB /* UIView+SuspendView.m */,
-				C537CF9D257E215C00ECA9FB /* UIView+ZFPlayer.h */,
-				C537CFA6257E215C00ECA9FB /* UIView+ZFPlayer.m */,
+				C595BAF4258640BC002A4531 /* UIView+Animation */,
+				C595BAF5258640C1002A4531 /* UIView+Chain */,
+				C595BAF6258640C8002A4531 /* UIView+Extras */,
+				C595BAF7258640D0002A4531 /* UIView+Gradient */,
+				C595BAF8258640D8002A4531 /* UIView+Measure */,
+				C595BAF9258640DF002A4531 /* UIView+SuspendView */,
+				C595BAFA258640E6002A4531 /* UIView+ZFPlayer */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -888,6 +881,69 @@
 				C5952189257E484D00376248 /* BaseContentView.m */,
 			);
 			path = BaseContentView;
+			sourceTree = "<group>";
+		};
+		C595BAF4258640BC002A4531 /* UIView+Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFA9257E215C00ECA9FB /* UIView+Animation.h */,
+				C537CFA2257E215C00ECA9FB /* UIView+Animation.m */,
+			);
+			path = "UIView+Animation";
+			sourceTree = "<group>";
+		};
+		C595BAF5258640C1002A4531 /* UIView+Chain */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFA4257E215C00ECA9FB /* UIView+Chain.h */,
+				C537CF9F257E215C00ECA9FB /* UIView+Chain.m */,
+			);
+			path = "UIView+Chain";
+			sourceTree = "<group>";
+		};
+		C595BAF6258640C8002A4531 /* UIView+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C537CF9E257E215C00ECA9FB /* UIView+Extras.h */,
+				C537CFA5257E215C00ECA9FB /* UIView+Extras.m */,
+			);
+			path = "UIView+Extras";
+			sourceTree = "<group>";
+		};
+		C595BAF7258640D0002A4531 /* UIView+Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFA0257E215C00ECA9FB /* UIView+Gradient.h */,
+				C537CFA7257E215C00ECA9FB /* UIView+Gradient.m */,
+			);
+			path = "UIView+Gradient";
+			sourceTree = "<group>";
+		};
+		C595BAF8258640D8002A4531 /* UIView+Measure */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFAA257E215C00ECA9FB /* UIView+Measure.h */,
+				C537CFA1257E215C00ECA9FB /* UIView+Measure.m */,
+			);
+			path = "UIView+Measure";
+			sourceTree = "<group>";
+		};
+		C595BAF9258640DF002A4531 /* UIView+SuspendView */ = {
+			isa = PBXGroup;
+			children = (
+				C537CFA8257E215C00ECA9FB /* UIView+SuspendView.h */,
+				C537CFA3257E215C00ECA9FB /* UIView+SuspendView.m */,
+			);
+			path = "UIView+SuspendView";
+			sourceTree = "<group>";
+		};
+		C595BAFA258640E6002A4531 /* UIView+ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C537CF9D257E215C00ECA9FB /* UIView+ZFPlayer.h */,
+				C537CFA6257E215C00ECA9FB /* UIView+ZFPlayer.m */,
+			);
+			path = "UIView+ZFPlayer";
 			sourceTree = "<group>";
 		};
 		C5D6C6A82585F14900029AFF /* NSObject+Extras */ = {
