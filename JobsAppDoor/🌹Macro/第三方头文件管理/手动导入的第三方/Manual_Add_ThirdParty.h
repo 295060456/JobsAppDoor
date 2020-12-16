@@ -9,27 +9,7 @@
 #ifndef Manual_Add_ThirdParty_h
 #define Manual_Add_ThirdParty_h
 
-// 屏幕大小、宽、高
-#ifndef SCREEN_BOUNDS
-#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
-#endif
-#ifndef SCREEN_WIDTH
-#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#endif
-#ifndef SCREEN_HEIGHT
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
-#endif
-
-#import "AABlock.h"
-#import "YBNotificationManager.h"
-#import "TimerManager.h"
-
-#import "MacroDef_App.h"
-#import "MacroDef_Cor.h"
-#import "MacroDef_Func.h"
-#import "MacroDef_Sys.h"
-
-//BaseCustomizeUIKit
+#pragma mark —— BaseCustomizeUIKit
 //NSObject
 #import "NSObject+Extras.h"
 #import "NSObject+Measure.h"
@@ -64,6 +44,8 @@
 #import "NSString+Extras.h"
 //UIImage
 #import "LoadingImage.h"
+#pragma mark —— Manual_Add_ThirdParty
+#import "TimerManager.h"
 
 #import "JobsAppDoorDelegate.h"
 #import "JobsAppDoorSceneDelegate.h"
