@@ -431,13 +431,13 @@
 		C537CB52257E177300ECA9FB /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C537CB92257E17D400ECA9FB /* NSObject */,
+				C537CFE6257E22F800ECA9FB /* NSString */,
+				C537CB7F257E17C200ECA9FB /* UIButton */,
 				C5D0C3B125879758002CA224 /* UIControl */,
 				C537CFED257E235200ECA9FB /* UIImage */,
-				C537CFE6257E22F800ECA9FB /* NSString */,
-				C537CF9C257E215C00ECA9FB /* UIView */,
-				C537CB92257E17D400ECA9FB /* NSObject */,
-				C537CB7F257E17C200ECA9FB /* UIButton */,
 				C537CB62257E17BA00ECA9FB /* UITextField */,
+				C537CF9C257E215C00ECA9FB /* UIView */,
 				C537CB53257E178100ECA9FB /* UIViewController */,
 			);
 			path = BaseCustomizeUIKit;
@@ -464,8 +464,8 @@
 		C537CB61257E17AB00ECA9FB /* UIViewController+Category */ = {
 			isa = PBXGroup;
 			children = (
-				C5D6F9F1258626C800029AFF /* UIViewController+BaseVC */,
 				C5D6F9F0258626C000029AFF /* UIViewController+BackBtn */,
+				C5D6F9F1258626C800029AFF /* UIViewController+BaseVC */,
 			);
 			path = "UIViewController+Category";
 			sourceTree = "<group>";
@@ -723,8 +723,8 @@
 		C537CF41257E1E9400ECA9FB /* 🔨Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
-				C537CFC2257E21D800ECA9FB /* 图形验证码 */,
 				C537CFB8257E21BF00ECA9FB /* 播放器控制层 */,
+				C537CFC2257E21D800ECA9FB /* 图形验证码 */,
 				C537CF42257E1EA400ECA9FB /* TimerManager */,
 			);
 			path = "🔨Manual_Add_ThirdParty ";
@@ -966,10 +966,10 @@
 		C5D0B6F225878C58002CA224 /* SoundBtn */ = {
 			isa = PBXGroup;
 			children = (
-				C5D0B6F325878C58002CA224 /* Sound.wav */,
 				C5D0B6F425878C58002CA224 /* 带有按键音的按钮.md */,
-				C5D0B6F525878C58002CA224 /* SoundBtn.m */,
+				C5D0B6F325878C58002CA224 /* Sound.wav */,
 				C5D0B6F625878C58002CA224 /* SoundBtn.h */,
+				C5D0B6F525878C58002CA224 /* SoundBtn.m */,
 			);
 			path = SoundBtn;
 			sourceTree = "<group>";
@@ -986,9 +986,9 @@
 		C5D0C3B125879758002CA224 /* UIControl */ = {
 			isa = PBXGroup;
 			children = (
+				C5D0C3C0258797AC002CA224 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */,
 				C5D0C3B225879758002CA224 /* UIControl+XY.h */,
 				C5D0C3B425879758002CA224 /* UIControl+XY.m */,
-				C5D0C3C0258797AC002CA224 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
