@@ -595,8 +595,7 @@
 			isa = PBXGroup;
 			children = (
 				C5952142257E42BF00376248 /* 公共的 */,
-				C537CBB9257E17F900ECA9FB /* 模式1 */,
-				C5952143257E42DA00376248 /* 模式2 */,
+				C546F880258B47D10008928C /* 登录和注册 */,
 			);
 			path = "🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀Core";
 			sourceTree = "<group>";
@@ -841,6 +840,15 @@
 				C537CFEE257E235800ECA9FB /* LoadingImage.h */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		C546F880258B47D10008928C /* 登录和注册 */ = {
+			isa = PBXGroup;
+			children = (
+				C537CBB9257E17F900ECA9FB /* 模式1 */,
+				C5952143257E42DA00376248 /* 模式2 */,
+			);
+			path = "登录和注册";
 			sourceTree = "<group>";
 		};
 		C5580395258A44EA0078DB8F /* PodsManual */ = {

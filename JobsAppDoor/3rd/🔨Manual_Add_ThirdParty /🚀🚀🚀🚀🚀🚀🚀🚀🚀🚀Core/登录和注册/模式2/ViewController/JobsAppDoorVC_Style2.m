@@ -198,8 +198,14 @@
                     } completion:^(BOOL finished) {
                         
                     }];
+                }else if([btn.titleLabel.text isEqualToString:@"随便逛逛"]){
+                    [self backBtnClickEvent:btn];
                 }else{}
-            }
+            }else if ([data isKindOfClass:JobsMagicTextField.class]){
+                
+            }else if ([data isKindOfClass:NSString.class]){
+                
+            }else{}
         }];
         [UIView cornerCutToCircleWithView:_loginContentView
                           AndCornerRadius:8];
