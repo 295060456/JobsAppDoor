@@ -73,6 +73,8 @@
 		C5D0B6F925878C58002CA224 /* SoundBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D0B6F525878C58002CA224 /* SoundBtn.m */; };
 		C5D0B70025878C6E002CA224 /* NSObject+Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D0B6FE25878C6E002CA224 /* NSObject+Sound.m */; };
 		C5D0C3B625879758002CA224 /* UIControl+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D0C3B425879758002CA224 /* UIControl+XY.m */; };
+		C5D1BDE1258B1F0D00784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1BDDF258B1F0D00784D2F /* UIView+EmptyData.m */; };
+		C5D1BDEA258B1F2E00784D2F /* UIViewController+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1BDE9258B1F2E00784D2F /* UIViewController+EmptyData.m */; };
 		C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D600AB2586307C00029AFF /* BaseViewController.m */; };
 		C5D6D82F25860D8E00029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D82A25860D8E00029AFF /* TimeModel.m */; };
 		C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D83925860DAC00029AFF /* NSTimerManager.m */; };
@@ -246,6 +248,10 @@
 		C5D0C3B225879758002CA224 /* UIControl+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XY.h"; sourceTree = "<group>"; };
 		C5D0C3B425879758002CA224 /* UIControl+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XY.m"; sourceTree = "<group>"; };
 		C5D0C3C0258797AC002CA224 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS小技巧：用runtime 解决UIButton 重复点击问题.md"; sourceTree = "<group>"; };
+		C5D1BDDF258B1F0D00784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
+		C5D1BDE0258B1F0D00784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
+		C5D1BDE8258B1F2E00784D2F /* UIViewController+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EmptyData.h"; sourceTree = "<group>"; };
+		C5D1BDE9258B1F2E00784D2F /* UIViewController+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EmptyData.m"; sourceTree = "<group>"; };
 		C5D600AB2586307C00029AFF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		C5D600AC2586307C00029AFF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		C5D6D82A25860D8E00029AFF /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
@@ -477,6 +483,7 @@
 			children = (
 				C5D6F9F0258626C000029AFF /* UIViewController+BackBtn */,
 				C5D6F9F1258626C800029AFF /* UIViewController+BaseVC */,
+				C5D1B8C6258B0BB700784D2F /* UIViewController+EmptyData */,
 			);
 			path = "UIViewController+Category";
 			sourceTree = "<group>";
@@ -783,6 +790,7 @@
 			children = (
 				C595BAF4258640BC002A4531 /* UIView+Animation */,
 				C595BAF5258640C1002A4531 /* UIView+Chain */,
+				C5D1BDDE258B1F0D00784D2F /* UIView+EmptyData */,
 				C595BAF6258640C8002A4531 /* UIView+Extras */,
 				C595BAF7258640D0002A4531 /* UIView+Gradient */,
 				C595BAF8258640D8002A4531 /* UIView+Measure */,
@@ -1077,6 +1085,24 @@
 				C5D0C3B425879758002CA224 /* UIControl+XY.m */,
 			);
 			path = UIControl;
+			sourceTree = "<group>";
+		};
+		C5D1B8C6258B0BB700784D2F /* UIViewController+EmptyData */ = {
+			isa = PBXGroup;
+			children = (
+				C5D1BDE8258B1F2E00784D2F /* UIViewController+EmptyData.h */,
+				C5D1BDE9258B1F2E00784D2F /* UIViewController+EmptyData.m */,
+			);
+			path = "UIViewController+EmptyData";
+			sourceTree = "<group>";
+		};
+		C5D1BDDE258B1F0D00784D2F /* UIView+EmptyData */ = {
+			isa = PBXGroup;
+			children = (
+				C5D1BDE0258B1F0D00784D2F /* UIView+EmptyData.h */,
+				C5D1BDDF258B1F0D00784D2F /* UIView+EmptyData.m */,
+			);
+			path = "UIView+EmptyData";
 			sourceTree = "<group>";
 		};
 		C5D6C6A82585F14900029AFF /* NSObject+Extras */ = {
@@ -1417,6 +1443,7 @@
 				C537CB5D257E17A600ECA9FB /* UIViewController+BaseVC.m in Sources */,
 				C537CFAB257E215C00ECA9FB /* UIView+Chain.m in Sources */,
 				C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */,
+				C5D1BDEA258B1F2E00784D2F /* UIViewController+EmptyData.m in Sources */,
 				C52F954B257E554400DF2DA9 /* JobsAppDoorRegisterContentView.m in Sources */,
 				C537CB22257E164A00ECA9FB /* main.m in Sources */,
 				C537CBB2257E17D400ECA9FB /* NSObject+Extras.m in Sources */,
@@ -1458,6 +1485,7 @@
 				C537CC38257E19B100ECA9FB /* NotificationManager.m in Sources */,
 				C537CBE0257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_4.m in Sources */,
 				C5D0B6F925878C58002CA224 /* SoundBtn.m in Sources */,
+				C5D1BDE1258B1F0D00784D2F /* UIView+EmptyData.m in Sources */,
 				C537CFC5257E21D800ECA9FB /* ImageCodeView.m in Sources */,
 				C537CFB0257E215C00ECA9FB /* UIView+ZFPlayer.m in Sources */,
 				C5952158257E43CF00376248 /* JobsAppDoorVC_Style2.m in Sources */,

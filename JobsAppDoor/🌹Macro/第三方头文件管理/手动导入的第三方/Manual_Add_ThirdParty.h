@@ -32,6 +32,7 @@
 //UIViewController+Category
 #import "UIViewController+BaseVC.h"
 #import "UIViewController+BackBtn.h"
+#import "UIViewController+EmptyData.h"
 //UIView
 #import "UIView+Animation.h"
 #import "UIView+Chain.h"
@@ -40,6 +41,7 @@
 #import "UIView+Measure.h"
 #import "UIView+SuspendView.h"
 #import "UIView+ZFPlayer.h"
+#import "UIView+EmptyData.h"
 //NSString
 #import "NSString+Extras.h"
 //UIImage
