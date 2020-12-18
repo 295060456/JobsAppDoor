@@ -27,7 +27,6 @@
 		C537CB75257E17BA00ECA9FB /* HQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB65257E17BA00ECA9FB /* HQTextField.m */; };
 		C537CB76257E17BA00ECA9FB /* ZYTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C537CB66257E17BA00ECA9FB /* ZYTextField.bundle */; };
 		C537CB77257E17BA00ECA9FB /* CJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB68257E17BA00ECA9FB /* CJTextField.m */; };
-		C537CB78257E17BA00ECA9FB /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB6B257E17BA00ECA9FB /* ZYTextField.m */; };
 		C537CB7A257E17BA00ECA9FB /* JobsMagicTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB70257E17BA00ECA9FB /* JobsMagicTextField.m */; };
 		C537CB7B257E17BA00ECA9FB /* UITextField+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB74257E17BA00ECA9FB /* UITextField+Extend.m */; };
 		C537CB8B257E17C200ECA9FB /* 高度自定义的按钮.md in Resources */ = {isa = PBXBuildFile; fileRef = C537CB83257E17C200ECA9FB /* 高度自定义的按钮.md */; };
@@ -65,6 +64,20 @@
 		C537CFCF257E222F00ECA9FB /* JobsAppDoorLogoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFCE257E222F00ECA9FB /* JobsAppDoorLogoContentView.m */; };
 		C537CFE9257E22FE00ECA9FB /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFE7257E22FE00ECA9FB /* NSString+Extras.m */; };
 		C537D0E2257E250600ECA9FB /* UIViewController+BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */; };
+		C5460D40258C8E3B0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D3E258C8E3B0008928C /* UIView+AOP.m */; };
+		C5460D4B258C8E560008928C /* ZYTextField+HistoryDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D4A258C8E560008928C /* ZYTextField+HistoryDataList.m */; };
+		C5460D4C258C8E560008928C /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D49258C8E560008928C /* ZYTextField.m */; };
+		C5461B2B258C9F9B0008928C /* UITableViewCell+Margin.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B16258C9F9B0008928C /* UITableViewCell+Margin.m */; };
+		C5461B2C258C9F9B0008928C /* WhiteRightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5461B19258C9F9B0008928C /* WhiteRightArrow@2x.png */; };
+		C5461B2D258C9F9B0008928C /* WhiteRightArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5461B1A258C9F9B0008928C /* WhiteRightArrow@3x.png */; };
+		C5461B2E258C9F9B0008928C /* UITableViewCell+WhiteArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B1B258C9F9B0008928C /* UITableViewCell+WhiteArrows.m */; };
+		C5461B2F258C9F9B0008928C /* TableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B1E258C9F9B0008928C /* TableViewAnimationKit.m */; };
+		C5461B30258C9F9B0008928C /* UITableView+XSAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B23258C9F9B0008928C /* UITableView+XSAnimationKit.m */; };
+		C5461B31258C9F9B0008928C /* BaseTableViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B26258C9F9B0008928C /* BaseTableViewer.m */; };
+		C5461B32258C9F9B0008928C /* 专治UITableView相应链断裂.md in Resources */ = {isa = PBXBuildFile; fileRef = C5461B27258C9F9B0008928C /* 专治UITableView相应链断裂.md */; };
+		C5461B33258C9F9B0008928C /* UITableView+WWFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B29258C9F9B0008928C /* UITableView+WWFoldableTableView.m */; };
+		C546FA23258B5DBF0008928C /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */; };
+		C546FA2D258B5DF30008928C /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA2B258B5DF30008928C /* NavigationBar.m */; };
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
 		C5952158257E43CF00376248 /* JobsAppDoorVC_Style2.m in Sources */ = {isa = PBXBuildFile; fileRef = C5952157257E43CF00376248 /* JobsAppDoorVC_Style2.m */; };
 		C595218A257E484D00376248 /* BaseContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5952189257E484D00376248 /* BaseContentView.m */; };
@@ -133,8 +146,6 @@
 		C537CB66257E17BA00ECA9FB /* ZYTextField.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYTextField.bundle; sourceTree = "<group>"; };
 		C537CB68257E17BA00ECA9FB /* CJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTextField.m; sourceTree = "<group>"; };
 		C537CB69257E17BA00ECA9FB /* CJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTextField.h; sourceTree = "<group>"; };
-		C537CB6B257E17BA00ECA9FB /* ZYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTextField.m; sourceTree = "<group>"; };
-		C537CB6D257E17BA00ECA9FB /* ZYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
 		C537CB70257E17BA00ECA9FB /* JobsMagicTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsMagicTextField.m; sourceTree = "<group>"; };
 		C537CB71257E17BA00ECA9FB /* JobsMagicTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsMagicTextField.h; sourceTree = "<group>"; };
 		C537CB73257E17BA00ECA9FB /* UITextField+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extend.h"; sourceTree = "<group>"; };
@@ -228,6 +239,33 @@
 		C537CFEE257E235800ECA9FB /* LoadingImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
 		C537D0E0257E250600ECA9FB /* UIViewController+BackBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackBtn.h"; sourceTree = "<group>"; };
 		C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackBtn.m"; sourceTree = "<group>"; };
+		C5460D3E258C8E3B0008928C /* UIView+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOP.m"; sourceTree = "<group>"; };
+		C5460D3F258C8E3B0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
+		C5460D47258C8E550008928C /* ZYTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
+		C5460D48258C8E550008928C /* ZYTextField+HistoryDataList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYTextField+HistoryDataList.h"; sourceTree = "<group>"; };
+		C5460D49258C8E560008928C /* ZYTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTextField.m; sourceTree = "<group>"; };
+		C5460D4A258C8E560008928C /* ZYTextField+HistoryDataList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZYTextField+HistoryDataList.m"; sourceTree = "<group>"; };
+		C5461B15258C9F9B0008928C /* UITableViewCell+Margin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Margin.h"; sourceTree = "<group>"; };
+		C5461B16258C9F9B0008928C /* UITableViewCell+Margin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Margin.m"; sourceTree = "<group>"; };
+		C5461B18258C9F9B0008928C /* UITableViewCell+WhiteArrows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WhiteArrows.h"; sourceTree = "<group>"; };
+		C5461B19258C9F9B0008928C /* WhiteRightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteRightArrow@2x.png"; sourceTree = "<group>"; };
+		C5461B1A258C9F9B0008928C /* WhiteRightArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteRightArrow@3x.png"; sourceTree = "<group>"; };
+		C5461B1B258C9F9B0008928C /* UITableViewCell+WhiteArrows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WhiteArrows.m"; sourceTree = "<group>"; };
+		C5461B1E258C9F9B0008928C /* TableViewAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAnimationKit.m; sourceTree = "<group>"; };
+		C5461B1F258C9F9B0008928C /* TableViewAnimationKitHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitHeaders.h; sourceTree = "<group>"; };
+		C5461B20258C9F9B0008928C /* UITableView+XSAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XSAnimationKit.h"; sourceTree = "<group>"; };
+		C5461B21258C9F9B0008928C /* TableViewAnimationKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitConfig.h; sourceTree = "<group>"; };
+		C5461B22258C9F9B0008928C /* TableViewAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKit.h; sourceTree = "<group>"; };
+		C5461B23258C9F9B0008928C /* UITableView+XSAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XSAnimationKit.m"; sourceTree = "<group>"; };
+		C5461B25258C9F9B0008928C /* BaseTableViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewer.h; sourceTree = "<group>"; };
+		C5461B26258C9F9B0008928C /* BaseTableViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewer.m; sourceTree = "<group>"; };
+		C5461B27258C9F9B0008928C /* 专治UITableView相应链断裂.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "专治UITableView相应链断裂.md"; sourceTree = "<group>"; };
+		C5461B29258C9F9B0008928C /* UITableView+WWFoldableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WWFoldableTableView.m"; sourceTree = "<group>"; };
+		C5461B2A258C9F9B0008928C /* UITableView+WWFoldableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WWFoldableTableView.h"; sourceTree = "<group>"; };
+		C546FA21258B5DBF0008928C /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		C546FA2B258B5DF30008928C /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
+		C546FA2C258B5DF30008928C /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
 		C5580396258A451A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C57798CE258A0C3F00FE51E3 /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Size.h; sourceTree = "<group>"; };
 		C5952156257E43CF00376248 /* JobsAppDoorVC_Style2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorVC_Style2.h; sourceTree = "<group>"; };
@@ -453,6 +491,9 @@
 				C537CB7F257E17C200ECA9FB /* UIButton */,
 				C5D0C3B125879758002CA224 /* UIControl */,
 				C537CFED257E235200ECA9FB /* UIImage */,
+				C546FA2A258B5DF30008928C /* UINavigationBar */,
+				C5461B1C258C9F9B0008928C /* UITableView */,
+				C5461B13258C9F9B0008928C /* UITableViewCell */,
 				C537CB62257E17BA00ECA9FB /* UITextField */,
 				C537CF9C257E215C00ECA9FB /* UIView */,
 				C537CB53257E178100ECA9FB /* UIViewController */,
@@ -484,6 +525,7 @@
 				C5D6F9F0258626C000029AFF /* UIViewController+BackBtn */,
 				C5D6F9F1258626C800029AFF /* UIViewController+BaseVC */,
 				C5D1B8C6258B0BB700784D2F /* UIViewController+EmptyData */,
+				C546FA20258B5DBF0008928C /* UIViewController+NavigationBar */,
 			);
 			path = "UIViewController+Category";
 			sourceTree = "<group>";
@@ -522,8 +564,10 @@
 			isa = PBXGroup;
 			children = (
 				C537CB66257E17BA00ECA9FB /* ZYTextField.bundle */,
-				C537CB6D257E17BA00ECA9FB /* ZYTextField.h */,
-				C537CB6B257E17BA00ECA9FB /* ZYTextField.m */,
+				C5460D47258C8E550008928C /* ZYTextField.h */,
+				C5460D49258C8E560008928C /* ZYTextField.m */,
+				C5460D48258C8E550008928C /* ZYTextField+HistoryDataList.h */,
+				C5460D4A258C8E560008928C /* ZYTextField+HistoryDataList.m */,
 			);
 			path = ZYTextField;
 			sourceTree = "<group>";
@@ -788,6 +832,7 @@
 			isa = PBXGroup;
 			children = (
 				C595BAF4258640BC002A4531 /* UIView+Animation */,
+				C5460D3D258C8E3B0008928C /* UIView+AOP */,
 				C595BAF5258640C1002A4531 /* UIView+Chain */,
 				C5D1BDDE258B1F0D00784D2F /* UIView+EmptyData */,
 				C595BAF6258640C8002A4531 /* UIView+Extras */,
@@ -842,6 +887,86 @@
 			path = UIImage;
 			sourceTree = "<group>";
 		};
+		C5460D3D258C8E3B0008928C /* UIView+AOP */ = {
+			isa = PBXGroup;
+			children = (
+				C5460D3E258C8E3B0008928C /* UIView+AOP.m */,
+				C5460D3F258C8E3B0008928C /* UIView+AOP.h */,
+			);
+			path = "UIView+AOP";
+			sourceTree = "<group>";
+		};
+		C5461B13258C9F9B0008928C /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5461B14258C9F9B0008928C /* 重设边距 */,
+				C5461B17258C9F9B0008928C /* 自定义右侧小箭头图标 */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		C5461B14258C9F9B0008928C /* 重设边距 */ = {
+			isa = PBXGroup;
+			children = (
+				C5461B15258C9F9B0008928C /* UITableViewCell+Margin.h */,
+				C5461B16258C9F9B0008928C /* UITableViewCell+Margin.m */,
+			);
+			path = "重设边距";
+			sourceTree = "<group>";
+		};
+		C5461B17258C9F9B0008928C /* 自定义右侧小箭头图标 */ = {
+			isa = PBXGroup;
+			children = (
+				C5461B18258C9F9B0008928C /* UITableViewCell+WhiteArrows.h */,
+				C5461B1B258C9F9B0008928C /* UITableViewCell+WhiteArrows.m */,
+				C5461B19258C9F9B0008928C /* WhiteRightArrow@2x.png */,
+				C5461B1A258C9F9B0008928C /* WhiteRightArrow@3x.png */,
+			);
+			path = "自定义右侧小箭头图标";
+			sourceTree = "<group>";
+		};
+		C5461B1C258C9F9B0008928C /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				C5461B24258C9F9B0008928C /* 专治UITableView相应链断裂 */,
+				C5461B1D258C9F9B0008928C /* TableViewAnimationKit */,
+				C5461B28258C9F9B0008928C /* UITableView 折叠功能 */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		C5461B1D258C9F9B0008928C /* TableViewAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				C5461B22258C9F9B0008928C /* TableViewAnimationKit.h */,
+				C5461B1E258C9F9B0008928C /* TableViewAnimationKit.m */,
+				C5461B21258C9F9B0008928C /* TableViewAnimationKitConfig.h */,
+				C5461B1F258C9F9B0008928C /* TableViewAnimationKitHeaders.h */,
+				C5461B20258C9F9B0008928C /* UITableView+XSAnimationKit.h */,
+				C5461B23258C9F9B0008928C /* UITableView+XSAnimationKit.m */,
+			);
+			path = TableViewAnimationKit;
+			sourceTree = "<group>";
+		};
+		C5461B24258C9F9B0008928C /* 专治UITableView相应链断裂 */ = {
+			isa = PBXGroup;
+			children = (
+				C5461B25258C9F9B0008928C /* BaseTableViewer.h */,
+				C5461B26258C9F9B0008928C /* BaseTableViewer.m */,
+				C5461B27258C9F9B0008928C /* 专治UITableView相应链断裂.md */,
+			);
+			path = "专治UITableView相应链断裂";
+			sourceTree = "<group>";
+		};
+		C5461B28258C9F9B0008928C /* UITableView 折叠功能 */ = {
+			isa = PBXGroup;
+			children = (
+				C5461B29258C9F9B0008928C /* UITableView+WWFoldableTableView.m */,
+				C5461B2A258C9F9B0008928C /* UITableView+WWFoldableTableView.h */,
+			);
+			path = "UITableView 折叠功能";
+			sourceTree = "<group>";
+		};
 		C546F880258B47D10008928C /* 登录和注册 */ = {
 			isa = PBXGroup;
 			children = (
@@ -849,6 +974,24 @@
 				C5952143257E42DA00376248 /* 模式2 */,
 			);
 			path = "登录和注册";
+			sourceTree = "<group>";
+		};
+		C546FA20258B5DBF0008928C /* UIViewController+NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C546FA21258B5DBF0008928C /* UIViewController+NavigationBar.h */,
+				C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */,
+			);
+			path = "UIViewController+NavigationBar";
+			sourceTree = "<group>";
+		};
+		C546FA2A258B5DF30008928C /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C546FA2C258B5DF30008928C /* NavigationBar.h */,
+				C546FA2B258B5DF30008928C /* NavigationBar.m */,
+			);
+			path = UINavigationBar;
 			sourceTree = "<group>";
 		};
 		C5580395258A44EA0078DB8F /* PodsManual */ = {
@@ -1316,10 +1459,13 @@
 				C537CB1F257E164A00ECA9FB /* LaunchScreen.storyboard in Resources */,
 				C537CB1C257E164A00ECA9FB /* Assets.xcassets in Resources */,
 				C537CBD9257E17F900ECA9FB /* 尝试高仿蜜柚.md in Resources */,
+				C5461B2D258C9F9B0008928C /* WhiteRightArrow@3x.png in Resources */,
 				C537CB76257E17BA00ECA9FB /* ZYTextField.bundle in Resources */,
 				C537CB17257E164A00ECA9FB /* Main.storyboard in Resources */,
 				C537CB8B257E17C200ECA9FB /* 高度自定义的按钮.md in Resources */,
 				C5D0B6F725878C58002CA224 /* Sound.wav in Resources */,
+				C5461B32258C9F9B0008928C /* 专治UITableView相应链断裂.md in Resources */,
+				C5461B2C258C9F9B0008928C /* WhiteRightArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1448,6 +1594,7 @@
 				C537CBDB257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_1.m in Sources */,
 				C537CB8D257E17C200ECA9FB /* UIButton+CountDownBtn.m in Sources */,
 				C537CB8C257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m in Sources */,
+				C546FA23258B5DBF0008928C /* UIViewController+NavigationBar.m in Sources */,
 				C537CB5D257E17A600ECA9FB /* UIViewController+BaseVC.m in Sources */,
 				C537CFAB257E215C00ECA9FB /* UIView+Chain.m in Sources */,
 				C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */,
@@ -1459,6 +1606,7 @@
 				C52F9547257E554200DF2DA9 /* JobsAppDoorLoginContentView.m in Sources */,
 				C537CFE9257E22FE00ECA9FB /* NSString+Extras.m in Sources */,
 				C537CBE4257E17F900ECA9FB /* JobsAppDoorContentView.m in Sources */,
+				C5460D40258C8E3B0008928C /* UIView+AOP.m in Sources */,
 				C537CBE5257E17F900ECA9FB /* JobsAppDoorVC_Style1.m in Sources */,
 				C52675B4258A48BF0095A681 /* NSObject+Time.m in Sources */,
 				C537CBDE257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle.m in Sources */,
@@ -1473,11 +1621,12 @@
 				C5D0C3B625879758002CA224 /* UIControl+XY.m in Sources */,
 				C537CB11257E164A00ECA9FB /* JobsAppDoorSceneDelegate.m in Sources */,
 				C537CBB1257E17D400ECA9FB /* NSObject+RichText.m in Sources */,
-				C537CB78257E17BA00ECA9FB /* ZYTextField.m in Sources */,
 				C537CFAD257E215C00ECA9FB /* UIView+Animation.m in Sources */,
+				C5461B31258C9F9B0008928C /* BaseTableViewer.m in Sources */,
 				C537CFB1257E215C00ECA9FB /* UIView+Gradient.m in Sources */,
 				C537D0E2257E250600ECA9FB /* UIViewController+BackBtn.m in Sources */,
 				C537CBE3257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyleModel.m in Sources */,
+				C5460D4C258C8E560008928C /* ZYTextField.m in Sources */,
 				C537CF54257E1EA400ECA9FB /* CADisplayLink_TimerManager.m in Sources */,
 				C537CFCF257E222F00ECA9FB /* JobsAppDoorLogoContentView.m in Sources */,
 				C537CB77257E17BA00ECA9FB /* CJTextField.m in Sources */,
@@ -1487,17 +1636,24 @@
 				C5D6D82F25860D8E00029AFF /* TimeModel.m in Sources */,
 				C537CBDC257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_2.m in Sources */,
 				C537CB1A257E164A00ECA9FB /* JobsAppDoor.xcdatamodeld in Sources */,
+				C5461B2F258C9F9B0008928C /* TableViewAnimationKit.m in Sources */,
 				C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */,
 				C537CFAF257E215C00ECA9FB /* UIView+Extras.m in Sources */,
+				C5460D4B258C8E560008928C /* ZYTextField+HistoryDataList.m in Sources */,
+				C546FA2D258B5DF30008928C /* NavigationBar.m in Sources */,
+				C5461B2B258C9F9B0008928C /* UITableViewCell+Margin.m in Sources */,
 				C537CBAF257E17D400ECA9FB /* NSObject+OpenURL.m in Sources */,
 				C537CC38257E19B100ECA9FB /* NotificationManager.m in Sources */,
+				C5461B30258C9F9B0008928C /* UITableView+XSAnimationKit.m in Sources */,
 				C537CBE0257E17F900ECA9FB /* JobsAppDoorInputViewBaseStyle_4.m in Sources */,
 				C5D0B6F925878C58002CA224 /* SoundBtn.m in Sources */,
 				C5D1BDE1258B1F0D00784D2F /* UIView+EmptyData.m in Sources */,
 				C537CFC5257E21D800ECA9FB /* ImageCodeView.m in Sources */,
 				C537CFB0257E215C00ECA9FB /* UIView+ZFPlayer.m in Sources */,
 				C5952158257E43CF00376248 /* JobsAppDoorVC_Style2.m in Sources */,
+				C5461B2E258C9F9B0008928C /* UITableViewCell+WhiteArrows.m in Sources */,
 				C537CB7A257E17BA00ECA9FB /* JobsMagicTextField.m in Sources */,
+				C5461B33258C9F9B0008928C /* UITableView+WWFoldableTableView.m in Sources */,
 				C537CBB0257E17D400ECA9FB /* NSObject+Measure.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

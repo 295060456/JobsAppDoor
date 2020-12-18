@@ -19,4 +19,14 @@
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #endif
 
+//非刘海屏：状态栏高度(20.f) + 导航栏高度(44.f) = 64.f
+//刘海屏系列：状态栏高度(44.f) + 导航栏高度(44.f) = 88.f
+static inline CGFloat Top(){
+    static CGFloat value = 0;
+    static dispatch_once_t once_t = 0;
+    dispatch_once(&once_t, ^{
+        value = isiPhoneX_series() ? 88.0f : 64.0f;
+    });return value;
+}
+
 #endif /* MacroDef_Size_h */

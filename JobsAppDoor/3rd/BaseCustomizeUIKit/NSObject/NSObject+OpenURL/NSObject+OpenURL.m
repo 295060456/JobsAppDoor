@@ -52,11 +52,8 @@ completionOpenFailHandler:(NoResultBlock)openFailBlock{
             }return NO;
         }
     }else {
-        if (canOpen) {
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLStr]];
-#pragma clang diagnostic pop
+        if (canOpen) {            
+            SuppressWdeprecatedDeclarationsWarning([[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLStr]]);
             return YES;
         }else{
             if (openFailBlock) {

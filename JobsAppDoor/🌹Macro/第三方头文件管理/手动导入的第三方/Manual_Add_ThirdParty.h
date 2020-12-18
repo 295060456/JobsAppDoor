@@ -10,30 +10,31 @@
 #define Manual_Add_ThirdParty_h
 
 #pragma mark —— BaseCustomizeUIKit
-//NSObject
+// NSObject
 #import "NSObject+Extras.h"
 #import "NSObject+Measure.h"
 #import "NSObject+OpenURL.h"
 #import "NSObject+Random.h"
 #import "NSObject+RichText.h"
 #import "NSObject+Time.h"
-//UIButton
+// UIButton
 #import "UIButton+CountDownBtn.h"//💰VerifyCodeButton
 #import "UIButton+ImageTitleSpacing.h"//高度自定义的按钮
-//UITextField
+// UITextField
 #import "CJTextField.h"
 #import "HQTextField.h"
 #import "JobsMagicTextField.h"
 #import "UITextField+Extend.h"
 #import "ZYTextField.h"
-//UIViewController
-//BaseViewController
+// UIViewController
+// BaseViewController
 #import "BaseViewController.h"
-//UIViewController+Category
+// UIViewController+Category
 #import "UIViewController+BaseVC.h"
 #import "UIViewController+BackBtn.h"
 #import "UIViewController+EmptyData.h"
-//UIView
+#import "UIViewController+NavigationBar.h"
+// UIView
 #import "UIView+Animation.h"
 #import "UIView+Chain.h"
 #import "UIView+Extras.h"
@@ -42,10 +43,28 @@
 #import "UIView+SuspendView.h"
 #import "UIView+ZFPlayer.h"
 #import "UIView+EmptyData.h"
-//NSString
+// NSString
 #import "NSString+Extras.h"
-//UIImage
+// UIImage
 #import "LoadingImage.h"
+// UINavigationBar
+#import "NavigationBar.h"
+// UITableView
+/// TableViewAnimationKit
+#import "TableViewAnimationKit.h"
+#import "TableViewAnimationKitConfig.h"
+#import "TableViewAnimationKitHeaders.h"
+#import "UITableView+XSAnimationKit.h"
+/// 专治UITableView相应链断裂
+#import "BaseTableViewer.h"
+/// UITableView 折叠功能
+#import "UITableView+WWFoldableTableView.h"
+// UITableViewCell
+/// 重设边距
+#import "UITableViewCell+Margin.h"
+/// 自定义右侧小箭头图标
+#import "UITableViewCell+WhiteArrows.h"
+
 #pragma mark —— Manual_Add_ThirdParty
 #import "TimerManager.h"
 
