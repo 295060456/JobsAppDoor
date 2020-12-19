@@ -26,6 +26,12 @@ def appCommon
   pod 'Masonry' # https://github.com/SnapKit/Masonry 布局
   end
 
+## GK一族
+def gk
+  pod 'GKNavigationBar' # https://github.com/QuintGao/GKNavigationBar NO_SMP
+#  pod 'GKPhotoBrowser' # https://github.com/QuintGao/GKPhotoBrowser iOS仿微信、今日头条等图片浏览器 （与GKNavigationBar有冲突）
+  end
+
 ## 视频相关框架
 def videoFunc
   
@@ -67,6 +73,7 @@ target 'JobsAppDoor' do
   # Pods for JobsAppDoor
 
   appCommon
+  gk
   videoFunc
   pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖
 

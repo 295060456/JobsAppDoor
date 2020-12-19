@@ -119,4 +119,10 @@
 #import "WHToast.h"
 #endif
 
+#if __has_include(<GKNavigationBar/GKNavigationBar.h>)
+#import <GKNavigationBar/GKNavigationBar.h>
+#else
+#import "GKNavigationBar.h"
+#endif
+
 #endif /* Pods_h */

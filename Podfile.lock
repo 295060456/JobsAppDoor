@@ -1,4 +1,9 @@
 PODS:
+  - GKNavigationBar (1.3.0):
+    - GKNavigationBar/GestureHandle (= 1.3.0)
+    - GKNavigationBar/NavigationBar (= 1.3.0)
+  - GKNavigationBar/GestureHandle (1.3.0)
+  - GKNavigationBar/NavigationBar (1.3.0)
   - IJKMediaFramework (0.1.5)
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
@@ -15,6 +20,7 @@ PODS:
     - ZFPlayer/Core
 
 DEPENDENCIES:
+  - GKNavigationBar
   - Masonry
   - ReactiveObjC
   - WHToast
@@ -25,6 +31,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - GKNavigationBar
     - IJKMediaFramework
     - Masonry
     - ReactiveObjC
@@ -32,12 +39,13 @@ SPEC REPOS:
     - ZFPlayer
 
 SPEC CHECKSUMS:
+  GKNavigationBar: 4585b27224d041df3c180031fa7a644e50a9a234
   IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: 5f7320589172b515f30696b98b3723144f6e9609
+PODFILE CHECKSUM: ec88b2d107477219571d4f7f76f8ef42b3c7e6a5
 
 COCOAPODS: 1.10.0
