@@ -17,4 +17,8 @@
 #import "JobsAppDoorDelegate.h"
 #import "JobsAppDoorSceneDelegate.h"
 
+#import "JobsAppDoorVC_Style1.h"//模式1
+#import "JobsAppDoorVC_Style2.h"//模式2
+#import "DDForgetCodeVC.h"// 忘记密码
+
 #endif /* Other_h */

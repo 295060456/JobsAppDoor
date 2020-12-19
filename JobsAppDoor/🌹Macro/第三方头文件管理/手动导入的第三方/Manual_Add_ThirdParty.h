@@ -20,6 +20,8 @@
 // UIButton
 #import "UIButton+CountDownBtn.h"//💰VerifyCodeButton
 #import "UIButton+ImageTitleSpacing.h"//高度自定义的按钮
+// UIColor
+#import "UIColor+Hex.h"
 // UITextField
 #import "CJTextField.h"
 #import "HQTextField.h"
@@ -66,6 +68,7 @@
 #import "UITableViewCell+WhiteArrows.h"
 
 #pragma mark —— Manual_Add_ThirdParty
+#import "UserDefaultManager.h"
 #import "TimerManager.h"
 
 #import "JobsAppDoorDelegate.h"
