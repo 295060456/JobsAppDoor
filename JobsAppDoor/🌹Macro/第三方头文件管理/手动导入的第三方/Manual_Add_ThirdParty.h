@@ -36,6 +36,7 @@
 #import "UIViewController+BackBtn.h"
 #import "UIViewController+EmptyData.h"
 #import "UIViewController+NavigationBar.h"
+#import "UIViewController+XLBubbleTransition.h"
 // UIView
 #import "UIView+Animation.h"
 #import "UIView+Chain.h"

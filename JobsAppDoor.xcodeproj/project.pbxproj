@@ -51,6 +51,8 @@
 		C537CFC5257E21D800ECA9FB /* ImageCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFC4257E21D800ECA9FB /* ImageCodeView.m */; };
 		C537CFE9257E22FE00ECA9FB /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFE7257E22FE00ECA9FB /* NSString+Extras.m */; };
 		C537D0E2257E250600ECA9FB /* UIViewController+BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */; };
+		C53D37982598C75200B48431 /* XLBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C53D37952598C75200B48431 /* XLBubbleTransition.m */; };
+		C53D37992598C75200B48431 /* UIViewController+XLBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C53D37962598C75200B48431 /* UIViewController+XLBubbleTransition.m */; };
 		C5460D40258C8E3B0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D3E258C8E3B0008928C /* UIView+AOP.m */; };
 		C5460D4B258C8E560008928C /* ZYTextField+HistoryDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D4A258C8E560008928C /* ZYTextField+HistoryDataList.m */; };
 		C5460D4C258C8E560008928C /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D49258C8E560008928C /* ZYTextField.m */; };
@@ -222,6 +224,11 @@
 		C537CFEE257E235800ECA9FB /* LoadingImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
 		C537D0E0257E250600ECA9FB /* UIViewController+BackBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackBtn.h"; sourceTree = "<group>"; };
 		C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackBtn.m"; sourceTree = "<group>"; };
+		C53D37932598C75200B48431 /* XLBubbleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBubbleTransition.h; sourceTree = "<group>"; };
+		C53D37942598C75200B48431 /* UIViewController+XLBubbleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLBubbleTransition.h"; sourceTree = "<group>"; };
+		C53D37952598C75200B48431 /* XLBubbleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBubbleTransition.m; sourceTree = "<group>"; };
+		C53D37962598C75200B48431 /* UIViewController+XLBubbleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLBubbleTransition.m"; sourceTree = "<group>"; };
+		C53D37972598C75200B48431 /* 使用方法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "使用方法.md"; sourceTree = "<group>"; };
 		C5460D3E258C8E3B0008928C /* UIView+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOP.m"; sourceTree = "<group>"; };
 		C5460D3F258C8E3B0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
 		C5460D47258C8E550008928C /* ZYTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
@@ -537,6 +544,7 @@
 		C537CB61257E17AB00ECA9FB /* UIViewController+Category */ = {
 			isa = PBXGroup;
 			children = (
+				C53D37922598C75200B48431 /* UIViewController+XLBubbleTransition */,
 				C5D6F9F0258626C000029AFF /* UIViewController+BackBtn */,
 				C5D6F9F1258626C800029AFF /* UIViewController+BaseVC */,
 				C5D1B8C6258B0BB700784D2F /* UIViewController+EmptyData */,
@@ -793,6 +801,18 @@
 				C537CFEE257E235800ECA9FB /* LoadingImage.h */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		C53D37922598C75200B48431 /* UIViewController+XLBubbleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				C53D37972598C75200B48431 /* 使用方法.md */,
+				C53D37942598C75200B48431 /* UIViewController+XLBubbleTransition.h */,
+				C53D37962598C75200B48431 /* UIViewController+XLBubbleTransition.m */,
+				C53D37932598C75200B48431 /* XLBubbleTransition.h */,
+				C53D37952598C75200B48431 /* XLBubbleTransition.m */,
+			);
+			path = "UIViewController+XLBubbleTransition";
 			sourceTree = "<group>";
 		};
 		C5460D3D258C8E3B0008928C /* UIView+AOP */ = {
@@ -1716,6 +1736,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C537CBAA257E17D400ECA9FB /* NSObject+Random.m in Sources */,
+				C53D37992598C75200B48431 /* UIViewController+XLBubbleTransition.m in Sources */,
 				C537CF53257E1EA400ECA9FB /* Nanosecond_TimerManager.m in Sources */,
 				C537CB8D257E17C200ECA9FB /* UIButton+CountDownBtn.m in Sources */,
 				C537CB8C257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m in Sources */,
@@ -1739,6 +1760,7 @@
 				C5460D40258C8E3B0008928C /* UIView+AOP.m in Sources */,
 				C52675B4258A48BF0095A681 /* NSObject+Time.m in Sources */,
 				C5CDD239258F24490045AA50 /* BaseContentView.m in Sources */,
+				C53D37982598C75200B48431 /* XLBubbleTransition.m in Sources */,
 				C5CDD230258F24490045AA50 /* JobsAppDoorInputViewBaseStyleModel.m in Sources */,
 				C537CBF7257E186300ECA9FB /* ViewController.m in Sources */,
 				C537CFAC257E215C00ECA9FB /* UIView+Measure.m in Sources */,
