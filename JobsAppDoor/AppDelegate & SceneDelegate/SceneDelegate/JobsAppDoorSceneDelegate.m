@@ -8,6 +8,9 @@
 #import "JobsAppDoorSceneDelegate.h"
 #import "JobsAppDoorDelegate.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability-new"
+
 @interface JobsAppDoorSceneDelegate ()
 
 @end
@@ -74,3 +77,5 @@ willConnectToSession:(UISceneSession *)session
 }
 
 @end
+
+#pragma clang diagnostic pop
