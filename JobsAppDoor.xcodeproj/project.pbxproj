@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		546EEF83E03B6EAA77A461D2 /* Pods_JobsAppDoorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E05F149063A0123E0C051E /* Pods_JobsAppDoorTests.framework */; };
-		77EBD71BBD9B305F86E8D1F2 /* Pods_JobsAppDoorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C30F05F3543242B652821C /* Pods_JobsAppDoorUITests.framework */; };
+		B10F8FA534386B4125F52080 /* Pods_JobsAppDoorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C5F22295F6BC588198AEE1 /* Pods_JobsAppDoorUITests.framework */; };
 		BD1F07F0F0BE881C4B5AD3EF /* Pods_JobsAppDoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9886A7D03FC6BBC0E47DC0 /* Pods_JobsAppDoor.framework */; };
 		C52675B4258A48BF0095A681 /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C52675B3258A48BF0095A681 /* NSObject+Time.m */; };
 		C537CB0E257E164A00ECA9FB /* JobsAppDoorDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB0D257E164A00ECA9FB /* JobsAppDoorDelegate.m */; };
@@ -73,6 +72,51 @@
 		C59A3ABB258DD16F005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AB6258DD16F005F6260 /* UserDefaultManager.m */; };
 		C5A715E3258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A715E1258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.m */; };
 		C5A715FD258F7D660013E3EF /* AuthCodeLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A715FB258F7D660013E3EF /* AuthCodeLab.m */; };
+		C5C64C1C259DF6EB00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BD9259DF6EA00FD2F99 /* ECPrivacyCheckMicrophone.m */; };
+		C5C64C1D259DF6EB00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BDB259DF6EA00FD2F99 /* ECPrivacyCheckHomeKit.m */; };
+		C5C64C1E259DF6EB00FD2F99 /* ECPrivacyCheckBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BDD259DF6EA00FD2F99 /* ECPrivacyCheckBluetooth.m */; };
+		C5C64C1F259DF6EB00FD2F99 /* ECPrivacyCheckCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BDE259DF6EA00FD2F99 /* ECPrivacyCheckCamera.m */; };
+		C5C64C20259DF6EB00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BDF259DF6EA00FD2F99 /* ECPrivacyCheckLocationServices.m */; };
+		C5C64C21259DF6EB00FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BE3259DF6EA00FD2F99 /* ECPrivacyCheckFilesAndFolders.m */; };
+		C5C64C22259DF6EB00FD2F99 /* ECPrivacyCheckCalendars.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BE7259DF6EA00FD2F99 /* ECPrivacyCheckCalendars.m */; };
+		C5C64C23259DF6EB00FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BE9259DF6EA00FD2F99 /* ECPrivacyCheckSpeechRecognition.m */; };
+		C5C64C24259DF6EB00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BEB259DF6EA00FD2F99 /* ECPrivacyCheckMotionAndFitness.m */; };
+		C5C64C25259DF6EB00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BEC259DF6EA00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m */; };
+		C5C64C26259DF6EB00FD2F99 /* ECPrivacyCheckPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BEF259DF6EA00FD2F99 /* ECPrivacyCheckPhotos.m */; };
+		C5C64C27259DF6EB00FD2F99 /* ECPrivacyCheckContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BF1259DF6EA00FD2F99 /* ECPrivacyCheckContacts.m */; };
+		C5C64C28259DF6EB00FD2F99 /* ECPrivacyCheckHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BF2259DF6EA00FD2F99 /* ECPrivacyCheckHealth.m */; };
+		C5C64C29259DF6EB00FD2F99 /* ECPrivacyCheckReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BF3259DF6EA00FD2F99 /* ECPrivacyCheckReminders.m */; };
+		C5C64C2A259DF6EB00FD2F99 /* 健康@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BF5259DF6EA00FD2F99 /* 健康@3x.png */; };
+		C5C64C2B259DF6EB00FD2F99 /* 媒体与AppleMusic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BF6259DF6EA00FD2F99 /* 媒体与AppleMusic@2x.png */; };
+		C5C64C2C259DF6EB00FD2F99 /* 运动与健身@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BF7259DF6EA00FD2F99 /* 运动与健身@2x.png */; };
+		C5C64C2D259DF6EB00FD2F99 /* 媒体与AppleMusic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BF8259DF6EA00FD2F99 /* 媒体与AppleMusic@3x.png */; };
+		C5C64C2E259DF6EB00FD2F99 /* 运动与健身@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BF9259DF6EA00FD2F99 /* 运动与健身@3x.png */; };
+		C5C64C2F259DF6EB00FD2F99 /* 健康@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BFA259DF6EA00FD2F99 /* 健康@2x.png */; };
+		C5C64C30259DF6EB00FD2F99 /* 提醒事项@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BFB259DF6EA00FD2F99 /* 提醒事项@3x.png */; };
+		C5C64C31259DF6EB00FD2F99 /* 01.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BFC259DF6EA00FD2F99 /* 01.PNG */; };
+		C5C64C32259DF6EB00FD2F99 /* 麦克风@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BFD259DF6EA00FD2F99 /* 麦克风@2x.png */; };
+		C5C64C33259DF6EB00FD2F99 /* 02.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BFE259DF6EA00FD2F99 /* 02.PNG */; };
+		C5C64C34259DF6EB00FD2F99 /* 麦克风@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64BFF259DF6EA00FD2F99 /* 麦克风@3x.png */; };
+		C5C64C35259DF6EB00FD2F99 /* 提醒事项@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C00259DF6EA00FD2F99 /* 提醒事项@2x.png */; };
+		C5C64C36259DF6EB00FD2F99 /* 通讯录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C01259DF6EA00FD2F99 /* 通讯录@2x.png */; };
+		C5C64C37259DF6EB00FD2F99 /* 日历@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C02259DF6EA00FD2F99 /* 日历@3x.png */; };
+		C5C64C38259DF6EB00FD2F99 /* 语音识别@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C03259DF6EA00FD2F99 /* 语音识别@2x.png */; };
+		C5C64C39259DF6EB00FD2F99 /* 蓝牙@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C04259DF6EA00FD2F99 /* 蓝牙@2x.png */; };
+		C5C64C3A259DF6EB00FD2F99 /* 蓝牙@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C05259DF6EA00FD2F99 /* 蓝牙@3x.png */; };
+		C5C64C3B259DF6EB00FD2F99 /* 语音识别@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C06259DF6EA00FD2F99 /* 语音识别@3x.png */; };
+		C5C64C3C259DF6EB00FD2F99 /* 日历@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C07259DF6EA00FD2F99 /* 日历@2x.png */; };
+		C5C64C3D259DF6EB00FD2F99 /* 通讯录@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C08259DF6EA00FD2F99 /* 通讯录@3x.png */; };
+		C5C64C3E259DF6EB00FD2F99 /* 定位服务@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C09259DF6EA00FD2F99 /* 定位服务@2x.png */; };
+		C5C64C3F259DF6EB00FD2F99 /* 文件和文件夹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C0A259DF6EA00FD2F99 /* 文件和文件夹@2x.png */; };
+		C5C64C40259DF6EB00FD2F99 /* HomeKit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C0B259DF6EA00FD2F99 /* HomeKit@2x.png */; };
+		C5C64C41259DF6EB00FD2F99 /* 相机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C0C259DF6EA00FD2F99 /* 相机@2x.png */; };
+		C5C64C42259DF6EB00FD2F99 /* 照片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C0D259DF6EA00FD2F99 /* 照片@2x.png */; };
+		C5C64C43259DF6EB00FD2F99 /* 照片@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C0E259DF6EA00FD2F99 /* 照片@3x.png */; };
+		C5C64C44259DF6EB00FD2F99 /* 相机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C0F259DF6EA00FD2F99 /* 相机@3x.png */; };
+		C5C64C45259DF6EB00FD2F99 /* HomeKit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C10259DF6EA00FD2F99 /* HomeKit@3x.png */; };
+		C5C64C46259DF6EB00FD2F99 /* 文件和文件夹@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C11259DF6EA00FD2F99 /* 文件和文件夹@3x.png */; };
+		C5C64C47259DF6EB00FD2F99 /* 定位服务@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C12259DF6EA00FD2F99 /* 定位服务@3x.png */; };
+		C5C64C48259DF6EB00FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C15259DF6EA00FD2F99 /* ECPrivacyCheckGatherTool.m */; };
 		C5CDD222258F24490045AA50 /* ForgetCodeStep_02View.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDD1DB258F24490045AA50 /* ForgetCodeStep_02View.m */; };
 		C5CDD223258F24490045AA50 /* FindCodeFlowChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDD1DF258F24490045AA50 /* FindCodeFlowChartView.m */; };
 		C5CDD224258F24490045AA50 /* ForgetCodeStep_01View.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDD1E1258F24490045AA50 /* ForgetCodeStep_01View.m */; };
@@ -102,6 +146,7 @@
 		C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D600AB2586307C00029AFF /* BaseViewController.m */; };
 		C5D6D82F25860D8E00029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D82A25860D8E00029AFF /* TimeModel.m */; };
 		C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D83925860DAC00029AFF /* NSTimerManager.m */; };
+		F57CB26A9CF752141AF7A392 /* Pods_JobsAppDoorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD48618F1B9B1C0F53DD34A7 /* Pods_JobsAppDoorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,13 +167,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37C5F22295F6BC588198AEE1 /* Pods_JobsAppDoorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsAppDoorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9886A7D03FC6BBC0E47DC0 /* Pods_JobsAppDoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsAppDoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		509DC8EE66B7841DB47FA620 /* Pods-JobsAppDoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoor.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor.release.xcconfig"; sourceTree = "<group>"; };
-		63C30F05F3543242B652821C /* Pods_JobsAppDoorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsAppDoorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73E05F149063A0123E0C051E /* Pods_JobsAppDoorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsAppDoorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EAD0D02AEC26C09811EA5CB /* Pods-JobsAppDoorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorTests/Pods-JobsAppDoorTests.release.xcconfig"; sourceTree = "<group>"; };
-		8AAA71F706FA2BC697E5AE13 /* Pods-JobsAppDoorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorUITests/Pods-JobsAppDoorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79CAB6EAD8657F6A6383BC13 /* Pods-JobsAppDoorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorUITests/Pods-JobsAppDoorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		96CD60B7BECFD24264325C15 /* Pods-JobsAppDoor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoor.debug.xcconfig"; path = "Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2BB29B5F18CD2DAE59F1D4 /* Pods-JobsAppDoorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorTests/Pods-JobsAppDoorTests.release.xcconfig"; sourceTree = "<group>"; };
 		C52675B2258A48BF0095A681 /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
 		C52675B3258A48BF0095A681 /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C537CB09257E164A00ECA9FB /* JobsAppDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsAppDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -270,6 +314,71 @@
 		C5A715E2258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorInputViewBaseStyle_6.h; sourceTree = "<group>"; };
 		C5A715FB258F7D660013E3EF /* AuthCodeLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthCodeLab.m; sourceTree = "<group>"; };
 		C5A715FC258F7D660013E3EF /* AuthCodeLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthCodeLab.h; sourceTree = "<group>"; };
+		C5C64BD8259DF6EA00FD2F99 /* ECPrivacyCheckCalendars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckCalendars.h; sourceTree = "<group>"; };
+		C5C64BD9259DF6EA00FD2F99 /* ECPrivacyCheckMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMicrophone.m; sourceTree = "<group>"; };
+		C5C64BDA259DF6EA00FD2F99 /* ECPrivacyCheckMotionAndFitness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMotionAndFitness.h; sourceTree = "<group>"; };
+		C5C64BDB259DF6EA00FD2F99 /* ECPrivacyCheckHomeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckHomeKit.m; sourceTree = "<group>"; };
+		C5C64BDC259DF6EA00FD2F99 /* ECPrivacyCheckSpeechRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckSpeechRecognition.h; sourceTree = "<group>"; };
+		C5C64BDD259DF6EA00FD2F99 /* ECPrivacyCheckBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckBluetooth.m; sourceTree = "<group>"; };
+		C5C64BDE259DF6EA00FD2F99 /* ECPrivacyCheckCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckCamera.m; sourceTree = "<group>"; };
+		C5C64BDF259DF6EA00FD2F99 /* ECPrivacyCheckLocationServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckLocationServices.m; sourceTree = "<group>"; };
+		C5C64BE0259DF6EA00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMediaAndAppleMusic.h; sourceTree = "<group>"; };
+		C5C64BE1259DF6EA00FD2F99 /* ECPrivacyCheckReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckReminders.h; sourceTree = "<group>"; };
+		C5C64BE2259DF6EA00FD2F99 /* ECPrivacyCheckHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckHealth.h; sourceTree = "<group>"; };
+		C5C64BE3259DF6EA00FD2F99 /* ECPrivacyCheckFilesAndFolders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckFilesAndFolders.m; sourceTree = "<group>"; };
+		C5C64BE4259DF6EA00FD2F99 /* ECPrivacyCheckContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckContacts.h; sourceTree = "<group>"; };
+		C5C64BE5259DF6EA00FD2F99 /* ECPrivacyCheckPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckPhotos.h; sourceTree = "<group>"; };
+		C5C64BE6259DF6EA00FD2F99 /* ECPrivacyCheckMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMicrophone.h; sourceTree = "<group>"; };
+		C5C64BE7259DF6EA00FD2F99 /* ECPrivacyCheckCalendars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckCalendars.m; sourceTree = "<group>"; };
+		C5C64BE8259DF6EA00FD2F99 /* ECPrivacyCheckBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckBluetooth.h; sourceTree = "<group>"; };
+		C5C64BE9259DF6EA00FD2F99 /* ECPrivacyCheckSpeechRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckSpeechRecognition.m; sourceTree = "<group>"; };
+		C5C64BEA259DF6EA00FD2F99 /* ECPrivacyCheckHomeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckHomeKit.h; sourceTree = "<group>"; };
+		C5C64BEB259DF6EA00FD2F99 /* ECPrivacyCheckMotionAndFitness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMotionAndFitness.m; sourceTree = "<group>"; };
+		C5C64BEC259DF6EA00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMediaAndAppleMusic.m; sourceTree = "<group>"; };
+		C5C64BED259DF6EA00FD2F99 /* ECPrivacyCheckCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckCamera.h; sourceTree = "<group>"; };
+		C5C64BEE259DF6EA00FD2F99 /* ECPrivacyCheckLocationServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckLocationServices.h; sourceTree = "<group>"; };
+		C5C64BEF259DF6EA00FD2F99 /* ECPrivacyCheckPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckPhotos.m; sourceTree = "<group>"; };
+		C5C64BF0259DF6EA00FD2F99 /* ECPrivacyCheckFilesAndFolders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckFilesAndFolders.h; sourceTree = "<group>"; };
+		C5C64BF1259DF6EA00FD2F99 /* ECPrivacyCheckContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckContacts.m; sourceTree = "<group>"; };
+		C5C64BF2259DF6EA00FD2F99 /* ECPrivacyCheckHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckHealth.m; sourceTree = "<group>"; };
+		C5C64BF3259DF6EA00FD2F99 /* ECPrivacyCheckReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckReminders.m; sourceTree = "<group>"; };
+		C5C64BF5259DF6EA00FD2F99 /* 健康@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康@3x.png"; sourceTree = "<group>"; };
+		C5C64BF6259DF6EA00FD2F99 /* 媒体与AppleMusic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "媒体与AppleMusic@2x.png"; sourceTree = "<group>"; };
+		C5C64BF7259DF6EA00FD2F99 /* 运动与健身@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动与健身@2x.png"; sourceTree = "<group>"; };
+		C5C64BF8259DF6EA00FD2F99 /* 媒体与AppleMusic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "媒体与AppleMusic@3x.png"; sourceTree = "<group>"; };
+		C5C64BF9259DF6EA00FD2F99 /* 运动与健身@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动与健身@3x.png"; sourceTree = "<group>"; };
+		C5C64BFA259DF6EA00FD2F99 /* 健康@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康@2x.png"; sourceTree = "<group>"; };
+		C5C64BFB259DF6EA00FD2F99 /* 提醒事项@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提醒事项@3x.png"; sourceTree = "<group>"; };
+		C5C64BFC259DF6EA00FD2F99 /* 01.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.PNG; sourceTree = "<group>"; };
+		C5C64BFD259DF6EA00FD2F99 /* 麦克风@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麦克风@2x.png"; sourceTree = "<group>"; };
+		C5C64BFE259DF6EA00FD2F99 /* 02.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.PNG; sourceTree = "<group>"; };
+		C5C64BFF259DF6EA00FD2F99 /* 麦克风@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麦克风@3x.png"; sourceTree = "<group>"; };
+		C5C64C00259DF6EA00FD2F99 /* 提醒事项@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提醒事项@2x.png"; sourceTree = "<group>"; };
+		C5C64C01259DF6EA00FD2F99 /* 通讯录@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录@2x.png"; sourceTree = "<group>"; };
+		C5C64C02259DF6EA00FD2F99 /* 日历@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历@3x.png"; sourceTree = "<group>"; };
+		C5C64C03259DF6EA00FD2F99 /* 语音识别@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音识别@2x.png"; sourceTree = "<group>"; };
+		C5C64C04259DF6EA00FD2F99 /* 蓝牙@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝牙@2x.png"; sourceTree = "<group>"; };
+		C5C64C05259DF6EA00FD2F99 /* 蓝牙@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝牙@3x.png"; sourceTree = "<group>"; };
+		C5C64C06259DF6EA00FD2F99 /* 语音识别@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音识别@3x.png"; sourceTree = "<group>"; };
+		C5C64C07259DF6EA00FD2F99 /* 日历@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历@2x.png"; sourceTree = "<group>"; };
+		C5C64C08259DF6EA00FD2F99 /* 通讯录@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录@3x.png"; sourceTree = "<group>"; };
+		C5C64C09259DF6EA00FD2F99 /* 定位服务@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位服务@2x.png"; sourceTree = "<group>"; };
+		C5C64C0A259DF6EA00FD2F99 /* 文件和文件夹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文件和文件夹@2x.png"; sourceTree = "<group>"; };
+		C5C64C0B259DF6EA00FD2F99 /* HomeKit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeKit@2x.png"; sourceTree = "<group>"; };
+		C5C64C0C259DF6EA00FD2F99 /* 相机@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相机@2x.png"; sourceTree = "<group>"; };
+		C5C64C0D259DF6EA00FD2F99 /* 照片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "照片@2x.png"; sourceTree = "<group>"; };
+		C5C64C0E259DF6EA00FD2F99 /* 照片@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "照片@3x.png"; sourceTree = "<group>"; };
+		C5C64C0F259DF6EA00FD2F99 /* 相机@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相机@3x.png"; sourceTree = "<group>"; };
+		C5C64C10259DF6EA00FD2F99 /* HomeKit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeKit@3x.png"; sourceTree = "<group>"; };
+		C5C64C11259DF6EA00FD2F99 /* 文件和文件夹@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文件和文件夹@3x.png"; sourceTree = "<group>"; };
+		C5C64C12259DF6EA00FD2F99 /* 定位服务@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位服务@3x.png"; sourceTree = "<group>"; };
+		C5C64C14259DF6EA00FD2F99 /* ECPrivacyCheckHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckHelp.h; sourceTree = "<group>"; };
+		C5C64C15259DF6EA00FD2F99 /* ECPrivacyCheckGatherTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckGatherTool.m; sourceTree = "<group>"; };
+		C5C64C16259DF6EA00FD2F99 /* ECMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMacros.h; sourceTree = "<group>"; };
+		C5C64C17259DF6EA00FD2F99 /* ECPrivacyCheckGatherTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckGatherTool.h; sourceTree = "<group>"; };
+		C5C64C18259DF6EA00FD2F99 /* ECPrivacyCheckTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckTools.h; sourceTree = "<group>"; };
+		C5C64C1A259DF6EA00FD2F99 /* ECPrivacyCheckTools不用pod管理的情况说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ECPrivacyCheckTools不用pod管理的情况说明.md"; sourceTree = "<group>"; };
+		C5C64C1B259DF6EA00FD2F99 /* ECAuthorizationTools.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ECAuthorizationTools.md; sourceTree = "<group>"; };
 		C5CDD1D8258F24490045AA50 /* DDForgetCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDForgetCodeVC.h; sourceTree = "<group>"; };
 		C5CDD1DB258F24490045AA50 /* ForgetCodeStep_02View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetCodeStep_02View.m; sourceTree = "<group>"; };
 		C5CDD1DC258F24490045AA50 /* ForgetCodeStep_02View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetCodeStep_02View.h; sourceTree = "<group>"; };
@@ -335,8 +444,9 @@
 		C5D6D82B25860D8E00029AFF /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
 		C5D6D83825860DAC00029AFF /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
 		C5D6D83925860DAC00029AFF /* NSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerManager.m; sourceTree = "<group>"; };
-		FA3374C4D4F3467D978870FC /* Pods-JobsAppDoorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorTests/Pods-JobsAppDoorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FB5090199E67D974674A68C2 /* Pods-JobsAppDoorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorUITests/Pods-JobsAppDoorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D042BC6B54DBCB2896EFE7AC /* Pods-JobsAppDoorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorUITests/Pods-JobsAppDoorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD48618F1B9B1C0F53DD34A7 /* Pods_JobsAppDoorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsAppDoorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5412028463B3CCFA21ABF4A /* Pods-JobsAppDoorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorTests/Pods-JobsAppDoorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,7 +462,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546EEF83E03B6EAA77A461D2 /* Pods_JobsAppDoorTests.framework in Frameworks */,
+				F57CB26A9CF752141AF7A392 /* Pods_JobsAppDoorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +470,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77EBD71BBD9B305F86E8D1F2 /* Pods_JobsAppDoorUITests.framework in Frameworks */,
+				B10F8FA534386B4125F52080 /* Pods_JobsAppDoorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,8 +481,8 @@
 			isa = PBXGroup;
 			children = (
 				4F9886A7D03FC6BBC0E47DC0 /* Pods_JobsAppDoor.framework */,
-				73E05F149063A0123E0C051E /* Pods_JobsAppDoorTests.framework */,
-				63C30F05F3543242B652821C /* Pods_JobsAppDoorUITests.framework */,
+				DD48618F1B9B1C0F53DD34A7 /* Pods_JobsAppDoorTests.framework */,
+				37C5F22295F6BC588198AEE1 /* Pods_JobsAppDoorUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -382,10 +492,10 @@
 			children = (
 				96CD60B7BECFD24264325C15 /* Pods-JobsAppDoor.debug.xcconfig */,
 				509DC8EE66B7841DB47FA620 /* Pods-JobsAppDoor.release.xcconfig */,
-				FA3374C4D4F3467D978870FC /* Pods-JobsAppDoorTests.debug.xcconfig */,
-				7EAD0D02AEC26C09811EA5CB /* Pods-JobsAppDoorTests.release.xcconfig */,
-				8AAA71F706FA2BC697E5AE13 /* Pods-JobsAppDoorUITests.debug.xcconfig */,
-				FB5090199E67D974674A68C2 /* Pods-JobsAppDoorUITests.release.xcconfig */,
+				F5412028463B3CCFA21ABF4A /* Pods-JobsAppDoorTests.debug.xcconfig */,
+				AC2BB29B5F18CD2DAE59F1D4 /* Pods-JobsAppDoorTests.release.xcconfig */,
+				D042BC6B54DBCB2896EFE7AC /* Pods-JobsAppDoorUITests.debug.xcconfig */,
+				79CAB6EAD8657F6A6383BC13 /* Pods-JobsAppDoorUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -916,6 +1026,7 @@
 		C5580395258A44EA0078DB8F /* PodsManual */ = {
 			isa = PBXGroup;
 			children = (
+				C5C64BD6259DF6EA00FD2F99 /* ECPrivacyCheckTools */,
 			);
 			path = PodsManual;
 			sourceTree = "<group>";
@@ -1084,6 +1195,110 @@
 				C5A715E1258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.m */,
 			);
 			path = "输入框样式_6";
+			sourceTree = "<group>";
+		};
+		C5C64BD6259DF6EA00FD2F99 /* ECPrivacyCheckTools */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64BD7259DF6EA00FD2F99 /* Core */,
+				C5C64BF4259DF6EA00FD2F99 /* Resources */,
+				C5C64C13259DF6EA00FD2F99 /* Others */,
+				C5C64C19259DF6EA00FD2F99 /* ReadMe */,
+			);
+			path = ECPrivacyCheckTools;
+			sourceTree = "<group>";
+		};
+		C5C64BD7259DF6EA00FD2F99 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64BD8259DF6EA00FD2F99 /* ECPrivacyCheckCalendars.h */,
+				C5C64BD9259DF6EA00FD2F99 /* ECPrivacyCheckMicrophone.m */,
+				C5C64BDA259DF6EA00FD2F99 /* ECPrivacyCheckMotionAndFitness.h */,
+				C5C64BDB259DF6EA00FD2F99 /* ECPrivacyCheckHomeKit.m */,
+				C5C64BDC259DF6EA00FD2F99 /* ECPrivacyCheckSpeechRecognition.h */,
+				C5C64BDD259DF6EA00FD2F99 /* ECPrivacyCheckBluetooth.m */,
+				C5C64BDE259DF6EA00FD2F99 /* ECPrivacyCheckCamera.m */,
+				C5C64BDF259DF6EA00FD2F99 /* ECPrivacyCheckLocationServices.m */,
+				C5C64BE0259DF6EA00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.h */,
+				C5C64BE1259DF6EA00FD2F99 /* ECPrivacyCheckReminders.h */,
+				C5C64BE2259DF6EA00FD2F99 /* ECPrivacyCheckHealth.h */,
+				C5C64BE3259DF6EA00FD2F99 /* ECPrivacyCheckFilesAndFolders.m */,
+				C5C64BE4259DF6EA00FD2F99 /* ECPrivacyCheckContacts.h */,
+				C5C64BE5259DF6EA00FD2F99 /* ECPrivacyCheckPhotos.h */,
+				C5C64BE6259DF6EA00FD2F99 /* ECPrivacyCheckMicrophone.h */,
+				C5C64BE7259DF6EA00FD2F99 /* ECPrivacyCheckCalendars.m */,
+				C5C64BE8259DF6EA00FD2F99 /* ECPrivacyCheckBluetooth.h */,
+				C5C64BE9259DF6EA00FD2F99 /* ECPrivacyCheckSpeechRecognition.m */,
+				C5C64BEA259DF6EA00FD2F99 /* ECPrivacyCheckHomeKit.h */,
+				C5C64BEB259DF6EA00FD2F99 /* ECPrivacyCheckMotionAndFitness.m */,
+				C5C64BEC259DF6EA00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m */,
+				C5C64BED259DF6EA00FD2F99 /* ECPrivacyCheckCamera.h */,
+				C5C64BEE259DF6EA00FD2F99 /* ECPrivacyCheckLocationServices.h */,
+				C5C64BEF259DF6EA00FD2F99 /* ECPrivacyCheckPhotos.m */,
+				C5C64BF0259DF6EA00FD2F99 /* ECPrivacyCheckFilesAndFolders.h */,
+				C5C64BF1259DF6EA00FD2F99 /* ECPrivacyCheckContacts.m */,
+				C5C64BF2259DF6EA00FD2F99 /* ECPrivacyCheckHealth.m */,
+				C5C64BF3259DF6EA00FD2F99 /* ECPrivacyCheckReminders.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C5C64BF4259DF6EA00FD2F99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64BF5259DF6EA00FD2F99 /* 健康@3x.png */,
+				C5C64BF6259DF6EA00FD2F99 /* 媒体与AppleMusic@2x.png */,
+				C5C64BF7259DF6EA00FD2F99 /* 运动与健身@2x.png */,
+				C5C64BF8259DF6EA00FD2F99 /* 媒体与AppleMusic@3x.png */,
+				C5C64BF9259DF6EA00FD2F99 /* 运动与健身@3x.png */,
+				C5C64BFA259DF6EA00FD2F99 /* 健康@2x.png */,
+				C5C64BFB259DF6EA00FD2F99 /* 提醒事项@3x.png */,
+				C5C64BFC259DF6EA00FD2F99 /* 01.PNG */,
+				C5C64BFD259DF6EA00FD2F99 /* 麦克风@2x.png */,
+				C5C64BFE259DF6EA00FD2F99 /* 02.PNG */,
+				C5C64BFF259DF6EA00FD2F99 /* 麦克风@3x.png */,
+				C5C64C00259DF6EA00FD2F99 /* 提醒事项@2x.png */,
+				C5C64C01259DF6EA00FD2F99 /* 通讯录@2x.png */,
+				C5C64C02259DF6EA00FD2F99 /* 日历@3x.png */,
+				C5C64C03259DF6EA00FD2F99 /* 语音识别@2x.png */,
+				C5C64C04259DF6EA00FD2F99 /* 蓝牙@2x.png */,
+				C5C64C05259DF6EA00FD2F99 /* 蓝牙@3x.png */,
+				C5C64C06259DF6EA00FD2F99 /* 语音识别@3x.png */,
+				C5C64C07259DF6EA00FD2F99 /* 日历@2x.png */,
+				C5C64C08259DF6EA00FD2F99 /* 通讯录@3x.png */,
+				C5C64C09259DF6EA00FD2F99 /* 定位服务@2x.png */,
+				C5C64C0A259DF6EA00FD2F99 /* 文件和文件夹@2x.png */,
+				C5C64C0B259DF6EA00FD2F99 /* HomeKit@2x.png */,
+				C5C64C0C259DF6EA00FD2F99 /* 相机@2x.png */,
+				C5C64C0D259DF6EA00FD2F99 /* 照片@2x.png */,
+				C5C64C0E259DF6EA00FD2F99 /* 照片@3x.png */,
+				C5C64C0F259DF6EA00FD2F99 /* 相机@3x.png */,
+				C5C64C10259DF6EA00FD2F99 /* HomeKit@3x.png */,
+				C5C64C11259DF6EA00FD2F99 /* 文件和文件夹@3x.png */,
+				C5C64C12259DF6EA00FD2F99 /* 定位服务@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5C64C13259DF6EA00FD2F99 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64C14259DF6EA00FD2F99 /* ECPrivacyCheckHelp.h */,
+				C5C64C15259DF6EA00FD2F99 /* ECPrivacyCheckGatherTool.m */,
+				C5C64C16259DF6EA00FD2F99 /* ECMacros.h */,
+				C5C64C17259DF6EA00FD2F99 /* ECPrivacyCheckGatherTool.h */,
+				C5C64C18259DF6EA00FD2F99 /* ECPrivacyCheckTools.h */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C5C64C19259DF6EA00FD2F99 /* ReadMe */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64C1A259DF6EA00FD2F99 /* ECPrivacyCheckTools不用pod管理的情况说明.md */,
+				C5C64C1B259DF6EA00FD2F99 /* ECAuthorizationTools.md */,
+			);
+			path = ReadMe;
 			sourceTree = "<group>";
 		};
 		C5CDD1D7258F24490045AA50 /* 忘记密码 */ = {
@@ -1504,8 +1719,8 @@
 				C537CB05257E164A00ECA9FB /* Sources */,
 				C537CB06257E164A00ECA9FB /* Frameworks */,
 				C537CB07257E164A00ECA9FB /* Resources */,
-				571E7CC0B116406A38BB19E7 /* [CP] Embed Pods Frameworks */,
-				A358AD07429CE3F1CA76CE19 /* [CP] Copy Pods Resources */,
+				AD56463A572C3401369D7FD0 /* [CP] Embed Pods Frameworks */,
+				DFD7C7993E9336C6DA5C901E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1520,7 +1735,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C537CB3E257E164B00ECA9FB /* Build configuration list for PBXNativeTarget "JobsAppDoorTests" */;
 			buildPhases = (
-				A80756FFDDD60ED01BD24118 /* [CP] Check Pods Manifest.lock */,
+				27B9C139BA9B11CFBF7973BC /* [CP] Check Pods Manifest.lock */,
 				C537CB23257E164B00ECA9FB /* Sources */,
 				C537CB24257E164B00ECA9FB /* Frameworks */,
 				C537CB25257E164B00ECA9FB /* Resources */,
@@ -1539,7 +1754,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C537CB41257E164B00ECA9FB /* Build configuration list for PBXNativeTarget "JobsAppDoorUITests" */;
 			buildPhases = (
-				B56B5E037907FA791C40194E /* [CP] Check Pods Manifest.lock */,
+				56F86DD18334C535849F8579 /* [CP] Check Pods Manifest.lock */,
 				C537CB2E257E164B00ECA9FB /* Sources */,
 				C537CB2F257E164B00ECA9FB /* Frameworks */,
 				C537CB30257E164B00ECA9FB /* Resources */,
@@ -1601,17 +1816,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D0B6F825878C58002CA224 /* 带有按键音的按钮.md in Resources */,
+				C5C64C2E259DF6EB00FD2F99 /* 运动与健身@3x.png in Resources */,
+				C5C64C3A259DF6EB00FD2F99 /* 蓝牙@3x.png in Resources */,
 				C537CB8E257E17C200ECA9FB /* 验证码按钮单例封装.md in Resources */,
 				C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */,
+				C5C64C39259DF6EB00FD2F99 /* 蓝牙@2x.png in Resources */,
+				C5C64C3D259DF6EB00FD2F99 /* 通讯录@3x.png in Resources */,
+				C5C64C42259DF6EB00FD2F99 /* 照片@2x.png in Resources */,
+				C5C64C36259DF6EB00FD2F99 /* 通讯录@2x.png in Resources */,
+				C5C64C43259DF6EB00FD2F99 /* 照片@3x.png in Resources */,
+				C5C64C47259DF6EB00FD2F99 /* 定位服务@3x.png in Resources */,
 				C537CB1F257E164A00ECA9FB /* LaunchScreen.storyboard in Resources */,
 				C537CB1C257E164A00ECA9FB /* Assets.xcassets in Resources */,
 				C5461B2D258C9F9B0008928C /* WhiteRightArrow@3x.png in Resources */,
+				C5C64C45259DF6EB00FD2F99 /* HomeKit@3x.png in Resources */,
 				C537CB76257E17BA00ECA9FB /* ZYTextField.bundle in Resources */,
+				C5C64C2A259DF6EB00FD2F99 /* 健康@3x.png in Resources */,
+				C5C64C2D259DF6EB00FD2F99 /* 媒体与AppleMusic@3x.png in Resources */,
+				C5C64C46259DF6EB00FD2F99 /* 文件和文件夹@3x.png in Resources */,
+				C5C64C31259DF6EB00FD2F99 /* 01.PNG in Resources */,
 				C537CB17257E164A00ECA9FB /* Main.storyboard in Resources */,
+				C5C64C41259DF6EB00FD2F99 /* 相机@2x.png in Resources */,
 				C537CB8B257E17C200ECA9FB /* 高度自定义的按钮.md in Resources */,
+				C5C64C3B259DF6EB00FD2F99 /* 语音识别@3x.png in Resources */,
+				C5C64C2F259DF6EB00FD2F99 /* 健康@2x.png in Resources */,
+				C5C64C44259DF6EB00FD2F99 /* 相机@3x.png in Resources */,
+				C5C64C3E259DF6EB00FD2F99 /* 定位服务@2x.png in Resources */,
+				C5C64C35259DF6EB00FD2F99 /* 提醒事项@2x.png in Resources */,
+				C5C64C38259DF6EB00FD2F99 /* 语音识别@2x.png in Resources */,
+				C5C64C30259DF6EB00FD2F99 /* 提醒事项@3x.png in Resources */,
+				C5C64C40259DF6EB00FD2F99 /* HomeKit@2x.png in Resources */,
+				C5C64C3F259DF6EB00FD2F99 /* 文件和文件夹@2x.png in Resources */,
 				C5D0B6F725878C58002CA224 /* Sound.wav in Resources */,
+				C5C64C37259DF6EB00FD2F99 /* 日历@3x.png in Resources */,
+				C5C64C2B259DF6EB00FD2F99 /* 媒体与AppleMusic@2x.png in Resources */,
+				C5C64C34259DF6EB00FD2F99 /* 麦克风@3x.png in Resources */,
 				C5461B32258C9F9B0008928C /* 专治UITableView相应链断裂.md in Resources */,
+				C5C64C32259DF6EB00FD2F99 /* 麦克风@2x.png in Resources */,
+				C5C64C2C259DF6EB00FD2F99 /* 运动与健身@2x.png in Resources */,
+				C5C64C3C259DF6EB00FD2F99 /* 日历@2x.png in Resources */,
 				C5461B2C258C9F9B0008928C /* WhiteRightArrow@2x.png in Resources */,
+				C5C64C33259DF6EB00FD2F99 /* 02.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1654,37 +1899,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		571E7CC0B116406A38BB19E7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A358AD07429CE3F1CA76CE19 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A80756FFDDD60ED01BD24118 /* [CP] Check Pods Manifest.lock */ = {
+		27B9C139BA9B11CFBF7973BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1706,7 +1921,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B56B5E037907FA791C40194E /* [CP] Check Pods Manifest.lock */ = {
+		56F86DD18334C535849F8579 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1728,6 +1943,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AD56463A572C3401369D7FD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD7C7993E9336C6DA5C901E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsAppDoor/Pods-JobsAppDoor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1738,6 +1983,7 @@
 				C537CBAA257E17D400ECA9FB /* NSObject+Random.m in Sources */,
 				C53D37992598C75200B48431 /* UIViewController+XLBubbleTransition.m in Sources */,
 				C537CF53257E1EA400ECA9FB /* Nanosecond_TimerManager.m in Sources */,
+				C5C64C1E259DF6EB00FD2F99 /* ECPrivacyCheckBluetooth.m in Sources */,
 				C537CB8D257E17C200ECA9FB /* UIButton+CountDownBtn.m in Sources */,
 				C537CB8C257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m in Sources */,
 				C546FA23258B5DBF0008928C /* UIViewController+NavigationBar.m in Sources */,
@@ -1746,10 +1992,12 @@
 				C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */,
 				C5D1BDEA258B1F2E00784D2F /* UIViewController+EmptyData.m in Sources */,
 				C5CDD224258F24490045AA50 /* ForgetCodeStep_01View.m in Sources */,
+				C5C64C20259DF6EB00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
 				C5CDD23A258F24490045AA50 /* JobsAppDoorRegisterContentView.m in Sources */,
 				C5CDD229258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_1.m in Sources */,
 				C537CB22257E164A00ECA9FB /* main.m in Sources */,
 				C5CDD22B258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_2.m in Sources */,
+				C5C64C23259DF6EB00FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */,
 				C537CBB2257E17D400ECA9FB /* NSObject+Extras.m in Sources */,
 				C5A715E3258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.m in Sources */,
 				C537CB75257E17BA00ECA9FB /* HQTextField.m in Sources */,
@@ -1760,6 +2008,7 @@
 				C5460D40258C8E3B0008928C /* UIView+AOP.m in Sources */,
 				C52675B4258A48BF0095A681 /* NSObject+Time.m in Sources */,
 				C5CDD239258F24490045AA50 /* BaseContentView.m in Sources */,
+				C5C64C21259DF6EB00FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C53D37982598C75200B48431 /* XLBubbleTransition.m in Sources */,
 				C5CDD230258F24490045AA50 /* JobsAppDoorInputViewBaseStyleModel.m in Sources */,
 				C537CBF7257E186300ECA9FB /* ViewController.m in Sources */,
@@ -1772,15 +2021,20 @@
 				C5D0B70025878C6E002CA224 /* NSObject+Sound.m in Sources */,
 				C5CDD22F258F24490045AA50 /* JobsAppDoorInputViewBaseStyle.m in Sources */,
 				C5CDD236258F24490045AA50 /* JobsAppDoorContentView.m in Sources */,
+				C5C64C48259DF6EB00FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */,
+				C5C64C22259DF6EB00FD2F99 /* ECPrivacyCheckCalendars.m in Sources */,
 				C5D0C3B625879758002CA224 /* UIControl+XY.m in Sources */,
 				C537CB11257E164A00ECA9FB /* JobsAppDoorSceneDelegate.m in Sources */,
 				C5CDD22E258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_5.m in Sources */,
+				C5C64C29259DF6EB00FD2F99 /* ECPrivacyCheckReminders.m in Sources */,
 				C537CBB1257E17D400ECA9FB /* NSObject+RichText.m in Sources */,
 				C537CFAD257E215C00ECA9FB /* UIView+Animation.m in Sources */,
 				C5461B31258C9F9B0008928C /* BaseTableViewer.m in Sources */,
 				C537CFB1257E215C00ECA9FB /* UIView+Gradient.m in Sources */,
 				C5CDD23C258F24490045AA50 /* JobsAppDoorVC_Style2.m in Sources */,
 				C537D0E2257E250600ECA9FB /* UIViewController+BackBtn.m in Sources */,
+				C5C64C25259DF6EB00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
+				C5C64C27259DF6EB00FD2F99 /* ECPrivacyCheckContacts.m in Sources */,
 				C5A715FD258F7D660013E3EF /* AuthCodeLab.m in Sources */,
 				C5460D4C258C8E560008928C /* ZYTextField.m in Sources */,
 				C537CF54257E1EA400ECA9FB /* CADisplayLink_TimerManager.m in Sources */,
@@ -1795,21 +2049,27 @@
 				C537CB1A257E164A00ECA9FB /* JobsAppDoor.xcdatamodeld in Sources */,
 				C5CDD225258F24490045AA50 /* DDForgetCodeVC.m in Sources */,
 				C5461B2F258C9F9B0008928C /* TableViewAnimationKit.m in Sources */,
+				C5C64C28259DF6EB00FD2F99 /* ECPrivacyCheckHealth.m in Sources */,
 				C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */,
 				C537CFAF257E215C00ECA9FB /* UIView+Extras.m in Sources */,
 				C5460D4B258C8E560008928C /* ZYTextField+HistoryDataList.m in Sources */,
 				C546FA2D258B5DF30008928C /* NavigationBar.m in Sources */,
+				C5C64C24259DF6EB00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
 				C5461B2B258C9F9B0008928C /* UITableViewCell+Margin.m in Sources */,
 				C537CBAF257E17D400ECA9FB /* NSObject+OpenURL.m in Sources */,
 				C537CC38257E19B100ECA9FB /* NotificationManager.m in Sources */,
+				C5C64C1F259DF6EB00FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
+				C5C64C26259DF6EB00FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
 				C5461B30258C9F9B0008928C /* UITableView+XSAnimationKit.m in Sources */,
 				C5D0B6F925878C58002CA224 /* SoundBtn.m in Sources */,
 				C5D1BDE1258B1F0D00784D2F /* UIView+EmptyData.m in Sources */,
 				C5CDD233258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_3.m in Sources */,
+				C5C64C1D259DF6EB00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */,
 				C537CFC5257E21D800ECA9FB /* ImageCodeView.m in Sources */,
 				C537CFB0257E215C00ECA9FB /* UIView+ZFPlayer.m in Sources */,
 				C5461B2E258C9F9B0008928C /* UITableViewCell+WhiteArrows.m in Sources */,
 				C537CB7A257E17BA00ECA9FB /* JobsMagicTextField.m in Sources */,
+				C5C64C1C259DF6EB00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */,
 				C5CDD231258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_4.m in Sources */,
 				C5461B33258C9F9B0008928C /* UITableView+WWFoldableTableView.m in Sources */,
 				C537CBB0257E17D400ECA9FB /* NSObject+Measure.m in Sources */,
@@ -2021,7 +2281,7 @@
 		};
 		C537CB3F257E164B00ECA9FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3374C4D4F3467D978870FC /* Pods-JobsAppDoorTests.debug.xcconfig */;
+			baseConfigurationReference = F5412028463B3CCFA21ABF4A /* Pods-JobsAppDoorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -2042,7 +2302,7 @@
 		};
 		C537CB40257E164B00ECA9FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAD0D02AEC26C09811EA5CB /* Pods-JobsAppDoorTests.release.xcconfig */;
+			baseConfigurationReference = AC2BB29B5F18CD2DAE59F1D4 /* Pods-JobsAppDoorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -2063,7 +2323,7 @@
 		};
 		C537CB42257E164B00ECA9FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AAA71F706FA2BC697E5AE13 /* Pods-JobsAppDoorUITests.debug.xcconfig */;
+			baseConfigurationReference = D042BC6B54DBCB2896EFE7AC /* Pods-JobsAppDoorUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
@@ -2082,7 +2342,7 @@
 		};
 		C537CB43257E164B00ECA9FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB5090199E67D974674A68C2 /* Pods-JobsAppDoorUITests.release.xcconfig */;
+			baseConfigurationReference = 79CAB6EAD8657F6A6383BC13 /* Pods-JobsAppDoorUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
