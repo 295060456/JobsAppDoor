@@ -50,6 +50,9 @@
 		C537CFC5257E21D800ECA9FB /* ImageCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFC4257E21D800ECA9FB /* ImageCodeView.m */; };
 		C537CFE9257E22FE00ECA9FB /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CFE7257E22FE00ECA9FB /* NSString+Extras.m */; };
 		C537D0E2257E250600ECA9FB /* UIViewController+BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */; };
+		C53C9C6625A1CF0C0007F58F /* NSObject+DataSave.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C9C6425A1CF0C0007F58F /* NSObject+DataSave.m */; };
+		C53CA06B25A1D2B60007F58F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA06A25A1D2B60007F58F /* FileFolderHandleTool.m */; };
+		C53CA08F25A1D33D0007F58F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA08D25A1D33D0007F58F /* UIImage+Extras.m */; };
 		C53D37982598C75200B48431 /* XLBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C53D37952598C75200B48431 /* XLBubbleTransition.m */; };
 		C53D37992598C75200B48431 /* UIViewController+XLBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C53D37962598C75200B48431 /* UIViewController+XLBubbleTransition.m */; };
 		C5460D40258C8E3B0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D3E258C8E3B0008928C /* UIView+AOP.m */; };
@@ -268,6 +271,12 @@
 		C537CFEE257E235800ECA9FB /* LoadingImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
 		C537D0E0257E250600ECA9FB /* UIViewController+BackBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackBtn.h"; sourceTree = "<group>"; };
 		C537D0E1257E250600ECA9FB /* UIViewController+BackBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackBtn.m"; sourceTree = "<group>"; };
+		C53C9C6425A1CF0C0007F58F /* NSObject+DataSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataSave.m"; sourceTree = "<group>"; };
+		C53C9C6525A1CF0C0007F58F /* NSObject+DataSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataSave.h"; sourceTree = "<group>"; };
+		C53CA06925A1D2B60007F58F /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
+		C53CA06A25A1D2B60007F58F /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
+		C53CA08D25A1D33D0007F58F /* UIImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extras.m"; sourceTree = "<group>"; };
+		C53CA08E25A1D33D0007F58F /* UIImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extras.h"; sourceTree = "<group>"; };
 		C53D37932598C75200B48431 /* XLBubbleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBubbleTransition.h; sourceTree = "<group>"; };
 		C53D37942598C75200B48431 /* UIViewController+XLBubbleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLBubbleTransition.h"; sourceTree = "<group>"; };
 		C53D37952598C75200B48431 /* XLBubbleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBubbleTransition.m; sourceTree = "<group>"; };
@@ -513,14 +522,14 @@
 		C537CB00257E164A00ECA9FB = {
 			isa = PBXGroup;
 			children = (
-				060D38056920D7F2CED59374 /* Frameworks */,
+				C537CD40257E1C0A00ECA9FB /* README.md */,
 				C537CB0B257E164A00ECA9FB /* JobsAppDoor */,
 				C537CB2A257E164B00ECA9FB /* JobsAppDoorTests */,
 				C537CB35257E164B00ECA9FB /* JobsAppDoorUITests */,
 				B2E7EFD75F49E62F154D2AF9 /* Pods */,
 				C5580395258A44EA0078DB8F /* PodsManual */,
 				C537CB0A257E164A00ECA9FB /* Products */,
-				C537CD40257E1C0A00ECA9FB /* README.md */,
+				060D38056920D7F2CED59374 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -756,6 +765,7 @@
 		C537CB92257E17D400ECA9FB /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C53C9C6325A1CF0C0007F58F /* NSObject+DataSave */,
 				C5D6D82925860D8E00029AFF /* NSObject (Time) */,
 				C5D6C6A82585F14900029AFF /* NSObject+Extras */,
 				C5D6C6A92585F15000029AFF /* NSObject+Measure */,
@@ -805,8 +815,8 @@
 				C537CC32257E19B100ECA9FB /* MacroDef_App.h */,
 				C537CC33257E19B100ECA9FB /* MacroDef_Cor.h */,
 				C537CC35257E19B100ECA9FB /* MacroDef_Func.h */,
-				C537CC36257E19B100ECA9FB /* MacroDef_Sys.h */,
 				C57798CE258A0C3F00FE51E3 /* MacroDef_Size.h */,
+				C537CC36257E19B100ECA9FB /* MacroDef_Sys.h */,
 			);
 			path = "各项宏定义";
 			sourceTree = "<group>";
@@ -814,6 +824,7 @@
 		C537CF41257E1E9400ECA9FB /* 🔨Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C53CA06825A1D2B60007F58F /* 文件夹操作 */,
 				C537CBB8257E17ED00ECA9FB /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀Core */,
 				C537CFB8257E21BF00ECA9FB /* 播放器控制层 */,
 				C537CFC2257E21D800ECA9FB /* 图形验证码 */,
@@ -908,9 +919,37 @@
 		C537CFED257E235200ECA9FB /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				C53CA08C25A1D33D0007F58F /* UIImage+Extras */,
 				C537CFEE257E235800ECA9FB /* LoadingImage.h */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		C53C9C6325A1CF0C0007F58F /* NSObject+DataSave */ = {
+			isa = PBXGroup;
+			children = (
+				C53C9C6425A1CF0C0007F58F /* NSObject+DataSave.m */,
+				C53C9C6525A1CF0C0007F58F /* NSObject+DataSave.h */,
+			);
+			path = "NSObject+DataSave";
+			sourceTree = "<group>";
+		};
+		C53CA06825A1D2B60007F58F /* 文件夹操作 */ = {
+			isa = PBXGroup;
+			children = (
+				C53CA06925A1D2B60007F58F /* FileFolderHandleTool.h */,
+				C53CA06A25A1D2B60007F58F /* FileFolderHandleTool.m */,
+			);
+			path = "文件夹操作";
+			sourceTree = "<group>";
+		};
+		C53CA08C25A1D33D0007F58F /* UIImage+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C53CA08E25A1D33D0007F58F /* UIImage+Extras.h */,
+				C53CA08D25A1D33D0007F58F /* UIImage+Extras.m */,
+			);
+			path = "UIImage+Extras";
 			sourceTree = "<group>";
 		};
 		C53D37922598C75200B48431 /* UIViewController+XLBubbleTransition */ = {
@@ -2026,14 +2065,17 @@
 				C5D0C3B625879758002CA224 /* UIControl+XY.m in Sources */,
 				C537CB11257E164A00ECA9FB /* JobsAppDoorSceneDelegate.m in Sources */,
 				C5CDD22E258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_5.m in Sources */,
+				C53CA08F25A1D33D0007F58F /* UIImage+Extras.m in Sources */,
 				C5C64C29259DF6EB00FD2F99 /* ECPrivacyCheckReminders.m in Sources */,
 				C537CBB1257E17D400ECA9FB /* NSObject+RichText.m in Sources */,
 				C537CFAD257E215C00ECA9FB /* UIView+Animation.m in Sources */,
 				C5461B31258C9F9B0008928C /* BaseTableViewer.m in Sources */,
 				C537CFB1257E215C00ECA9FB /* UIView+Gradient.m in Sources */,
+				C53CA06B25A1D2B60007F58F /* FileFolderHandleTool.m in Sources */,
 				C5CDD23C258F24490045AA50 /* JobsAppDoorVC_Style2.m in Sources */,
 				C537D0E2257E250600ECA9FB /* UIViewController+BackBtn.m in Sources */,
 				C5C64C25259DF6EB00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
+				C53C9C6625A1CF0C0007F58F /* NSObject+DataSave.m in Sources */,
 				C5C64C27259DF6EB00FD2F99 /* ECPrivacyCheckContacts.m in Sources */,
 				C5A715FD258F7D660013E3EF /* AuthCodeLab.m in Sources */,
 				C5460D4C258C8E560008928C /* ZYTextField.m in Sources */,

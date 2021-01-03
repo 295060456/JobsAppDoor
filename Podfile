@@ -24,6 +24,8 @@ use_frameworks!
 def appCommon
   pod 'ReactiveObjC'  # https://github.com/ReactiveCocoa/ReactiveObjC 重量级框架
   pod 'Masonry' # https://github.com/SnapKit/Masonry 布局
+  pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖
+  pod 'TXFileOperation' # 文件夹操作 https://github.com/xtzPioneer/TXFileOperation
   end
 
 ## GK一族
@@ -75,7 +77,6 @@ target 'JobsAppDoor' do
   appCommon
   gk
   videoFunc
-  pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖
 
   cocoPodsConfig
 end

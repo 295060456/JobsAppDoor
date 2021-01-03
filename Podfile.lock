@@ -7,6 +7,7 @@ PODS:
   - IJKMediaFramework (0.1.5)
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
+  - TXFileOperation (1.0)
   - WHToast (0.0.7)
   - ZFPlayer (4.0.1):
     - ZFPlayer/Core (= 4.0.1)
@@ -23,6 +24,7 @@ DEPENDENCIES:
   - GKNavigationBar
   - Masonry
   - ReactiveObjC
+  - TXFileOperation
   - WHToast
   - ZFPlayer
   - ZFPlayer/AVPlayer
@@ -35,6 +37,7 @@ SPEC REPOS:
     - IJKMediaFramework
     - Masonry
     - ReactiveObjC
+    - TXFileOperation
     - WHToast
     - ZFPlayer
 
@@ -43,9 +46,10 @@ SPEC CHECKSUMS:
   IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  TXFileOperation: 99bc7e3763678fdea8e8c407e2b87fb18038385f
   WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: ec88b2d107477219571d4f7f76f8ef42b3c7e6a5
+PODFILE CHECKSUM: 87ea8dcbe8b26ac9507e7a8983c6e722107e8f49
 
 COCOAPODS: 1.10.0

@@ -125,4 +125,10 @@
 #import "GKNavigationBar.h"
 #endif
 
+#if __has_include(<TXFileOperation/TXFileOperation.h>)
+#import <TXFileOperation/TXFileOperation.h>
+#else
+#import "TXFileOperation.h"
+#endif
+
 #endif /* Pods_h */
