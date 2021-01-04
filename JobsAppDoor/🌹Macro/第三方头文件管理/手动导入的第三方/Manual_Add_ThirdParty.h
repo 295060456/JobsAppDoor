@@ -47,6 +47,7 @@
 #import "UIView+SuspendView.h"
 #import "UIView+ZFPlayer.h"
 #import "UIView+EmptyData.h"
+#import "UIView+Gesture.h"
 // NSString
 #import "NSString+Extras.h"
 // UIImage
