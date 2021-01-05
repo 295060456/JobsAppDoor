@@ -71,6 +71,7 @@
 		C546FA23258B5DBF0008928C /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */; };
 		C546FA2D258B5DF30008928C /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA2B258B5DF30008928C /* NavigationBar.m */; };
 		C56592F8258E2864005355C4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56592F6258E2864005355C4 /* UIColor+Hex.m */; };
+		C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */; };
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
 		C59A3ABA258DD16F005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AB5258DD16F005F6260 /* UserDefaultModel.m */; };
 		C59A3ABB258DD16F005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AB6258DD16F005F6260 /* UserDefaultManager.m */; };
@@ -315,6 +316,9 @@
 		C5580396258A451A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C56592F6258E2864005355C4 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		C56592F7258E2864005355C4 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
+		C565C9D025A4379300848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
+		C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
 		C57798CE258A0C3F00FE51E3 /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Size.h; sourceTree = "<group>"; };
 		C59A3AB3258DD16F005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
 		C59A3AB4258DD16F005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
@@ -836,6 +840,7 @@
 		C537CF41257E1E9400ECA9FB /* 🔨Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C565C9CE25A4379300848134 /* TwoVerticalArrangementLabsView */,
 				C53CA06825A1D2B60007F58F /* 文件夹操作 */,
 				C537CBB8257E17ED00ECA9FB /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀Core */,
 				C537CFB8257E21BF00ECA9FB /* 播放器控制层 */,
@@ -1107,6 +1112,16 @@
 				C56592F6258E2864005355C4 /* UIColor+Hex.m */,
 			);
 			path = UIColor;
+			sourceTree = "<group>";
+		};
+		C565C9CE25A4379300848134 /* TwoVerticalArrangementLabsView */ = {
+			isa = PBXGroup;
+			children = (
+				C565C9D025A4379300848134 /* TwoVerticalArrangementLabsView.h */,
+				C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */,
+				C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */,
+			);
+			path = TwoVerticalArrangementLabsView;
 			sourceTree = "<group>";
 		};
 		C57797CD258A0AD500FE51E3 /* 各项全局定义 */ = {
@@ -2094,6 +2109,7 @@
 				C5A715FD258F7D660013E3EF /* AuthCodeLab.m in Sources */,
 				C5460D4C258C8E560008928C /* ZYTextField.m in Sources */,
 				C537CF54257E1EA400ECA9FB /* CADisplayLink_TimerManager.m in Sources */,
+				C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */,
 				C537CB77257E17BA00ECA9FB /* CJTextField.m in Sources */,
 				C56592F8258E2864005355C4 /* UIColor+Hex.m in Sources */,
 				C59A3ABA258DD16F005F6260 /* UserDefaultModel.m in Sources */,
