@@ -4,11 +4,23 @@ PODS:
     - GKNavigationBar/NavigationBar (= 1.4.0)
   - GKNavigationBar/GestureHandle (1.4.0)
   - GKNavigationBar/NavigationBar (1.4.0)
+  - GKPhotoBrowser (2.1.4):
+    - GKPhotoBrowser/SD (= 2.1.4)
+  - GKPhotoBrowser/Core (2.1.4)
+  - GKPhotoBrowser/SD (2.1.4):
+    - GKPhotoBrowser/Core
+    - SDWebImage (~> 5.0)
   - IJKMediaFramework (0.1.5)
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
   - TXFileOperation (1.0)
   - WHToast (0.0.7)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
   - ZFPlayer (4.0.1):
     - ZFPlayer/Core (= 4.0.1)
   - ZFPlayer/AVPlayer (4.0.1):
@@ -22,10 +34,13 @@ PODS:
 
 DEPENDENCIES:
   - GKNavigationBar
+  - GKPhotoBrowser
   - Masonry
   - ReactiveObjC
+  - SDWebImage
   - TXFileOperation
   - WHToast
+  - YYImage
   - ZFPlayer
   - ZFPlayer/AVPlayer
   - ZFPlayer/ControlView
@@ -34,22 +49,28 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - GKNavigationBar
+    - GKPhotoBrowser
     - IJKMediaFramework
     - Masonry
     - ReactiveObjC
+    - SDWebImage
     - TXFileOperation
     - WHToast
+    - YYImage
     - ZFPlayer
 
 SPEC CHECKSUMS:
   GKNavigationBar: fe87990bde3fb2b7ece3f81014c6d4bc654bef06
+  GKPhotoBrowser: 1f7c0bdd21fc617f1c7cd18d15f26488abf0f973
   IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
   TXFileOperation: 99bc7e3763678fdea8e8c407e2b87fb18038385f
   WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: 87ea8dcbe8b26ac9507e7a8983c6e722107e8f49
+PODFILE CHECKSUM: b713840ff78eabc6460f12ca70f738ea2c392957
 
 COCOAPODS: 1.10.0
