@@ -1245,9 +1245,9 @@
 			isa = PBXGroup;
 			children = (
 				C59A3AB3258DD16F005F6260 /* UserDefaultManager.h */,
+				C59A3AB6258DD16F005F6260 /* UserDefaultManager.m */,
 				C59A3AB4258DD16F005F6260 /* UserDefaultModel.h */,
 				C59A3AB5258DD16F005F6260 /* UserDefaultModel.m */,
-				C59A3AB6258DD16F005F6260 /* UserDefaultManager.m */,
 			);
 			path = UserDefaultManager;
 			sourceTree = "<group>";
