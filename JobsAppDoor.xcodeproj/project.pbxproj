@@ -75,6 +75,16 @@
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
 		C59A3ABA258DD16F005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AB5258DD16F005F6260 /* UserDefaultModel.m */; };
 		C59A3ABB258DD16F005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AB6258DD16F005F6260 /* UserDefaultManager.m */; };
+		C5A4364425AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4363F25AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */; };
+		C5A4364625AAF73C000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4364325AAF73C000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		C5A4415525ABFB7C000F0CD2 /* GKPhotoBrowser+SaveBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4414125ABFB7B000F0CD2 /* GKPhotoBrowser+SaveBtn.m */; };
+		C5A4415625ABFB7C000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4414725ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m */; };
+		C5A4415725ABFB7C000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4414825ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCell.m */; };
+		C5A4415825ABFB7C000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4414925ABFB7B000F0CD2 /* JXCategoryTitleBackgroundView.m */; };
+		C5A4415925ABFB7C000F0CD2 /* JXCategoryTimelineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4414C25ABFB7B000F0CD2 /* JXCategoryTimelineView.m */; };
+		C5A4415A25ABFB7C000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4414D25ABFB7B000F0CD2 /* JXCategoryTimelineCellModel.m */; };
+		C5A4415B25ABFB7C000F0CD2 /* JXCategoryTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4414E25ABFB7B000F0CD2 /* JXCategoryTimelineCell.m */; };
+		C5A4415C25ABFB7C000F0CD2 /* WHToast+DDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4415325ABFB7C000F0CD2 /* WHToast+DDToast.m */; };
 		C5A715E3258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A715E1258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.m */; };
 		C5A715FD258F7D660013E3EF /* AuthCodeLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A715FB258F7D660013E3EF /* AuthCodeLab.m */; };
 		C5C64C1C259DF6EB00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64BD9259DF6EA00FD2F99 /* ECPrivacyCheckMicrophone.m */; };
@@ -324,6 +334,27 @@
 		C59A3AB4258DD16F005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
 		C59A3AB5258DD16F005F6260 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
 		C59A3AB6258DD16F005F6260 /* UserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultManager.m; sourceTree = "<group>"; };
+		C5A4363F25AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		C5A4364025AAF73C000F0CD2 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C5A4364125AAF73C000F0CD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5A4364225AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C5A4364325AAF73C000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		C5A4414025ABFB7B000F0CD2 /* GKPhotoBrowser+SaveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GKPhotoBrowser+SaveBtn.h"; sourceTree = "<group>"; };
+		C5A4414125ABFB7B000F0CD2 /* GKPhotoBrowser+SaveBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GKPhotoBrowser+SaveBtn.m"; sourceTree = "<group>"; };
+		C5A4414525ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundCell.h; sourceTree = "<group>"; };
+		C5A4414625ABFB7B000F0CD2 /* JXCategoryTitleBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundView.h; sourceTree = "<group>"; };
+		C5A4414725ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundCellModel.m; sourceTree = "<group>"; };
+		C5A4414825ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundCell.m; sourceTree = "<group>"; };
+		C5A4414925ABFB7B000F0CD2 /* JXCategoryTitleBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundView.m; sourceTree = "<group>"; };
+		C5A4414A25ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundCellModel.h; sourceTree = "<group>"; };
+		C5A4414C25ABFB7B000F0CD2 /* JXCategoryTimelineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTimelineView.m; sourceTree = "<group>"; };
+		C5A4414D25ABFB7B000F0CD2 /* JXCategoryTimelineCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTimelineCellModel.m; sourceTree = "<group>"; };
+		C5A4414E25ABFB7B000F0CD2 /* JXCategoryTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTimelineCell.m; sourceTree = "<group>"; };
+		C5A4414F25ABFB7B000F0CD2 /* JXCategoryTimelineCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineCellModel.h; sourceTree = "<group>"; };
+		C5A4415025ABFB7B000F0CD2 /* JXCategoryTimelineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineView.h; sourceTree = "<group>"; };
+		C5A4415125ABFB7B000F0CD2 /* JXCategoryTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineCell.h; sourceTree = "<group>"; };
+		C5A4415325ABFB7C000F0CD2 /* WHToast+DDToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHToast+DDToast.m"; sourceTree = "<group>"; };
+		C5A4415425ABFB7C000F0CD2 /* WHToast+DDToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHToast+DDToast.h"; sourceTree = "<group>"; };
 		C5A713E1258F768E0013E3EF /* 输入框样式_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框样式_6.png"; sourceTree = "<group>"; };
 		C5A713E6258F769A0013E3EF /* 输入框样式_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框样式_2.png"; sourceTree = "<group>"; };
 		C5A715E1258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorInputViewBaseStyle_6.m; sourceTree = "<group>"; };
@@ -840,6 +871,7 @@
 		C537CF41257E1E9400ECA9FB /* 🔨Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C5A4363E25AAF73C000F0CD2 /* 手势滑动返回 */,
 				C565C9CE25A4379300848134 /* TwoVerticalArrangementLabsView */,
 				C53CA06825A1D2B60007F58F /* 文件夹操作 */,
 				C537CBB8257E17ED00ECA9FB /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀Core */,
@@ -1083,6 +1115,9 @@
 		C5580395258A44EA0078DB8F /* PodsManual */ = {
 			isa = PBXGroup;
 			children = (
+				C5A4413F25ABFB7B000F0CD2 /* GKPhotoBrowser+SaveBtn */,
+				C5A4414225ABFB7B000F0CD2 /* JXCategoryView */,
+				C5A4415225ABFB7C000F0CD2 /* WHToast */,
 				C5C64BD6259DF6EA00FD2F99 /* ECPrivacyCheckTools */,
 			);
 			path = PodsManual;
@@ -1250,6 +1285,71 @@
 				C59A3AB5258DD16F005F6260 /* UserDefaultModel.m */,
 			);
 			path = UserDefaultManager;
+			sourceTree = "<group>";
+		};
+		C5A4363E25AAF73C000F0CD2 /* 手势滑动返回 */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4364125AAF73C000F0CD2 /* README.md */,
+				C5A4364025AAF73C000F0CD2 /* UINavigationController+FDFullscreenPopGesture.h */,
+				C5A4364325AAF73C000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m */,
+				C5A4364225AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.h */,
+				C5A4363F25AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */,
+			);
+			path = "手势滑动返回";
+			sourceTree = "<group>";
+		};
+		C5A4413F25ABFB7B000F0CD2 /* GKPhotoBrowser+SaveBtn */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4414025ABFB7B000F0CD2 /* GKPhotoBrowser+SaveBtn.h */,
+				C5A4414125ABFB7B000F0CD2 /* GKPhotoBrowser+SaveBtn.m */,
+			);
+			path = "GKPhotoBrowser+SaveBtn";
+			sourceTree = "<group>";
+		};
+		C5A4414225ABFB7B000F0CD2 /* JXCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4414425ABFB7B000F0CD2 /* JXCategoryTitleBackgroundView */,
+				C5A4414B25ABFB7B000F0CD2 /* JXCategoryTimelineView */,
+			);
+			path = JXCategoryView;
+			sourceTree = "<group>";
+		};
+		C5A4414425ABFB7B000F0CD2 /* JXCategoryTitleBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4414525ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCell.h */,
+				C5A4414825ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCell.m */,
+				C5A4414A25ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCellModel.h */,
+				C5A4414725ABFB7B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m */,
+				C5A4414625ABFB7B000F0CD2 /* JXCategoryTitleBackgroundView.h */,
+				C5A4414925ABFB7B000F0CD2 /* JXCategoryTitleBackgroundView.m */,
+			);
+			path = JXCategoryTitleBackgroundView;
+			sourceTree = "<group>";
+		};
+		C5A4414B25ABFB7B000F0CD2 /* JXCategoryTimelineView */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4415125ABFB7B000F0CD2 /* JXCategoryTimelineCell.h */,
+				C5A4414E25ABFB7B000F0CD2 /* JXCategoryTimelineCell.m */,
+				C5A4414F25ABFB7B000F0CD2 /* JXCategoryTimelineCellModel.h */,
+				C5A4414D25ABFB7B000F0CD2 /* JXCategoryTimelineCellModel.m */,
+				C5A4415025ABFB7B000F0CD2 /* JXCategoryTimelineView.h */,
+				C5A4414C25ABFB7B000F0CD2 /* JXCategoryTimelineView.m */,
+			);
+			path = JXCategoryTimelineView;
+			sourceTree = "<group>";
+		};
+		C5A4415225ABFB7C000F0CD2 /* WHToast */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4415425ABFB7C000F0CD2 /* WHToast+DDToast.h */,
+				C5A4415325ABFB7C000F0CD2 /* WHToast+DDToast.m */,
+			);
+			path = WHToast;
 			sourceTree = "<group>";
 		};
 		C5A713E0258F768E0013E3EF /* 输入框样式_6 */ = {
@@ -2058,6 +2158,7 @@
 				C537CFAB257E215C00ECA9FB /* UIView+Chain.m in Sources */,
 				C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */,
 				C5D1BDEA258B1F2E00784D2F /* UIViewController+EmptyData.m in Sources */,
+				C5A4364425AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C5CDD224258F24490045AA50 /* ForgetCodeStep_01View.m in Sources */,
 				C5C64C20259DF6EB00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
 				C5CDD23A258F24490045AA50 /* JobsAppDoorRegisterContentView.m in Sources */,
@@ -2069,6 +2170,7 @@
 				C5A715E3258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.m in Sources */,
 				C537CB75257E17BA00ECA9FB /* HQTextField.m in Sources */,
 				C59A3ABB258DD16F005F6260 /* UserDefaultManager.m in Sources */,
+				C5A4415825ABFB7C000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
 				C5CDD237258F24490045AA50 /* JobsAppDoorVC_Style1.m in Sources */,
 				C537CFE9257E22FE00ECA9FB /* NSString+Extras.m in Sources */,
 				C5CDD227258F24490045AA50 /* JobsAppDoorLogoContentView.m in Sources */,
@@ -2076,6 +2178,7 @@
 				C52675B4258A48BF0095A681 /* NSObject+Time.m in Sources */,
 				C5CDD239258F24490045AA50 /* BaseContentView.m in Sources */,
 				C5C64C21259DF6EB00FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
+				C5A4364625AAF73C000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C53D37982598C75200B48431 /* XLBubbleTransition.m in Sources */,
 				C5CDD230258F24490045AA50 /* JobsAppDoorInputViewBaseStyleModel.m in Sources */,
 				C537CBF7257E186300ECA9FB /* ViewController.m in Sources */,
@@ -2092,12 +2195,16 @@
 				C5C64C48259DF6EB00FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */,
 				C5C64C22259DF6EB00FD2F99 /* ECPrivacyCheckCalendars.m in Sources */,
 				C5D0C3B625879758002CA224 /* UIControl+XY.m in Sources */,
+				C5A4415925ABFB7C000F0CD2 /* JXCategoryTimelineView.m in Sources */,
 				C537CB11257E164A00ECA9FB /* JobsAppDoorSceneDelegate.m in Sources */,
 				C5CDD22E258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_5.m in Sources */,
+				C5A4415525ABFB7C000F0CD2 /* GKPhotoBrowser+SaveBtn.m in Sources */,
 				C53CA08F25A1D33D0007F58F /* UIImage+Extras.m in Sources */,
+				C5A4415B25ABFB7C000F0CD2 /* JXCategoryTimelineCell.m in Sources */,
 				C5C64C29259DF6EB00FD2F99 /* ECPrivacyCheckReminders.m in Sources */,
 				C537CBB1257E17D400ECA9FB /* NSObject+RichText.m in Sources */,
 				C537CFAD257E215C00ECA9FB /* UIView+Animation.m in Sources */,
+				C5A4415625ABFB7C000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */,
 				C5461B31258C9F9B0008928C /* BaseTableViewer.m in Sources */,
 				C537CFB1257E215C00ECA9FB /* UIView+Gradient.m in Sources */,
 				C53CA06B25A1D2B60007F58F /* FileFolderHandleTool.m in Sources */,
@@ -2123,7 +2230,9 @@
 				C5461B2F258C9F9B0008928C /* TableViewAnimationKit.m in Sources */,
 				C5C64C28259DF6EB00FD2F99 /* ECPrivacyCheckHealth.m in Sources */,
 				C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */,
+				C5A4415A25ABFB7C000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C537CFAF257E215C00ECA9FB /* UIView+Extras.m in Sources */,
+				C5A4415725ABFB7C000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C5460D4B258C8E560008928C /* ZYTextField+HistoryDataList.m in Sources */,
 				C546FA2D258B5DF30008928C /* NavigationBar.m in Sources */,
 				C5C64C24259DF6EB00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
@@ -2142,6 +2251,7 @@
 				C5461B2E258C9F9B0008928C /* UITableViewCell+WhiteArrows.m in Sources */,
 				C537CB7A257E17BA00ECA9FB /* JobsMagicTextField.m in Sources */,
 				C5C64C1C259DF6EB00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */,
+				C5A4415C25ABFB7C000F0CD2 /* WHToast+DDToast.m in Sources */,
 				C5CDD231258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_4.m in Sources */,
 				C5461B33258C9F9B0008928C /* UITableView+WWFoldableTableView.m in Sources */,
 				C537CBB0257E17D400ECA9FB /* NSObject+Measure.m in Sources */,

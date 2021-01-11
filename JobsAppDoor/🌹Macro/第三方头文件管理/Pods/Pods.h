@@ -45,6 +45,18 @@
 #import "TXFileOperation.h"
 #endif
 
+#if __has_include(<JXCategoryView/JXCategoryView.h>)
+#import <JXCategoryView/JXCategoryView.h>
+#else
+#import "JXCategoryView.h"
+#endif
+
+#if __has_include(<JXPagingView/JXPagerView.h>)
+#import <JXPagingView/JXPagerView.h>
+#else
+#import "JXPagerView.h"
+#endif
+
 #if __has_include(<YYImage/YYImage.h>)
 #import <YYImage/YYImage.h>
 #else

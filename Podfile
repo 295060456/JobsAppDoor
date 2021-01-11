@@ -19,7 +19,6 @@ inhibit_all_warnings! # 忽略引入库的所有警告（强迫症者的福音�
 use_frameworks!
 
 # 特别说明：Ruby对大小写敏感，所以方法名首字母不要用大写，否则执行失败
-
 # 几乎每个App都用到的框架
 def appCommon
   pod 'ReactiveObjC'  # https://github.com/ReactiveCocoa/ReactiveObjC 重量级框架
@@ -29,13 +28,16 @@ def appCommon
   pod 'SDWebImage'
   pod 'YYImage'
   end
-
 ## GK一族
 def gk
   pod 'GKNavigationBar' # https://github.com/QuintGao/GKNavigationBar NO_SMP
   pod 'GKPhotoBrowser' # https://github.com/QuintGao/GKPhotoBrowser iOS仿微信、今日头条等图片浏览器 （与GKNavigationBar有冲突）
   end
-
+## JX一族
+def jx
+  pod 'JXCategoryView' # https://github.com/pujiaxin33/JXCategoryView NO_SMP
+  pod 'JXPagingView/Pager' # https://github.com/pujiaxin33/JXPagingView NO_SMP
+  end
 ## 视频相关框架
 def videoFunc
   
@@ -44,7 +46,6 @@ def videoFunc
   pod 'ZFPlayer/AVPlayer'
   pod 'ZFPlayer/ijkplayer'
   end
-
 # 基础的公共配置
 def cocoPodsConfig
   target 'JobsAppDoorTests' do
@@ -78,6 +79,7 @@ target 'JobsAppDoor' do
 
   appCommon
   gk
+  jx
   videoFunc
 
   cocoPodsConfig

@@ -11,6 +11,8 @@ PODS:
     - GKPhotoBrowser/Core
     - SDWebImage (~> 5.0)
   - IJKMediaFramework (0.1.5)
+  - JXCategoryView (1.5.8)
+  - JXPagingView/Pager (2.0.13)
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
   - SDWebImage (5.10.2):
@@ -35,6 +37,8 @@ PODS:
 DEPENDENCIES:
   - GKNavigationBar
   - GKPhotoBrowser
+  - JXCategoryView
+  - JXPagingView/Pager
   - Masonry
   - ReactiveObjC
   - SDWebImage
@@ -51,6 +55,8 @@ SPEC REPOS:
     - GKNavigationBar
     - GKPhotoBrowser
     - IJKMediaFramework
+    - JXCategoryView
+    - JXPagingView
     - Masonry
     - ReactiveObjC
     - SDWebImage
@@ -63,6 +69,8 @@ SPEC CHECKSUMS:
   GKNavigationBar: fe87990bde3fb2b7ece3f81014c6d4bc654bef06
   GKPhotoBrowser: 1f7c0bdd21fc617f1c7cd18d15f26488abf0f973
   IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
+  JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
+  JXPagingView: 821ed274f09eaf2843a96c3a74e9d138e27d9730
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
@@ -71,6 +79,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: b713840ff78eabc6460f12ca70f738ea2c392957
+PODFILE CHECKSUM: 94fefb7aa65e7ce31db638feb9186eaef5a783cf
 
 COCOAPODS: 1.10.0
