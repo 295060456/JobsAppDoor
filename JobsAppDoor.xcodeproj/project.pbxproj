@@ -151,6 +151,7 @@
 		C5CDD23A258F24490045AA50 /* JobsAppDoorRegisterContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDD21A258F24490045AA50 /* JobsAppDoorRegisterContentView.m */; };
 		C5CDD23B258F24490045AA50 /* JobsAppDoorLoginContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDD21E258F24490045AA50 /* JobsAppDoorLoginContentView.m */; };
 		C5CDD23C258F24490045AA50 /* JobsAppDoorVC_Style2.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDD221258F24490045AA50 /* JobsAppDoorVC_Style2.m */; };
+		C5CF129625AC7CD500381935 /* LYLUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF129325AC7CD500381935 /* LYLUnicode.m */; };
 		C5D0B6F725878C58002CA224 /* Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5D0B6F325878C58002CA224 /* Sound.wav */; };
 		C5D0B6F825878C58002CA224 /* 带有按键音的按钮.md in Resources */ = {isa = PBXBuildFile; fileRef = C5D0B6F425878C58002CA224 /* 带有按键音的按钮.md */; };
 		C5D0B6F925878C58002CA224 /* SoundBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D0B6F525878C58002CA224 /* SoundBtn.m */; };
@@ -472,6 +473,9 @@
 		C5CDD21E258F24490045AA50 /* JobsAppDoorLoginContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorLoginContentView.m; sourceTree = "<group>"; };
 		C5CDD220258F24490045AA50 /* JobsAppDoorVC_Style2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorVC_Style2.h; sourceTree = "<group>"; };
 		C5CDD221258F24490045AA50 /* JobsAppDoorVC_Style2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorVC_Style2.m; sourceTree = "<group>"; };
+		C5CF129325AC7CD500381935 /* LYLUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLUnicode.m; sourceTree = "<group>"; };
+		C5CF129425AC7CD500381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "解决打印日志对于Unicode编码不能正常显示中文的问题"; sourceTree = "<group>"; };
+		C5CF129525AC7CD500381935 /* LYLUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLUnicode.h; sourceTree = "<group>"; };
 		C5D0B6F325878C58002CA224 /* Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound.wav; sourceTree = "<group>"; };
 		C5D0B6F425878C58002CA224 /* 带有按键音的按钮.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "带有按键音的按钮.md"; sourceTree = "<group>"; };
 		C5D0B6F525878C58002CA224 /* SoundBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBtn.m; sourceTree = "<group>"; };
@@ -871,6 +875,7 @@
 		C537CF41257E1E9400ECA9FB /* 🔨Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C5CF129225AC7CD500381935 /* LYLUnicode */,
 				C5A4363E25AAF73C000F0CD2 /* 手势滑动返回 */,
 				C565C9CE25A4379300848134 /* TwoVerticalArrangementLabsView */,
 				C53CA06825A1D2B60007F58F /* 文件夹操作 */,
@@ -1737,6 +1742,16 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		C5CF129225AC7CD500381935 /* LYLUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				C5CF129425AC7CD500381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */,
+				C5CF129525AC7CD500381935 /* LYLUnicode.h */,
+				C5CF129325AC7CD500381935 /* LYLUnicode.m */,
+			);
+			path = LYLUnicode;
+			sourceTree = "<group>";
+		};
 		C5D0B6F225878C58002CA224 /* SoundBtn */ = {
 			isa = PBXGroup;
 			children = (
@@ -2158,6 +2173,7 @@
 				C537CFAB257E215C00ECA9FB /* UIView+Chain.m in Sources */,
 				C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */,
 				C5D1BDEA258B1F2E00784D2F /* UIViewController+EmptyData.m in Sources */,
+				C5CF129625AC7CD500381935 /* LYLUnicode.m in Sources */,
 				C5A4364425AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C5CDD224258F24490045AA50 /* ForgetCodeStep_01View.m in Sources */,
 				C5C64C20259DF6EB00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
