@@ -27,6 +27,8 @@ def appCommon
   pod 'TXFileOperation' # 文件夹操作 https://github.com/xtzPioneer/TXFileOperation
   pod 'SDWebImage'
   pod 'YYImage'
+  pod 'MJRefresh'
+  pod 'MJExtension'
   end
 ## GK一族
 def gk

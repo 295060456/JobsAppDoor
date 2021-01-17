@@ -48,6 +48,7 @@
 #import "UIView+ZFPlayer.h"
 #import "UIView+EmptyData.h"
 #import "UIView+Gesture.h"
+#import "UIView+MJRefresh.h"
 // NSString
 #import "NSString+Extras.h"
 // UIImage

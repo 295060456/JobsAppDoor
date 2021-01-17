@@ -70,6 +70,7 @@
 		C5461B33258C9F9B0008928C /* UITableView+WWFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B29258C9F9B0008928C /* UITableView+WWFoldableTableView.m */; };
 		C546FA23258B5DBF0008928C /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */; };
 		C546FA2D258B5DF30008928C /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA2B258B5DF30008928C /* NavigationBar.m */; };
+		C55FE6FE25B4239C00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */; };
 		C56592F8258E2864005355C4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56592F6258E2864005355C4 /* UIColor+Hex.m */; };
 		C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */; };
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
@@ -325,6 +326,8 @@
 		C546FA2B258B5DF30008928C /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
 		C546FA2C258B5DF30008928C /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
 		C5580396258A451A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
+		C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
+		C55FE6FD25B4239C00D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
 		C56592F6258E2864005355C4 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		C56592F7258E2864005355C4 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
@@ -931,14 +934,15 @@
 		C537CF9C257E215C00ECA9FB /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C515740725A3501C0074D945 /* UIView+Gesture */,
 				C595BAF4258640BC002A4531 /* UIView+Animation */,
 				C5460D3D258C8E3B0008928C /* UIView+AOP */,
 				C595BAF5258640C1002A4531 /* UIView+Chain */,
 				C5D1BDDE258B1F0D00784D2F /* UIView+EmptyData */,
 				C595BAF6258640C8002A4531 /* UIView+Extras */,
+				C515740725A3501C0074D945 /* UIView+Gesture */,
 				C595BAF7258640D0002A4531 /* UIView+Gradient */,
 				C595BAF8258640D8002A4531 /* UIView+Measure */,
+				C55FE6FB25B4239C00D8C30D /* UIView+MJRefresh */,
 				C595BAF9258640DF002A4531 /* UIView+SuspendView */,
 				C595BAFA258640E6002A4531 /* UIView+ZFPlayer */,
 			);
@@ -1143,6 +1147,15 @@
 				C537CC29257E19B100ECA9FB /* My_BaseProj-Bridging-Header.h */,
 			);
 			path = "Swift-OC桥接头文件";
+			sourceTree = "<group>";
+		};
+		C55FE6FB25B4239C00D8C30D /* UIView+MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C55FE6FD25B4239C00D8C30D /* UIView+MJRefresh.h */,
+				C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */,
+			);
+			path = "UIView+MJRefresh";
 			sourceTree = "<group>";
 		};
 		C56592F5258E2864005355C4 /* UIColor */ = {
@@ -2171,6 +2184,7 @@
 				C546FA23258B5DBF0008928C /* UIViewController+NavigationBar.m in Sources */,
 				C537CB5D257E17A600ECA9FB /* UIViewController+BaseVC.m in Sources */,
 				C537CFAB257E215C00ECA9FB /* UIView+Chain.m in Sources */,
+				C55FE6FE25B4239C00D8C30D /* UIView+MJRefresh.m in Sources */,
 				C5D600AD2586307C00029AFF /* BaseViewController.m in Sources */,
 				C5D1BDEA258B1F2E00784D2F /* UIViewController+EmptyData.m in Sources */,
 				C5CF129625AC7CD500381935 /* LYLUnicode.m in Sources */,
