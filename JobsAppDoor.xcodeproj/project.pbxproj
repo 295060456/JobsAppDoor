@@ -10,7 +10,6 @@
 		B10F8FA534386B4125F52080 /* Pods_JobsAppDoorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C5F22295F6BC588198AEE1 /* Pods_JobsAppDoorUITests.framework */; };
 		BD1F07F0F0BE881C4B5AD3EF /* Pods_JobsAppDoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9886A7D03FC6BBC0E47DC0 /* Pods_JobsAppDoor.framework */; };
 		C515740A25A3501C0074D945 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C515740925A3501C0074D945 /* UIView+Gesture.m */; };
-		C52675B4258A48BF0095A681 /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C52675B3258A48BF0095A681 /* NSObject+Time.m */; };
 		C537CB0E257E164A00ECA9FB /* JobsAppDoorDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB0D257E164A00ECA9FB /* JobsAppDoorDelegate.m */; };
 		C537CB11257E164A00ECA9FB /* JobsAppDoorSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C537CB10257E164A00ECA9FB /* JobsAppDoorSceneDelegate.m */; };
 		C537CB17257E164A00ECA9FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C537CB15257E164A00ECA9FB /* Main.storyboard */; };
@@ -74,6 +73,7 @@
 		C56592F8258E2864005355C4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56592F6258E2864005355C4 /* UIColor+Hex.m */; };
 		C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */; };
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
+		C5968A8025B58153003E67A1 /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5968A7F25B58153003E67A1 /* NSObject+Time.m */; };
 		C59A3ABA258DD16F005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AB5258DD16F005F6260 /* UserDefaultModel.m */; };
 		C59A3ABB258DD16F005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AB6258DD16F005F6260 /* UserDefaultManager.m */; };
 		C5A4364425AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4363F25AAF73C000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */; };
@@ -192,8 +192,6 @@
 		AC2BB29B5F18CD2DAE59F1D4 /* Pods-JobsAppDoorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorTests/Pods-JobsAppDoorTests.release.xcconfig"; sourceTree = "<group>"; };
 		C515740825A3501C0074D945 /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
 		C515740925A3501C0074D945 /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
-		C52675B2258A48BF0095A681 /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
-		C52675B3258A48BF0095A681 /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C537CB09257E164A00ECA9FB /* JobsAppDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsAppDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C537CB0C257E164A00ECA9FB /* JobsAppDoorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorDelegate.h; sourceTree = "<group>"; };
 		C537CB0D257E164A00ECA9FB /* JobsAppDoorDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorDelegate.m; sourceTree = "<group>"; };
@@ -334,6 +332,8 @@
 		C565C9D025A4379300848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
 		C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
 		C57798CE258A0C3F00FE51E3 /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Size.h; sourceTree = "<group>"; };
+		C5968A7E25B58153003E67A1 /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Time.h"; path = "../../../../../../Shooting/Shooting/3rd/BaseCustomizeUIKit/NSObject/NSObject+Time/NSObject+Time.h"; sourceTree = "<group>"; };
+		C5968A7F25B58153003E67A1 /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Time.m"; path = "../../../../../../Shooting/Shooting/3rd/BaseCustomizeUIKit/NSObject/NSObject+Time/NSObject+Time.m"; sourceTree = "<group>"; };
 		C59A3AB3258DD16F005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
 		C59A3AB4258DD16F005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
 		C59A3AB5258DD16F005F6260 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
@@ -566,8 +566,8 @@
 		C52675B1258A48BF0095A681 /* NSObject+Time */ = {
 			isa = PBXGroup;
 			children = (
-				C52675B2258A48BF0095A681 /* NSObject+Time.h */,
-				C52675B3258A48BF0095A681 /* NSObject+Time.m */,
+				C5968A7E25B58153003E67A1 /* NSObject+Time.h */,
+				C5968A7F25B58153003E67A1 /* NSObject+Time.m */,
 			);
 			name = "NSObject+Time";
 			path = "../../../../../Douyin_ZFPlayer/DouYin/3rd/BaseCustomizeUIKit/NSObject/NSObject+Time";
@@ -2205,7 +2205,6 @@
 				C537CFE9257E22FE00ECA9FB /* NSString+Extras.m in Sources */,
 				C5CDD227258F24490045AA50 /* JobsAppDoorLogoContentView.m in Sources */,
 				C5460D40258C8E3B0008928C /* UIView+AOP.m in Sources */,
-				C52675B4258A48BF0095A681 /* NSObject+Time.m in Sources */,
 				C5CDD239258F24490045AA50 /* BaseContentView.m in Sources */,
 				C5C64C21259DF6EB00FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C5A4364625AAF73C000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
@@ -2260,6 +2259,7 @@
 				C5461B2F258C9F9B0008928C /* TableViewAnimationKit.m in Sources */,
 				C5C64C28259DF6EB00FD2F99 /* ECPrivacyCheckHealth.m in Sources */,
 				C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */,
+				C5968A8025B58153003E67A1 /* NSObject+Time.m in Sources */,
 				C5A4415A25ABFB7C000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C537CFAF257E215C00ECA9FB /* UIView+Extras.m in Sources */,
 				C5A4415725ABFB7C000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
