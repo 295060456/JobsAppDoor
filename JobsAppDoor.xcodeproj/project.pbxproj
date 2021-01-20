@@ -72,6 +72,7 @@
 		C55FE6FE25B4239C00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */; };
 		C56592F8258E2864005355C4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56592F6258E2864005355C4 /* UIColor+Hex.m */; };
 		C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */; };
+		C58D927425B80BEB00414ACB /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D927225B80BEB00414ACB /* BaseTableViewCell.m */; };
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
 		C5968A8025B58153003E67A1 /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5968A7F25B58153003E67A1 /* NSObject+Time.m */; };
 		C59A3ABA258DD16F005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AB5258DD16F005F6260 /* UserDefaultModel.m */; };
@@ -332,6 +333,8 @@
 		C565C9D025A4379300848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
 		C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
 		C57798CE258A0C3F00FE51E3 /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Size.h; sourceTree = "<group>"; };
+		C58D927225B80BEB00414ACB /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		C58D927325B80BEB00414ACB /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		C5968A7E25B58153003E67A1 /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Time.h"; path = "../../../../../../Shooting/Shooting/3rd/BaseCustomizeUIKit/NSObject/NSObject+Time/NSObject+Time.h"; sourceTree = "<group>"; };
 		C5968A7F25B58153003E67A1 /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Time.m"; path = "../../../../../../Shooting/Shooting/3rd/BaseCustomizeUIKit/NSObject/NSObject+Time/NSObject+Time.m"; sourceTree = "<group>"; };
 		C59A3AB3258DD16F005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
@@ -1035,6 +1038,7 @@
 		C5461B13258C9F9B0008928C /* UITableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				C58D927125B80BEB00414ACB /* BaseTableViewCell */,
 				C5461B14258C9F9B0008928C /* 重设边距 */,
 				C5461B17258C9F9B0008928C /* 自定义右侧小箭头图标 */,
 			);
@@ -1229,6 +1233,15 @@
 				C537CC2F257E19B100ECA9FB /* Manual_Add_ThirdParty.h */,
 			);
 			path = "手动导入的第三方";
+			sourceTree = "<group>";
+		};
+		C58D927125B80BEB00414ACB /* BaseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C58D927225B80BEB00414ACB /* BaseTableViewCell.m */,
+				C58D927325B80BEB00414ACB /* BaseTableViewCell.h */,
+			);
+			path = BaseTableViewCell;
 			sourceTree = "<group>";
 		};
 		C595BAF4258640BC002A4531 /* UIView+Animation */ = {
@@ -2277,6 +2290,7 @@
 				C5CDD233258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_3.m in Sources */,
 				C5C64C1D259DF6EB00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */,
 				C537CFC5257E21D800ECA9FB /* ImageCodeView.m in Sources */,
+				C58D927425B80BEB00414ACB /* BaseTableViewCell.m in Sources */,
 				C537CFB0257E215C00ECA9FB /* UIView+ZFPlayer.m in Sources */,
 				C5461B2E258C9F9B0008928C /* UITableViewCell+WhiteArrows.m in Sources */,
 				C537CB7A257E17BA00ECA9FB /* JobsMagicTextField.m in Sources */,
