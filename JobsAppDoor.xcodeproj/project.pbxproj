@@ -72,6 +72,7 @@
 		C55FE6FE25B4239C00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */; };
 		C56592F8258E2864005355C4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56592F6258E2864005355C4 /* UIColor+Hex.m */; };
 		C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */; };
+		C572943625BB09F100726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572943425BB09F100726419 /* UIView+BackgroundImage.m */; };
 		C58D927425B80BEB00414ACB /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D927225B80BEB00414ACB /* BaseTableViewCell.m */; };
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
 		C5968A8025B58153003E67A1 /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5968A7F25B58153003E67A1 /* NSObject+Time.m */; };
@@ -332,6 +333,8 @@
 		C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
 		C565C9D025A4379300848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
 		C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
+		C572943425BB09F100726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
+		C572943525BB09F100726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C57798CE258A0C3F00FE51E3 /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Size.h; sourceTree = "<group>"; };
 		C58D927225B80BEB00414ACB /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 		C58D927325B80BEB00414ACB /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
@@ -937,6 +940,7 @@
 		C537CF9C257E215C00ECA9FB /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C572943325BB09F100726419 /* UIView+BackgroundImage */,
 				C595BAF4258640BC002A4531 /* UIView+Animation */,
 				C5460D3D258C8E3B0008928C /* UIView+AOP */,
 				C595BAF5258640C1002A4531 /* UIView+Chain */,
@@ -1179,6 +1183,15 @@
 				C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */,
 			);
 			path = TwoVerticalArrangementLabsView;
+			sourceTree = "<group>";
+		};
+		C572943325BB09F100726419 /* UIView+BackgroundImage */ = {
+			isa = PBXGroup;
+			children = (
+				C572943425BB09F100726419 /* UIView+BackgroundImage.m */,
+				C572943525BB09F100726419 /* UIView+BackgroundImage.h */,
+			);
+			path = "UIView+BackgroundImage";
 			sourceTree = "<group>";
 		};
 		C57797CD258A0AD500FE51E3 /* 各项全局定义 */ = {
@@ -2262,6 +2275,7 @@
 				C537CB77257E17BA00ECA9FB /* CJTextField.m in Sources */,
 				C56592F8258E2864005355C4 /* UIColor+Hex.m in Sources */,
 				C59A3ABA258DD16F005F6260 /* UserDefaultModel.m in Sources */,
+				C572943625BB09F100726419 /* UIView+BackgroundImage.m in Sources */,
 				C5CDD23B258F24490045AA50 /* JobsAppDoorLoginContentView.m in Sources */,
 				C537CFAE257E215C00ECA9FB /* UIView+SuspendView.m in Sources */,
 				C537CF52257E1EA400ECA9FB /* GCD_TimerManager.m in Sources */,
