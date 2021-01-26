@@ -29,6 +29,7 @@ def appCommon
   pod 'YYImage'
   pod 'MJRefresh'
   pod 'MJExtension'
+  pod 'TABAnimated' # https://github.com/tigerAndBull/TABAnimated
   end
 ## GK一族
 def gk

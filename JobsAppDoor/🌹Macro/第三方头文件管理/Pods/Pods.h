@@ -39,6 +39,12 @@
 #import "GKPhotoBrowser.h"
 #endif
 
+#if __has_include(<TABAnimated/TABAnimated.h>)
+#import <TABAnimated/TABAnimated.h>
+#else
+#import "TABAnimated.h"
+#endif
+
 #if __has_include(<TXFileOperation/TXFileOperation.h>)
 #import <TXFileOperation/TXFileOperation.h>
 #else

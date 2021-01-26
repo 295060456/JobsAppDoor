@@ -6,6 +6,7 @@
 //
 
 #import "JobsAppDoorDelegate.h"
+#import "JobsAppDoorDelegate+Func.h"
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunguarded-availability-new"
@@ -33,7 +34,7 @@ static JobsAppDoorDelegate *static_appDelegate = nil;
 
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self makeTABAnimatedConfigure];
     return YES;
 }
 #pragma mark - UISceneSession lifecycle

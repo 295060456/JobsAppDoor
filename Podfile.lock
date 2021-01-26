@@ -20,6 +20,7 @@ PODS:
   - SDWebImage (5.10.2):
     - SDWebImage/Core (= 5.10.2)
   - SDWebImage/Core (5.10.2)
+  - TABAnimated (2.5.1)
   - TXFileOperation (1.0)
   - WHToast (0.0.7)
   - YYImage (1.0.4):
@@ -46,6 +47,7 @@ DEPENDENCIES:
   - MJRefresh
   - ReactiveObjC
   - SDWebImage
+  - TABAnimated
   - TXFileOperation
   - WHToast
   - YYImage
@@ -66,6 +68,7 @@ SPEC REPOS:
     - MJRefresh
     - ReactiveObjC
     - SDWebImage
+    - TABAnimated
     - TXFileOperation
     - WHToast
     - YYImage
@@ -82,11 +85,12 @@ SPEC CHECKSUMS:
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  TABAnimated: f0bfba5c5c7d279b43cda503d9a5328e7e9891c8
   TXFileOperation: 99bc7e3763678fdea8e8c407e2b87fb18038385f
   WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: ba73f99877cddb99f7ced4671b84265f7da47073
+PODFILE CHECKSUM: fd8482dc30332dc49fc33ed741e981571cf624c2
 
 COCOAPODS: 1.10.0
