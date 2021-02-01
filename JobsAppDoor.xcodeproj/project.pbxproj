@@ -109,8 +109,9 @@
 		C562E59325C7C998004D1AEA /* ZWPullMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C562E58C25C7C997004D1AEA /* ZWPullMenuModel.m */; };
 		C562E59425C7C998004D1AEA /* ZWPullMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C562E59025C7C997004D1AEA /* ZWPullMenuView.m */; };
 		C562E59525C7C998004D1AEA /* ZWPullMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C562E59125C7C997004D1AEA /* ZWPullMenuCell.m */; };
-		C56592F8258E2864005355C4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56592F6258E2864005355C4 /* UIColor+Hex.m */; };
 		C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */; };
+		C56D86B125C822A8001960CD /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D86AC25C822A8001960CD /* UIColor+Hex.m */; };
+		C56D86B225C822A8001960CD /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D86AF25C822A8001960CD /* UIColor+Gradient.m */; };
 		C572943625BB09F100726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572943425BB09F100726419 /* UIView+BackgroundImage.m */; };
 		C58D927425B80BEB00414ACB /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D927225B80BEB00414ACB /* BaseTableViewCell.m */; };
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
@@ -450,11 +451,13 @@
 		C562E58F25C7C997004D1AEA /* ZWPullMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuCell.h; sourceTree = "<group>"; };
 		C562E59025C7C997004D1AEA /* ZWPullMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuView.m; sourceTree = "<group>"; };
 		C562E59125C7C997004D1AEA /* ZWPullMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuCell.m; sourceTree = "<group>"; };
-		C56592F6258E2864005355C4 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		C56592F7258E2864005355C4 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
 		C565C9D025A4379300848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
 		C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
+		C56D86AC25C822A8001960CD /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		C56D86AD25C822A8001960CD /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		C56D86AF25C822A8001960CD /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
+		C56D86B025C822A8001960CD /* UIColor+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gradient.h"; sourceTree = "<group>"; };
 		C572943425BB09F100726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
 		C572943525BB09F100726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C57798CE258A0C3F00FE51E3 /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Size.h; sourceTree = "<group>"; };
@@ -1686,8 +1689,8 @@
 		C56592F5258E2864005355C4 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				C56592F7258E2864005355C4 /* UIColor+Hex.h */,
-				C56592F6258E2864005355C4 /* UIColor+Hex.m */,
+				C56D86AE25C822A8001960CD /* UIColor+Gradient */,
+				C56D86AB25C822A8001960CD /* UIColor+Hex */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -1700,6 +1703,24 @@
 				C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */,
 			);
 			path = TwoVerticalArrangementLabsView;
+			sourceTree = "<group>";
+		};
+		C56D86AB25C822A8001960CD /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				C56D86AC25C822A8001960CD /* UIColor+Hex.m */,
+				C56D86AD25C822A8001960CD /* UIColor+Hex.h */,
+			);
+			path = "UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		C56D86AE25C822A8001960CD /* UIColor+Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				C56D86AF25C822A8001960CD /* UIColor+Gradient.m */,
+				C56D86B025C822A8001960CD /* UIColor+Gradient.h */,
+			);
+			path = "UIColor+Gradient";
 			sourceTree = "<group>";
 		};
 		C572943325BB09F100726419 /* UIView+BackgroundImage */ = {
@@ -2801,6 +2822,7 @@
 				C537CBB1257E17D400ECA9FB /* NSObject+RichText.m in Sources */,
 				C537CFAD257E215C00ECA9FB /* UIView+Animation.m in Sources */,
 				C5A4415625ABFB7C000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */,
+				C56D86B225C822A8001960CD /* UIColor+Gradient.m in Sources */,
 				C5461B31258C9F9B0008928C /* BaseTableViewer.m in Sources */,
 				C537CFB1257E215C00ECA9FB /* UIView+Gradient.m in Sources */,
 				C53CA06B25A1D2B60007F58F /* FileFolderHandleTool.m in Sources */,
@@ -2816,7 +2838,6 @@
 				C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */,
 				C537CB77257E17BA00ECA9FB /* CJTextField.m in Sources */,
 				C562E4B325C7C7EC004D1AEA /* BaseModel.m in Sources */,
-				C56592F8258E2864005355C4 /* UIColor+Hex.m in Sources */,
 				C562E4A425C7C7EC004D1AEA /* NetworkingAPI+BlankList.m in Sources */,
 				C562E4B125C7C7EC004D1AEA /* NetworkingAPI.m in Sources */,
 				C59A3ABA258DD16F005F6260 /* UserDefaultModel.m in Sources */,
@@ -2848,6 +2869,7 @@
 				C5C64C1F259DF6EB00FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
 				C5C64C26259DF6EB00FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
 				C562E4A225C7C7EC004D1AEA /* NetworkingAPI+BankCardApi.m in Sources */,
+				C56D86B125C822A8001960CD /* UIColor+Hex.m in Sources */,
 				C562E4AF25C7C7EC004D1AEA /* NetworkingAPI+FriendsRelationshipApi.m in Sources */,
 				C562E51D25C7C936004D1AEA /* SuspendView.m in Sources */,
 				C562E51B25C7C936004D1AEA /* SuspendBtn.m in Sources */,

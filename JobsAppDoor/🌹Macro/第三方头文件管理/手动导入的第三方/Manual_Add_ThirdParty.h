@@ -25,6 +25,7 @@
 #import "UIButton+ImageTitleSpacing.h"//高度自定义的按钮
 // UIColor
 #import "UIColor+Hex.h"
+#import "UIColor+Gradient.h"
 // UITextField
 #import "CJTextField.h"
 #import "HQTextField.h"
