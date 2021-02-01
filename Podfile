@@ -30,6 +30,7 @@ def appCommon
   pod 'MJRefresh'
   pod 'MJExtension'
   pod 'TABAnimated' # https://github.com/tigerAndBull/TABAnimated
+  pod 'AFNetworking'
   end
 ## GK一族
 def gk

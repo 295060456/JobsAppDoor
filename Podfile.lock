@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - GKNavigationBar (1.4.0):
     - GKNavigationBar/GestureHandle (= 1.4.0)
     - GKNavigationBar/NavigationBar (= 1.4.0)
@@ -38,6 +53,7 @@ PODS:
     - ZFPlayer/Core
 
 DEPENDENCIES:
+  - AFNetworking
   - GKNavigationBar
   - GKPhotoBrowser
   - JXCategoryView
@@ -58,6 +74,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
     - GKNavigationBar
     - GKPhotoBrowser
     - IJKMediaFramework
@@ -75,6 +92,7 @@ SPEC REPOS:
     - ZFPlayer
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   GKNavigationBar: fe87990bde3fb2b7ece3f81014c6d4bc654bef06
   GKPhotoBrowser: 1f7c0bdd21fc617f1c7cd18d15f26488abf0f973
   IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
@@ -91,6 +109,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: fd8482dc30332dc49fc33ed741e981571cf624c2
+PODFILE CHECKSUM: 70a501b5aaf5ecd020aee2e5bfb009e8948920c3
 
 COCOAPODS: 1.10.0
