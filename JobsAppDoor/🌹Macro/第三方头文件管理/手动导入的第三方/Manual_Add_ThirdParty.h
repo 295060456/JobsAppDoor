@@ -42,6 +42,9 @@
 #import "UIViewController+NavigationBar.h"
 #import "UIViewController+XLBubbleTransition.h"
 // UIView
+// BaseView
+#import "BaseView.h"
+// UIView+Category
 #import "UIView+Animation.h"
 #import "UIView+Chain.h"
 #import "UIView+Extras.h"

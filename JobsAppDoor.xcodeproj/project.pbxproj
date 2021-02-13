@@ -110,6 +110,7 @@
 		C562E59425C7C998004D1AEA /* ZWPullMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C562E59025C7C997004D1AEA /* ZWPullMenuView.m */; };
 		C562E59525C7C998004D1AEA /* ZWPullMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C562E59125C7C997004D1AEA /* ZWPullMenuCell.m */; };
 		C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */; };
+		C5672F0E25D7785F008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5672F0D25D7785F008ABAF9 /* BaseView.m */; };
 		C56D86B125C822A8001960CD /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D86AC25C822A8001960CD /* UIColor+Hex.m */; };
 		C56D86B225C822A8001960CD /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D86AF25C822A8001960CD /* UIColor+Gradient.m */; };
 		C572943625BB09F100726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572943425BB09F100726419 /* UIView+BackgroundImage.m */; };
@@ -454,6 +455,8 @@
 		C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
 		C565C9D025A4379300848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
 		C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
+		C5672F0C25D7785F008ABAF9 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		C5672F0D25D7785F008ABAF9 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		C56D86AC25C822A8001960CD /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		C56D86AD25C822A8001960CD /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		C56D86AF25C822A8001960CD /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
@@ -1069,19 +1072,8 @@
 		C537CF9C257E215C00ECA9FB /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C562DA1125C7C2E7004D1AEA /* UIView+ViewController */,
-				C572943325BB09F100726419 /* UIView+BackgroundImage */,
-				C595BAF4258640BC002A4531 /* UIView+Animation */,
-				C5460D3D258C8E3B0008928C /* UIView+AOP */,
-				C595BAF5258640C1002A4531 /* UIView+Chain */,
-				C5D1BDDE258B1F0D00784D2F /* UIView+EmptyData */,
-				C595BAF6258640C8002A4531 /* UIView+Extras */,
-				C515740725A3501C0074D945 /* UIView+Gesture */,
-				C595BAF7258640D0002A4531 /* UIView+Gradient */,
-				C595BAF8258640D8002A4531 /* UIView+Measure */,
-				C55FE6FB25B4239C00D8C30D /* UIView+MJRefresh */,
-				C595BAF9258640DF002A4531 /* UIView+SuspendView */,
-				C595BAFA258640E6002A4531 /* UIView+ZFPlayer */,
+				C5672F0825D7785A008ABAF9 /* BaseView */,
+				C5672F0125D7784E008ABAF9 /* UIView+Category */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -1703,6 +1695,35 @@
 				C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */,
 			);
 			path = TwoVerticalArrangementLabsView;
+			sourceTree = "<group>";
+		};
+		C5672F0125D7784E008ABAF9 /* UIView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C562DA1125C7C2E7004D1AEA /* UIView+ViewController */,
+				C572943325BB09F100726419 /* UIView+BackgroundImage */,
+				C595BAF4258640BC002A4531 /* UIView+Animation */,
+				C5460D3D258C8E3B0008928C /* UIView+AOP */,
+				C595BAF5258640C1002A4531 /* UIView+Chain */,
+				C5D1BDDE258B1F0D00784D2F /* UIView+EmptyData */,
+				C595BAF6258640C8002A4531 /* UIView+Extras */,
+				C515740725A3501C0074D945 /* UIView+Gesture */,
+				C595BAF7258640D0002A4531 /* UIView+Gradient */,
+				C595BAF8258640D8002A4531 /* UIView+Measure */,
+				C55FE6FB25B4239C00D8C30D /* UIView+MJRefresh */,
+				C595BAF9258640DF002A4531 /* UIView+SuspendView */,
+				C595BAFA258640E6002A4531 /* UIView+ZFPlayer */,
+			);
+			path = "UIView+Category";
+			sourceTree = "<group>";
+		};
+		C5672F0825D7785A008ABAF9 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				C5672F0C25D7785F008ABAF9 /* BaseView.h */,
+				C5672F0D25D7785F008ABAF9 /* BaseView.m */,
+			);
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 		C56D86AB25C822A8001960CD /* UIColor+Hex */ = {
@@ -2858,6 +2879,7 @@
 				C5D6D83A25860DAC00029AFF /* NSTimerManager.m in Sources */,
 				C5968A8025B58153003E67A1 /* NSObject+Time.m in Sources */,
 				C5A4415A25ABFB7C000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
+				C5672F0E25D7785F008ABAF9 /* BaseView.m in Sources */,
 				C537CFAF257E215C00ECA9FB /* UIView+Extras.m in Sources */,
 				C5A4415725ABFB7C000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C5460D4B258C8E560008928C /* ZYTextField+HistoryDataList.m in Sources */,
