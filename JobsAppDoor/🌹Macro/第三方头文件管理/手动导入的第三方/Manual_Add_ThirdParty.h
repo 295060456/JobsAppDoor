@@ -9,8 +9,8 @@
 #ifndef Manual_Add_ThirdParty_h
 #define Manual_Add_ThirdParty_h
 
-#pragma mark —— BaseCustomizeUIKit
-// NSObject
+/// BaseCustomizeUIKit
+#pragma mark —— NSObject
 #import "NSObject+Extras.h"
 #import "NSObject+Measure.h"
 #import "NSObject+OpenURL.h"
@@ -20,31 +20,36 @@
 #import "NSObject+DataSave.h"
 /// NSObject (Time)
 #import "TimeModel.h"
-// UIButton
+#pragma mark —— UIButton
 #import "UIButton+CountDownBtn.h"//💰VerifyCodeButton
 #import "UIButton+ImageTitleSpacing.h"//高度自定义的按钮
-// UIColor
+#pragma mark —— UIColor
 #import "UIColor+Hex.h"
 #import "UIColor+Gradient.h"
-// UITextField
+#pragma mark —— UIImageView
+/// BaseImageView
+#import "BaseImageView.h"
+/// UIImageView+Category
+#import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
+#pragma mark —— UITextField
 #import "CJTextField.h"
 #import "HQTextField.h"
 #import "JobsMagicTextField.h"
 #import "UITextField+Extend.h"
 #import "ZYTextField.h"
-// UIViewController
-// BaseViewController
+#pragma mark —— UIViewController
+/// BaseViewController
 #import "BaseViewController.h"
-// UIViewController+Category
+/// UIViewController+Category
 #import "UIViewController+BaseVC.h"
 #import "UIViewController+BackBtn.h"
 #import "UIViewController+EmptyData.h"
 #import "UIViewController+NavigationBar.h"
 #import "UIViewController+XLBubbleTransition.h"
-// UIView
-// BaseView
+#pragma mark —— UIView
+/// BaseView
 #import "BaseView.h"
-// UIView+Category
+/// UIView+Category
 #import "UIView+Animation.h"
 #import "UIView+Chain.h"
 #import "UIView+Extras.h"
@@ -56,14 +61,14 @@
 #import "UIView+Gesture.h"
 #import "UIView+MJRefresh.h"
 #import "UIView+ViewController.h"
-// NSString
+#pragma mark —— NSString
 #import "NSString+Extras.h"
-// UIImage
+#pragma mark —— UIImage
 #import "LoadingImage.h"
 #import "UIImage+Extras.h"
-// UINavigationBar
+#pragma mark —— UINavigationBar
 #import "NavigationBar.h"
-// UITableView
+#pragma mark —— UITableView
 /// TableViewAnimationKit
 #import "TableViewAnimationKit.h"
 #import "TableViewAnimationKitConfig.h"
@@ -73,7 +78,7 @@
 #import "BaseTableViewer.h"
 /// UITableView 折叠功能
 #import "UITableView+WWFoldableTableView.h"
-// UITableViewCell
+#pragma mark —— UITableViewCell
 /// 重设边距
 #import "UITableViewCell+Margin.h"
 /// 自定义右侧小箭头图标
