@@ -117,6 +117,7 @@
 		C583B6C525E4B27D0054FD6E /* BaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C583B6C025E4B27D0054FD6E /* BaseImageView.m */; };
 		C583B6C625E4B27D0054FD6E /* UIImageView+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C583B6C325E4B27D0054FD6E /* UIImageView+GIF.m */; };
 		C58D927425B80BEB00414ACB /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D927225B80BEB00414ACB /* BaseTableViewCell.m */; };
+		C594305425E7A9E1003BCA91 /* UITextView+IndicateWordLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = C594305125E7A9E1003BCA91 /* UITextView+IndicateWordLimit.m */; };
 		C5951EEC257E295000376248 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C537CBFB257E18B900ECA9FB /* welcome_video.mp4 */; };
 		C5968A8025B58153003E67A1 /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5968A7F25B58153003E67A1 /* NSObject+Time.m */; };
 		C59A3ABA258DD16F005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AB5258DD16F005F6260 /* UserDefaultModel.m */; };
@@ -472,6 +473,9 @@
 		C583B6C425E4B27D0054FD6E /* UIImageView+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GIF.h"; sourceTree = "<group>"; };
 		C58D927225B80BEB00414ACB /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 		C58D927325B80BEB00414ACB /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		C594305125E7A9E1003BCA91 /* UITextView+IndicateWordLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+IndicateWordLimit.m"; sourceTree = "<group>"; };
+		C594305225E7A9E1003BCA91 /* UITextView+IndicateWordLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+IndicateWordLimit.h"; sourceTree = "<group>"; };
+		C594305325E7A9E1003BCA91 /* UITextView+IndicateWordLimit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITextView+IndicateWordLimit.png"; sourceTree = "<group>"; };
 		C5968A7E25B58153003E67A1 /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Time.h"; path = "../../../../../../Shooting/Shooting/3rd/BaseCustomizeUIKit/NSObject/NSObject+Time/NSObject+Time.h"; sourceTree = "<group>"; };
 		C5968A7F25B58153003E67A1 /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Time.m"; path = "../../../../../../Shooting/Shooting/3rd/BaseCustomizeUIKit/NSObject/NSObject+Time/NSObject+Time.m"; sourceTree = "<group>"; };
 		C59A3AB3258DD16F005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
@@ -832,6 +836,7 @@
 				C5461B1C258C9F9B0008928C /* UITableView */,
 				C5461B13258C9F9B0008928C /* UITableViewCell */,
 				C537CB62257E17BA00ECA9FB /* UITextField */,
+				C594305025E7A9E1003BCA91 /* UITextView+IndicateWordLimit */,
 				C537CF9C257E215C00ECA9FB /* UIView */,
 				C537CB53257E178100ECA9FB /* UIViewController */,
 			);
@@ -1848,6 +1853,16 @@
 				C58D927325B80BEB00414ACB /* BaseTableViewCell.h */,
 			);
 			path = BaseTableViewCell;
+			sourceTree = "<group>";
+		};
+		C594305025E7A9E1003BCA91 /* UITextView+IndicateWordLimit */ = {
+			isa = PBXGroup;
+			children = (
+				C594305225E7A9E1003BCA91 /* UITextView+IndicateWordLimit.h */,
+				C594305125E7A9E1003BCA91 /* UITextView+IndicateWordLimit.m */,
+				C594305325E7A9E1003BCA91 /* UITextView+IndicateWordLimit.png */,
+			);
+			path = "UITextView+IndicateWordLimit";
 			sourceTree = "<group>";
 		};
 		C595BAF4258640BC002A4531 /* UIView+Animation */ = {
@@ -2948,6 +2963,7 @@
 				C5CDD231258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_4.m in Sources */,
 				C562E4AC25C7C7EC004D1AEA /* NetworkingAPI+VideoApi.m in Sources */,
 				C5461B33258C9F9B0008928C /* UITableView+WWFoldableTableView.m in Sources */,
+				C594305425E7A9E1003BCA91 /* UITextView+IndicateWordLimit.m in Sources */,
 				C537CBB0257E17D400ECA9FB /* NSObject+Measure.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
