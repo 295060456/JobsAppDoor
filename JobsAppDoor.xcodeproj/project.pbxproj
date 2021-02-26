@@ -111,6 +111,8 @@
 		C562E59525C7C998004D1AEA /* ZWPullMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C562E59125C7C997004D1AEA /* ZWPullMenuCell.m */; };
 		C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9CF25A4379300848134 /* TwoVerticalArrangementLabsView.m */; };
 		C5672F0E25D7785F008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5672F0D25D7785F008ABAF9 /* BaseView.m */; };
+		C56BB83325E90604001E1E69 /* UIViewController+CallBackInfoByBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BB83225E90604001E1E69 /* UIViewController+CallBackInfoByBlock.m */; };
+		C56BB83D25E90614001E1E69 /* UIView+CallBackInfoByBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BB83C25E90614001E1E69 /* UIView+CallBackInfoByBlock.m */; };
 		C56D86B125C822A8001960CD /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D86AC25C822A8001960CD /* UIColor+Hex.m */; };
 		C56D86B225C822A8001960CD /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D86AF25C822A8001960CD /* UIColor+Gradient.m */; };
 		C572943625BB09F100726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572943425BB09F100726419 /* UIView+BackgroundImage.m */; };
@@ -460,6 +462,10 @@
 		C565C9D125A4379300848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
 		C5672F0C25D7785F008ABAF9 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		C5672F0D25D7785F008ABAF9 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		C56BB83125E90604001E1E69 /* UIViewController+CallBackInfoByBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CallBackInfoByBlock.h"; sourceTree = "<group>"; };
+		C56BB83225E90604001E1E69 /* UIViewController+CallBackInfoByBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CallBackInfoByBlock.m"; sourceTree = "<group>"; };
+		C56BB83B25E90614001E1E69 /* UIView+CallBackInfoByBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CallBackInfoByBlock.h"; sourceTree = "<group>"; };
+		C56BB83C25E90614001E1E69 /* UIView+CallBackInfoByBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CallBackInfoByBlock.m"; sourceTree = "<group>"; };
 		C56D86AC25C822A8001960CD /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		C56D86AD25C822A8001960CD /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		C56D86AF25C822A8001960CD /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
@@ -864,11 +870,12 @@
 		C537CB61257E17AB00ECA9FB /* UIViewController+Category */ = {
 			isa = PBXGroup;
 			children = (
-				C53D37922598C75200B48431 /* UIViewController+XLBubbleTransition */,
 				C5D6F9F0258626C000029AFF /* UIViewController+BackBtn */,
 				C5D6F9F1258626C800029AFF /* UIViewController+BaseVC */,
+				C56BB83025E90604001E1E69 /* UIViewController+CallBackInfoByBlock */,
 				C5D1B8C6258B0BB700784D2F /* UIViewController+EmptyData */,
 				C546FA20258B5DBF0008928C /* UIViewController+NavigationBar */,
+				C53D37922598C75200B48431 /* UIViewController+XLBubbleTransition */,
 			);
 			path = "UIViewController+Category";
 			sourceTree = "<group>";
@@ -1712,10 +1719,10 @@
 		C5672F0125D7784E008ABAF9 /* UIView+Category */ = {
 			isa = PBXGroup;
 			children = (
-				C562DA1125C7C2E7004D1AEA /* UIView+ViewController */,
-				C572943325BB09F100726419 /* UIView+BackgroundImage */,
 				C595BAF4258640BC002A4531 /* UIView+Animation */,
 				C5460D3D258C8E3B0008928C /* UIView+AOP */,
+				C572943325BB09F100726419 /* UIView+BackgroundImage */,
+				C56BB83A25E90614001E1E69 /* UIView+CallBackInfoByBlock */,
 				C595BAF5258640C1002A4531 /* UIView+Chain */,
 				C5D1BDDE258B1F0D00784D2F /* UIView+EmptyData */,
 				C595BAF6258640C8002A4531 /* UIView+Extras */,
@@ -1724,6 +1731,7 @@
 				C595BAF8258640D8002A4531 /* UIView+Measure */,
 				C55FE6FB25B4239C00D8C30D /* UIView+MJRefresh */,
 				C595BAF9258640DF002A4531 /* UIView+SuspendView */,
+				C562DA1125C7C2E7004D1AEA /* UIView+ViewController */,
 				C595BAFA258640E6002A4531 /* UIView+ZFPlayer */,
 			);
 			path = "UIView+Category";
@@ -1736,6 +1744,24 @@
 				C5672F0D25D7785F008ABAF9 /* BaseView.m */,
 			);
 			path = BaseView;
+			sourceTree = "<group>";
+		};
+		C56BB83025E90604001E1E69 /* UIViewController+CallBackInfoByBlock */ = {
+			isa = PBXGroup;
+			children = (
+				C56BB83125E90604001E1E69 /* UIViewController+CallBackInfoByBlock.h */,
+				C56BB83225E90604001E1E69 /* UIViewController+CallBackInfoByBlock.m */,
+			);
+			path = "UIViewController+CallBackInfoByBlock";
+			sourceTree = "<group>";
+		};
+		C56BB83A25E90614001E1E69 /* UIView+CallBackInfoByBlock */ = {
+			isa = PBXGroup;
+			children = (
+				C56BB83B25E90614001E1E69 /* UIView+CallBackInfoByBlock.h */,
+				C56BB83C25E90614001E1E69 /* UIView+CallBackInfoByBlock.m */,
+			);
+			path = "UIView+CallBackInfoByBlock";
 			sourceTree = "<group>";
 		};
 		C56D86AB25C822A8001960CD /* UIColor+Hex */ = {
@@ -2907,6 +2933,7 @@
 				C537CF54257E1EA400ECA9FB /* CADisplayLink_TimerManager.m in Sources */,
 				C565C9D225A4379300848134 /* TwoVerticalArrangementLabsView.m in Sources */,
 				C537CB77257E17BA00ECA9FB /* CJTextField.m in Sources */,
+				C56BB83325E90604001E1E69 /* UIViewController+CallBackInfoByBlock.m in Sources */,
 				C562E4B325C7C7EC004D1AEA /* BaseModel.m in Sources */,
 				C562E4A425C7C7EC004D1AEA /* NetworkingAPI+BlankList.m in Sources */,
 				C562E4B125C7C7EC004D1AEA /* NetworkingAPI.m in Sources */,
@@ -2948,6 +2975,7 @@
 				C5461B30258C9F9B0008928C /* UITableView+XSAnimationKit.m in Sources */,
 				C5D0B6F925878C58002CA224 /* SoundBtn.m in Sources */,
 				C583B6C625E4B27D0054FD6E /* UIImageView+GIF.m in Sources */,
+				C56BB83D25E90614001E1E69 /* UIView+CallBackInfoByBlock.m in Sources */,
 				C5D1BDE1258B1F0D00784D2F /* UIView+EmptyData.m in Sources */,
 				C5CDD233258F24490045AA50 /* JobsAppDoorInputViewBaseStyle_3.m in Sources */,
 				C5C64C1D259DF6EB00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */,
