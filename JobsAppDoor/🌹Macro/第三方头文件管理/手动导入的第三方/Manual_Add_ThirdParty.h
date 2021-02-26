@@ -18,6 +18,7 @@
 #import "NSObject+RichText.h"
 #import "NSObject+Time.h"
 #import "NSObject+DataSave.h"
+#import "NSObject+CallBackInfoByBlock.h"
 /// NSObject (Time)
 #import "TimeModel.h"
 #pragma mark —— UIButton
@@ -46,7 +47,6 @@
 #import "UIViewController+EmptyData.h"
 #import "UIViewController+NavigationBar.h"
 #import "UIViewController+XLBubbleTransition.h"
-#import "UIViewController+CallBackInfoByBlock.h"
 #pragma mark —— UIView
 /// BaseView
 #import "BaseView.h"
@@ -62,7 +62,6 @@
 #import "UIView+Gesture.h"
 #import "UIView+MJRefresh.h"
 #import "UIView+ViewController.h"
-#import "UIView+CallBackInfoByBlock.h"
 #pragma mark —— NSString
 #import "NSString+Extras.h"
 #pragma mark —— UIImage
