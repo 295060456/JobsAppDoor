@@ -68,7 +68,7 @@
 #import "LoadingImage.h"
 #import "UIImage+Extras.h"
 #pragma mark —— UINavigationBar
-#import "NavigationBar.h"
+#import "BaseNavigationBar.h"
 #pragma mark —— UITableView
 /// TableViewAnimationKit
 #import "TableViewAnimationKit.h"

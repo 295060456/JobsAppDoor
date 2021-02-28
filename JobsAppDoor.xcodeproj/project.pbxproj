@@ -68,7 +68,7 @@
 		C5461B32258C9F9B0008928C /* 专治UITableView相应链断裂.md in Resources */ = {isa = PBXBuildFile; fileRef = C5461B27258C9F9B0008928C /* 专治UITableView相应链断裂.md */; };
 		C5461B33258C9F9B0008928C /* UITableView+WWFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B29258C9F9B0008928C /* UITableView+WWFoldableTableView.m */; };
 		C546FA23258B5DBF0008928C /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */; };
-		C546FA2D258B5DF30008928C /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA2B258B5DF30008928C /* NavigationBar.m */; };
+		C546FA2D258B5DF30008928C /* BaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA2B258B5DF30008928C /* BaseNavigationBar.m */; };
 		C558F62725BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.m in Sources */ = {isa = PBXBuildFile; fileRef = C558F62625BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.m */; };
 		C55FE6FE25B4239C00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */; };
 		C562DA1425C7C2F8004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DA1325C7C2F8004D1AEA /* UIView+ViewController.m */; };
@@ -368,8 +368,8 @@
 		C5461B2A258C9F9B0008928C /* UITableView+WWFoldableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WWFoldableTableView.h"; sourceTree = "<group>"; };
 		C546FA21258B5DBF0008928C /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
 		C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
-		C546FA2B258B5DF30008928C /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
-		C546FA2C258B5DF30008928C /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
+		C546FA2B258B5DF30008928C /* BaseNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationBar.m; sourceTree = "<group>"; };
+		C546FA2C258B5DF30008928C /* BaseNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationBar.h; sourceTree = "<group>"; };
 		C5580396258A451A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C558F62525BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsAppDoorDelegate+Func.h"; sourceTree = "<group>"; };
 		C558F62625BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JobsAppDoorDelegate+Func.m"; sourceTree = "<group>"; };
@@ -839,9 +839,9 @@
 				C5461B1C258C9F9B0008928C /* UITableView */,
 				C5461B13258C9F9B0008928C /* UITableViewCell */,
 				C537CB62257E17BA00ECA9FB /* UITextField */,
-				C594305025E7A9E1003BCA91 /* UITextView+IndicateWordLimit */,
 				C537CF9C257E215C00ECA9FB /* UIView */,
 				C537CB53257E178100ECA9FB /* UIViewController */,
+				C542D02225EB754700D776D8 /* UITextView */,
 			);
 			path = BaseCustomizeUIKit;
 			sourceTree = "<group>";
@@ -1168,6 +1168,33 @@
 			path = "UIViewController+XLBubbleTransition";
 			sourceTree = "<group>";
 		};
+		C542CFAE25EB74F400D776D8 /* UIControl+XY */ = {
+			isa = PBXGroup;
+			children = (
+				C5D0C3C0258797AC002CA224 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */,
+				C5D0C3B225879758002CA224 /* UIControl+XY.h */,
+				C5D0C3B425879758002CA224 /* UIControl+XY.m */,
+			);
+			path = "UIControl+XY";
+			sourceTree = "<group>";
+		};
+		C542D01B25EB752F00D776D8 /* BaseNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C546FA2C258B5DF30008928C /* BaseNavigationBar.h */,
+				C546FA2B258B5DF30008928C /* BaseNavigationBar.m */,
+			);
+			path = BaseNavigationBar;
+			sourceTree = "<group>";
+		};
+		C542D02225EB754700D776D8 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				C594305025E7A9E1003BCA91 /* UITextView+IndicateWordLimit */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
 		C5460D3D258C8E3B0008928C /* UIView+AOP */ = {
 			isa = PBXGroup;
 			children = (
@@ -1261,8 +1288,7 @@
 		C546FA2A258B5DF30008928C /* UINavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				C546FA2C258B5DF30008928C /* NavigationBar.h */,
-				C546FA2B258B5DF30008928C /* NavigationBar.m */,
+				C542D01B25EB752F00D776D8 /* BaseNavigationBar */,
 			);
 			path = UINavigationBar;
 			sourceTree = "<group>";
@@ -2435,9 +2461,7 @@
 		C5D0C3B125879758002CA224 /* UIControl */ = {
 			isa = PBXGroup;
 			children = (
-				C5D0C3C0258797AC002CA224 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */,
-				C5D0C3B225879758002CA224 /* UIControl+XY.h */,
-				C5D0C3B425879758002CA224 /* UIControl+XY.m */,
+				C542CFAE25EB74F400D776D8 /* UIControl+XY */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
@@ -2946,7 +2970,7 @@
 				C537CFAF257E215C00ECA9FB /* UIView+Extras.m in Sources */,
 				C5A4415725ABFB7C000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C5460D4B258C8E560008928C /* ZYTextField+HistoryDataList.m in Sources */,
-				C546FA2D258B5DF30008928C /* NavigationBar.m in Sources */,
+				C546FA2D258B5DF30008928C /* BaseNavigationBar.m in Sources */,
 				C5C64C24259DF6EB00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
 				C5461B2B258C9F9B0008928C /* UITableViewCell+Margin.m in Sources */,
 				C537CBAF257E17D400ECA9FB /* NSObject+OpenURL.m in Sources */,
