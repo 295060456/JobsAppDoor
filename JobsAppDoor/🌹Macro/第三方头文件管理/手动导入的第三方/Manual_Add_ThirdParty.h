@@ -45,7 +45,7 @@
 #import "UIViewController+BaseVC.h"
 #import "UIViewController+BackBtn.h"
 #import "UIViewController+EmptyData.h"
-#import "UIViewController+NavigationBar.h"
+#import "UIViewController+BaseNavigationBar.h"
 #import "UIViewController+XLBubbleTransition.h"
 #pragma mark —— UIView
 /// BaseView
@@ -76,7 +76,7 @@
 #import "TableViewAnimationKitHeaders.h"
 #import "UITableView+XSAnimationKit.h"
 /// 专治UITableView相应链断裂
-#import "BaseTableViewer.h"
+#import "BaseTableView.h"
 /// UITableView 折叠功能
 #import "UITableView+WWFoldableTableView.h"
 #pragma mark —— UITableViewCell

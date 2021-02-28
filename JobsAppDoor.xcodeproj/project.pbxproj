@@ -64,10 +64,10 @@
 		C5461B2E258C9F9B0008928C /* UITableViewCell+WhiteArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B1B258C9F9B0008928C /* UITableViewCell+WhiteArrows.m */; };
 		C5461B2F258C9F9B0008928C /* TableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B1E258C9F9B0008928C /* TableViewAnimationKit.m */; };
 		C5461B30258C9F9B0008928C /* UITableView+XSAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B23258C9F9B0008928C /* UITableView+XSAnimationKit.m */; };
-		C5461B31258C9F9B0008928C /* BaseTableViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B26258C9F9B0008928C /* BaseTableViewer.m */; };
+		C5461B31258C9F9B0008928C /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B26258C9F9B0008928C /* BaseTableView.m */; };
 		C5461B32258C9F9B0008928C /* 专治UITableView相应链断裂.md in Resources */ = {isa = PBXBuildFile; fileRef = C5461B27258C9F9B0008928C /* 专治UITableView相应链断裂.md */; };
 		C5461B33258C9F9B0008928C /* UITableView+WWFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461B29258C9F9B0008928C /* UITableView+WWFoldableTableView.m */; };
-		C546FA23258B5DBF0008928C /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */; };
+		C546FA23258B5DBF0008928C /* UIViewController+BaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA22258B5DBF0008928C /* UIViewController+BaseNavigationBar.m */; };
 		C546FA2D258B5DF30008928C /* BaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C546FA2B258B5DF30008928C /* BaseNavigationBar.m */; };
 		C558F62725BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.m in Sources */ = {isa = PBXBuildFile; fileRef = C558F62625BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.m */; };
 		C55FE6FE25B4239C00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */; };
@@ -361,13 +361,13 @@
 		C5461B21258C9F9B0008928C /* TableViewAnimationKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitConfig.h; sourceTree = "<group>"; };
 		C5461B22258C9F9B0008928C /* TableViewAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKit.h; sourceTree = "<group>"; };
 		C5461B23258C9F9B0008928C /* UITableView+XSAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XSAnimationKit.m"; sourceTree = "<group>"; };
-		C5461B25258C9F9B0008928C /* BaseTableViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewer.h; sourceTree = "<group>"; };
-		C5461B26258C9F9B0008928C /* BaseTableViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewer.m; sourceTree = "<group>"; };
+		C5461B25258C9F9B0008928C /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		C5461B26258C9F9B0008928C /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
 		C5461B27258C9F9B0008928C /* 专治UITableView相应链断裂.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "专治UITableView相应链断裂.md"; sourceTree = "<group>"; };
 		C5461B29258C9F9B0008928C /* UITableView+WWFoldableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WWFoldableTableView.m"; sourceTree = "<group>"; };
 		C5461B2A258C9F9B0008928C /* UITableView+WWFoldableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WWFoldableTableView.h"; sourceTree = "<group>"; };
-		C546FA21258B5DBF0008928C /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
-		C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		C546FA21258B5DBF0008928C /* UIViewController+BaseNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BaseNavigationBar.h"; sourceTree = "<group>"; };
+		C546FA22258B5DBF0008928C /* UIViewController+BaseNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BaseNavigationBar.m"; sourceTree = "<group>"; };
 		C546FA2B258B5DF30008928C /* BaseNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationBar.m; sourceTree = "<group>"; };
 		C546FA2C258B5DF30008928C /* BaseNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationBar.h; sourceTree = "<group>"; };
 		C5580396258A451A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
@@ -870,7 +870,7 @@
 				C5D6F9F0258626C000029AFF /* UIViewController+BackBtn */,
 				C5D6F9F1258626C800029AFF /* UIViewController+BaseVC */,
 				C5D1B8C6258B0BB700784D2F /* UIViewController+EmptyData */,
-				C546FA20258B5DBF0008928C /* UIViewController+NavigationBar */,
+				C546FA20258B5DBF0008928C /* UIViewController+BaseNavigationBar */,
 				C53D37922598C75200B48431 /* UIViewController+XLBubbleTransition */,
 			);
 			path = "UIViewController+Category";
@@ -1260,8 +1260,8 @@
 		C5461B24258C9F9B0008928C /* 专治UITableView相应链断裂 */ = {
 			isa = PBXGroup;
 			children = (
-				C5461B25258C9F9B0008928C /* BaseTableViewer.h */,
-				C5461B26258C9F9B0008928C /* BaseTableViewer.m */,
+				C5461B25258C9F9B0008928C /* BaseTableView.h */,
+				C5461B26258C9F9B0008928C /* BaseTableView.m */,
 				C5461B27258C9F9B0008928C /* 专治UITableView相应链断裂.md */,
 			);
 			path = "专治UITableView相应链断裂";
@@ -1276,13 +1276,13 @@
 			path = "UITableView 折叠功能";
 			sourceTree = "<group>";
 		};
-		C546FA20258B5DBF0008928C /* UIViewController+NavigationBar */ = {
+		C546FA20258B5DBF0008928C /* UIViewController+BaseNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				C546FA21258B5DBF0008928C /* UIViewController+NavigationBar.h */,
-				C546FA22258B5DBF0008928C /* UIViewController+NavigationBar.m */,
+				C546FA21258B5DBF0008928C /* UIViewController+BaseNavigationBar.h */,
+				C546FA22258B5DBF0008928C /* UIViewController+BaseNavigationBar.m */,
 			);
-			path = "UIViewController+NavigationBar";
+			path = "UIViewController+BaseNavigationBar";
 			sourceTree = "<group>";
 		};
 		C546FA2A258B5DF30008928C /* UINavigationBar */ = {
@@ -2855,7 +2855,7 @@
 				C562E4AB25C7C7EC004D1AEA /* NetworkingAPI+WalletApi.m in Sources */,
 				C537CB8D257E17C200ECA9FB /* UIButton+CountDownBtn.m in Sources */,
 				C537CB8C257E17C200ECA9FB /* UIButton+ImageTitleSpacing.m in Sources */,
-				C546FA23258B5DBF0008928C /* UIViewController+NavigationBar.m in Sources */,
+				C546FA23258B5DBF0008928C /* UIViewController+BaseNavigationBar.m in Sources */,
 				C562E4A125C7C7EC004D1AEA /* NetworkingAPI+EarnApi.m in Sources */,
 				C537CB5D257E17A600ECA9FB /* UIViewController+BaseVC.m in Sources */,
 				C562E4B425C7C7EC004D1AEA /* VideoModel.m in Sources */,
@@ -2931,7 +2931,7 @@
 				C537CFAD257E215C00ECA9FB /* UIView+Animation.m in Sources */,
 				C5A4415625ABFB7C000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */,
 				C56D86B225C822A8001960CD /* UIColor+Gradient.m in Sources */,
-				C5461B31258C9F9B0008928C /* BaseTableViewer.m in Sources */,
+				C5461B31258C9F9B0008928C /* BaseTableView.m in Sources */,
 				C537CFB1257E215C00ECA9FB /* UIView+Gradient.m in Sources */,
 				C53CA06B25A1D2B60007F58F /* FileFolderHandleTool.m in Sources */,
 				C5CDD23C258F24490045AA50 /* JobsAppDoorVC_Style2.m in Sources */,
