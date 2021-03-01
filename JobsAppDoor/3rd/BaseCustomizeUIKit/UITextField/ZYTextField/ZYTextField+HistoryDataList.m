@@ -145,7 +145,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
          cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     HistoryDataListTBVCell *cell = [HistoryDataListTBVCell cellWithTableView:tableView];
     cell.cellHeight = self.tableviewCellHeight;
-    cell.cellWidth = self.width;
+    cell.cellWidth = self.mj_w;
     cell.index = indexPath.row;
     cell.contentView.backgroundColor = RandomColor;
     [cell richElementsInCellWithModel:self.dataMutArr[indexPath.row]];
@@ -245,7 +245,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     objc_setAssociatedObject(self,
                              ZYTextField_HistoryDataList_isSelected,
                              [NSNumber numberWithBool:isSelected],
-                             OBJC_ASSOCIATION_ASSIGN);
+                             OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 -(BOOL)isSelected{
@@ -267,7 +267,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     objc_setAssociatedObject(self,
                              ZYTextField_HistoryDataList_tableviewCellHeight,
                              [NSNumber numberWithFloat:tableviewCellHeight],
-                             OBJC_ASSOCIATION_ASSIGN);
+                             OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 #pragma mark —— @property(nonatomic,assign)BOOL isShowHistoryDataList;//是否显示下拉历史数据列表
 -(BOOL)isShowHistoryDataList{
@@ -279,7 +279,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     objc_setAssociatedObject(self,
                              ZYTextField_HistoryDataList_isShowHistoryDataList,
                              [NSNumber numberWithBool:isShowHistoryDataList],
-                             OBJC_ASSOCIATION_ASSIGN);
+                             OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 @end
