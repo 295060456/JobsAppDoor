@@ -239,6 +239,7 @@
 		AC2BB29B5F18CD2DAE59F1D4 /* Pods-JobsAppDoorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsAppDoorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsAppDoorTests/Pods-JobsAppDoorTests.release.xcconfig"; sourceTree = "<group>"; };
 		C515740825A3501C0074D945 /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
 		C515740925A3501C0074D945 /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
+		C5264C9625EF5DF900C8AB2B /* JobsAppDoorModelHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorModelHeader.h; sourceTree = "<group>"; };
 		C537CB09257E164A00ECA9FB /* JobsAppDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsAppDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C537CB0C257E164A00ECA9FB /* JobsAppDoorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsAppDoorDelegate.h; sourceTree = "<group>"; };
 		C537CB0D257E164A00ECA9FB /* JobsAppDoorDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsAppDoorDelegate.m; sourceTree = "<group>"; };
@@ -1382,7 +1383,7 @@
 			isa = PBXGroup;
 			children = (
 				C562E45825C7C7EC004D1AEA /* 网络请求 */,
-				C562E49725C7C7EC004D1AEA /* 数据模型层 */,
+				C562E49725C7C7EC004D1AEA /* 🇨🇳数据模型层(此文件夹存放全局的所有Model) */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1596,20 +1597,21 @@
 			path = "请求的公共配置文件";
 			sourceTree = "<group>";
 		};
-		C562E49725C7C7EC004D1AEA /* 数据模型层 */ = {
+		C562E49725C7C7EC004D1AEA /* 🇨🇳数据模型层(此文件夹存放全局的所有Model) */ = {
 			isa = PBXGroup;
 			children = (
+				C5264C9625EF5DF900C8AB2B /* JobsAppDoorModelHeader.h */,
 				C562E49825C7C7EC004D1AEA /* BaseModel */,
 				C562E49B25C7C7EC004D1AEA /* VideoModel */,
 			);
-			path = "数据模型层";
+			path = "🇨🇳数据模型层(此文件夹存放全局的所有Model)";
 			sourceTree = "<group>";
 		};
 		C562E49825C7C7EC004D1AEA /* BaseModel */ = {
 			isa = PBXGroup;
 			children = (
-				C562E49925C7C7EC004D1AEA /* BaseModel.m */,
 				C562E49A25C7C7EC004D1AEA /* BaseModel.h */,
+				C562E49925C7C7EC004D1AEA /* BaseModel.m */,
 			);
 			path = BaseModel;
 			sourceTree = "<group>";
@@ -1617,8 +1619,8 @@
 		C562E49B25C7C7EC004D1AEA /* VideoModel */ = {
 			isa = PBXGroup;
 			children = (
-				C562E49C25C7C7EC004D1AEA /* VideoModel.m */,
 				C562E49D25C7C7EC004D1AEA /* VideoModel.h */,
+				C562E49C25C7C7EC004D1AEA /* VideoModel.m */,
 			);
 			path = VideoModel;
 			sourceTree = "<group>";
