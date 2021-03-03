@@ -371,6 +371,7 @@
 		C546FA22258B5DBF0008928C /* UIViewController+BaseNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BaseNavigationBar.m"; sourceTree = "<group>"; };
 		C546FA2B258B5DF30008928C /* BaseNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationBar.m; sourceTree = "<group>"; };
 		C546FA2C258B5DF30008928C /* BaseNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationBar.h; sourceTree = "<group>"; };
+		C54C614525EFC25B007DD043 /* DDCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCacheTool.h; sourceTree = "<group>"; };
 		C5580396258A451A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C558F62525BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsAppDoorDelegate+Func.h"; sourceTree = "<group>"; };
 		C558F62625BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JobsAppDoorDelegate+Func.m"; sourceTree = "<group>"; };
@@ -1030,6 +1031,7 @@
 		C537CF41257E1E9400ECA9FB /* 🔨Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C54C614425EFC25B007DD043 /* 清除缓存 */,
 				C562E51125C7C936004D1AEA /* Suspend */,
 				C562E4B825C7C80F004D1AEA /* 网络请求框架 */,
 				C562E3E125C7C721004D1AEA /* JobsBitsMonitor */,
@@ -1292,6 +1294,14 @@
 				C542D01B25EB752F00D776D8 /* BaseNavigationBar */,
 			);
 			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		C54C614425EFC25B007DD043 /* 清除缓存 */ = {
+			isa = PBXGroup;
+			children = (
+				C54C614525EFC25B007DD043 /* DDCacheTool.h */,
+			);
+			path = "清除缓存";
 			sourceTree = "<group>";
 		};
 		C5580395258A44EA0078DB8F /* PodsManual */ = {
