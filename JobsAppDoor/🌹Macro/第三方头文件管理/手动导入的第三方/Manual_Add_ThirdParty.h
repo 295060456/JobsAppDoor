@@ -89,6 +89,7 @@
 #import "UserDefaultManager.h"
 #import "TimerManager.h"
 #import "FileFolderHandleTool.h"
+#import "DDCacheTool.h"
 // Suspend
 #import "SuspendBtn.h"
 #import "SuspendLab.h"
