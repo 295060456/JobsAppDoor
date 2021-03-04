@@ -23,7 +23,6 @@
 @property(nonatomic,assign)CGFloat registerContentViewY;//初始高度
 @property(nonatomic,assign)CGFloat loginCustomerServiceBtnY;//在登录页面的初始高度
 @property(nonatomic,assign)CGFloat registerCustomerServiceBtnY;//在注册页面的初始高度
-@property(nonatomic,assign)CurrentPage currentPage;//当前的页面位置
 @property(nonatomic,assign)BOOL loginDoorInputEditing;//只要有一个TF还在编辑那么就是在编辑
 @property(nonatomic,assign)NSInteger lastTimeActivateTFIndex;//上一时刻被激活的输入框的序列号
 @property(nonatomic,assign)NSInteger currentActivateTFIndex;//当前被激活的输入框的序列号
