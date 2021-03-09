@@ -83,7 +83,7 @@ NS_ASSUME_NONNULL_END
          richLabelFontModel.range = NSMakeRange(0, title_1_Model.dataString.length);
          
          RichLabelTextCorModel *richLabelTextCorModel = RichLabelTextCorModel.new;
-         richLabelTextCorModel.cor = COLOR_RGB(46, 51, 77);
+         richLabelTextCorModel.cor = RGBCOLOR(46, 51, 77);
          richLabelTextCorModel.range = NSMakeRange(0, title_1_Model.dataString.length);
          
          title_1_Model.richLabelFontModel = richLabelFontModel;
