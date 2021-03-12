@@ -2608,8 +2608,8 @@
 		C5D6D82925860D8E00029AFF /* NSObject (Time) */ = {
 			isa = PBXGroup;
 			children = (
-				C5D6D82A25860D8E00029AFF /* TimeModel.m */,
 				C5D6D82B25860D8E00029AFF /* TimeModel.h */,
+				C5D6D82A25860D8E00029AFF /* TimeModel.m */,
 			);
 			path = "NSObject (Time)";
 			sourceTree = "<group>";
