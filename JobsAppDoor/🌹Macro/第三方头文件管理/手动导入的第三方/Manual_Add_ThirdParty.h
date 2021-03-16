@@ -38,6 +38,10 @@
 #import "JobsMagicTextField.h"
 #import "UITextField+Extend.h"
 #import "ZYTextField.h"
+#pragma mark —— UITextView
+/// UITextView+Category
+#import "UITextView+IndicateWordLimit.h"
+#import "UITextView+Extend.h"
 #pragma mark —— UIViewController
 /// BaseViewController
 #import "BaseViewController.h"

@@ -72,6 +72,7 @@
 		C5542A1025F32454002D1CA6 /* CheckMemFreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5542A0F25F32454002D1CA6 /* CheckMemFreeVC.m */; };
 		C558F62725BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.m in Sources */ = {isa = PBXBuildFile; fileRef = C558F62625BF02B800FC6CA5 /* JobsAppDoorDelegate+Func.m */; };
 		C55FE6FE25B4239C00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */; };
+		C5618F3F26008E4300D4546E /* UITextView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C5618F3E26008E4200D4546E /* UITextView+Extend.m */; };
 		C562DA1425C7C2F8004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DA1325C7C2F8004D1AEA /* UIView+ViewController.m */; };
 		C562E3E925C7C721004D1AEA /* JobsBitsMonitorSuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C562E3E425C7C721004D1AEA /* JobsBitsMonitorSuspendLab.m */; };
 		C562E3EA25C7C721004D1AEA /* JobsBitsMonitorCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C562E3E625C7C721004D1AEA /* JobsBitsMonitorCore.m */; };
@@ -381,6 +382,8 @@
 		C55E274B25FB264800716A9B /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_SysWarning.h; sourceTree = "<group>"; };
 		C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
 		C55FE6FD25B4239C00D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
+		C5618F3D26008E4200D4546E /* UITextView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extend.h"; sourceTree = "<group>"; };
+		C5618F3E26008E4200D4546E /* UITextView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extend.m"; sourceTree = "<group>"; };
 		C562DA1225C7C2F8004D1AEA /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		C562DA1325C7C2F8004D1AEA /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 		C562E3E325C7C721004D1AEA /* JobsBitsMonitorSuspendLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitorSuspendLab.h; sourceTree = "<group>"; };
@@ -1198,7 +1201,7 @@
 		C542D02225EB754700D776D8 /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
-				C594305025E7A9E1003BCA91 /* UITextView+IndicateWordLimit */,
+				C5618F3B26008E3500D4546E /* UITextView+Category */,
 			);
 			path = UITextView;
 			sourceTree = "<group>";
@@ -1395,6 +1398,24 @@
 				C55FE6FC25B4239C00D8C30D /* UIView+MJRefresh.m */,
 			);
 			path = "UIView+MJRefresh";
+			sourceTree = "<group>";
+		};
+		C5618F3B26008E3500D4546E /* UITextView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C5618F3C26008E4200D4546E /* UITextView+Extend */,
+				C594305025E7A9E1003BCA91 /* UITextView+IndicateWordLimit */,
+			);
+			path = "UITextView+Category";
+			sourceTree = "<group>";
+		};
+		C5618F3C26008E4200D4546E /* UITextView+Extend */ = {
+			isa = PBXGroup;
+			children = (
+				C5618F3D26008E4200D4546E /* UITextView+Extend.h */,
+				C5618F3E26008E4200D4546E /* UITextView+Extend.m */,
+			);
+			path = "UITextView+Extend";
 			sourceTree = "<group>";
 		};
 		C562DA1125C7C2E7004D1AEA /* UIView+ViewController */ = {
@@ -2952,6 +2973,7 @@
 				C537CBB2257E17D400ECA9FB /* NSObject+Extras.m in Sources */,
 				C562E4A525C7C7EC004D1AEA /* NetworkingAPI+UserAttentionApi.m in Sources */,
 				C562E49F25C7C7EC004D1AEA /* NSObject+URLManager.m in Sources */,
+				C5618F3F26008E4300D4546E /* UITextView+Extend.m in Sources */,
 				C562E51C25C7C936004D1AEA /* SuspendLab.m in Sources */,
 				C5A715E3258F7B3C0013E3EF /* JobsAppDoorInputViewBaseStyle_6.m in Sources */,
 				C537CB75257E17BA00ECA9FB /* HQTextField.m in Sources */,
